@@ -1,2 +1,0 @@
-# CSA_QnA
-CSA_QnA
