@@ -1,9 +1,11 @@
 angular.module( 'being-fluid' )
     .config( RoutesConfig );
 
-RoutesConfig.$inject = ["$routeProvider"];
+RoutesConfig.$inject = ["$routeProvider",'$qProvider'];
 
-function RoutesConfig ( $routeProvider) {
+function RoutesConfig ( $routeProvider, $qProvider ) {
+    $qProvider.errorOnUnhandledRejections( false );
+    
     $routeProvider
         .when( '/csa_qna', {
         template: `<main class="px-3">
