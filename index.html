@@ -97,9 +97,35 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha512-28WMav3WUIziq1D5l+8y2BrzN+CJgEeIyLksiKOSHWofTgaZc3RMPzvleRhXbLwnzf/C7Xnb0W6pE8PlqeRSog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js" integrity="sha512-Verh3o2plvhEbk/ct46ThMyRkWOeokouYUg2N8BH6DYphkBhespORMmgTg7MuNBbYKZ1zzit+44K6lzXVcMBmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.js"></script>
-            <script src="js/app.js"></script>
-            <script src="js/router.controller.js"></script>
-            <script src="js/routes.config.js"></script>
-            <script src="js/csa_qna.controller.js"></script>
+            <script>
+              var app = angular.module( 'being-fluid', [
+    "ngSanitize",
+    "ngRoute"
+] );
+
+app.config( RoutesConfig );
+RoutesConfig.$inject = ["$routeProvider"];
+function RoutesConfig ( $routeProvider ) {
+    $routeProvider
+        .when( '/csa_qna', {
+        templateUrl: 'csa_qna.html',
+        controller: 'CSAQnAController'
+    } ).otherwise( {
+        redirectTo:"/csa_qna"
+    });
+}
+
+app.controller( "MainController", MainController );
+MainController.$inject = [];
+function MainController ( ) {}
+
+app.controller( "CSAQnAController", CSAQnAController );
+CSAQnAController.$inject = ["$scope","$http"];
+function CSAQnAController($scope,$http) {
+    $http.get( "csa_qna.json" ).then( function ( response ) {
+        $scope.recommendations = response.data;
+    } );
+}
+            </script>
           </body>
 </html>
