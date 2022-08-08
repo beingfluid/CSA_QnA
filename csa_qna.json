@@ -414,8 +414,8 @@
  {
   "Number": "CSAP0137",
   "Active": true,
-  "Front": "Navigate here to locate active tasks assigned to yourself. \n(full file path)",
-  "Back": "<p>Service Desk > My Work<\/p>",
+  "Front (html)": "Navigate here to locate active tasks assigned to yourself. \n(full file path)",
+  "Back (HTML)": "<p>Service Desk > My Work<\/p>",
   "Category": "Task Management",
   "Random Sort Code": "912763",
   "Type": "Menu Path",
@@ -524,8 +524,8 @@
  {
   "Number": "CSAP0059",
   "Active": true,
-  "Front": "Navigate here to create an assignment rule",
-  "Back": "<p>System Policy > Rules > Assignment<\/p>",
+  "Front (html)": "Navigate here to create an assignment rule",
+  "Back (HTML)": "<p>System Policy > Rules > Assignment<\/p>",
   "Category": "Task Management",
   "Random Sort Code": "364455",
   "Type": "Menu Path",
@@ -644,8 +644,8 @@
  {
   "Number": "CSAP0117",
   "Active": true,
-  "Front": "Navigate here to set configurable properties for the SLA Engine",
-  "Back": "<p>Service Level Management > Properties > SLA Engine<\/p>",
+  "Front (html)": "Navigate here to set configurable properties for the SLA Engine",
+  "Back (HTML)": "<p>Service Level Management > Properties > SLA Engine<\/p>",
   "Category": "Task Management",
   "Random Sort Code": "80997",
   "Type": "Menu Path",
@@ -1465,8 +1465,8 @@
  {
   "Number": "CSAP0040",
   "Active": true,
-  "Front": "Navigate here to change the theme",
-  "Back": "<p>Settings(gear icon) > Theme<\/p>",
+  "Front (html)": "Navigate here to change the theme",
+  "Back (HTML)": "<p>Settings(gear icon) > Theme<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "475277",
   "Type": "Menu Path",
@@ -1659,7 +1659,7 @@
   "Active": true,
   "Front (html)": "<div>What is the name of text indexing search engine used in ServiceNow?<\/div>\n<ul style=\"list-style-position: inside;\"><li>Google<\/li><li>Bing<\/li><li>Zing<\/li><li>Baidu<\/li><\/ul>",
   "Back (HTML)": "<p>Zing<\/p>",
-  "Front": "Zing",
+  "Front (html)": "Zing",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "815832",
   "Type": "Quiz",
@@ -1748,8 +1748,8 @@
  {
   "Number": "CSAP0141",
   "Active": true,
-  "Front": "Navigate here for Catalog Items (full path)",
-  "Back": "<p>Service catalog > Catalog Definitions > Maintain Items<\/p>",
+  "Front (html)": "Navigate here for Catalog Items (full path)",
+  "Back (HTML)": "<p>Service catalog > Catalog Definitions > Maintain Items<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "276344",
   "Type": "Menu Path",
@@ -1849,8 +1849,8 @@
  {
   "Number": "CSAP1744",
   "Active": true,
-  "Front": "What gives you the ability to dynamically control the ordering options from user to user & be defined for groups that use a Catalog?",
-  "Back": "<p>Views<\/p>",
+  "Front (html)": "What gives you the ability to dynamically control the ordering options from user to user & be defined for groups that use a Catalog?",
+  "Back (HTML)": "<p>Views<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "541372.0",
   "Type": "Quiz"
@@ -2172,8 +2172,8 @@
  {
   "Number": "CSAP1444",
   "Active": true,
-  "Front": "What is the path to Service Catalog?",
-  "Back": "<p><strong>All<\/strong> > <strong>Self-Service<\/strong> > <strong>Service Catalog<\/strong><\/p>",
+  "Front (html)": "What is the path to Service Catalog?",
+  "Back (HTML)": "<p><strong>All<\/strong> > <strong>Self-Service<\/strong> > <strong>Service Catalog<\/strong><\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "419763.0",
   "Type": "Menu Path"
@@ -2813,8 +2813,8 @@
  {
   "Number": "CSAP0222",
   "Active": true,
-  "Front": "Navigate here to modify an existing report",
-  "Back": "Reports > View\/Run",
+  "Front (html)": "Navigate here to modify an existing report",
+  "Back (HTML)": "Reports > View\/Run",
   "Category": "Reporting",
   "Random Sort Code": "869376",
   "Type": "Menu Path"
@@ -3357,8 +3357,8 @@
  {
   "Number": "CSAP0239",
   "Active": true,
-  "Front": "Where to navigate to see a list of all configuration items",
-  "Back": "Configuration > Base Items > All",
+  "Front (html)": "Where to navigate to see a list of all configuration items",
+  "Back (HTML)": "Configuration > Base Items > All",
   "Category": "Lists & Filters",
   "Random Sort Code": "15731",
   "Type": "Menu Path"
@@ -3668,8 +3668,8 @@
  {
   "Number": "CSAP0010",
   "Active": true,
-  "Front": "Navigate here to review flagged articles",
-  "Back": "Knowledge > Articles > All Flagged",
+  "Front (html)": "Navigate here to review flagged articles",
+  "Back (HTML)": "Knowledge > Articles > All Flagged",
   "Category": "Knowledge Management",
   "Random Sort Code": "472353",
   "Type": "Menu Path"
@@ -3739,8 +3739,8 @@
  {
   "Number": "CSAP1792",
   "Active": true,
-  "Front": "Use _____  _____ to extend the Flow Designer to call 3rd party systems such as automating Microsoft Services and infrastructure using PowerShell and REST.",
-  "Back": "<p>Integration Hub<\/p>",
+  "Front (html)": "Use _____  _____ to extend the Flow Designer to call 3rd party systems such as automating Microsoft Services and infrastructure using PowerShell and REST.",
+  "Back (HTML)": "<p>Integration Hub<\/p>",
   "Category": "Integrations",
   "Random Sort Code": "107721.0",
   "Type": "Quiz"
@@ -4104,8 +4104,8 @@
  {
   "Number": "CSAP0105",
   "Active": true,
-  "Front": "Navigate here to show or hide fields on a form's view",
-  "Back": "Configure > Form Layout, after clicking the control menu item",
+  "Front (html)": "Navigate here to show or hide fields on a form's view",
+  "Back (HTML)": "Configure > Form Layout, after clicking the control menu item",
   "Category": "Forms and Templates",
   "Random Sort Code": "493170",
   "Type": "Quiz"
@@ -4903,8 +4903,8 @@
  {
   "Number": "CSAP1471",
   "Active": true,
-  "Front": "What contains flow designer triggers and actions dedicated to a particular application.",
-  "Back": "<p>A spoke<\/p>",
+  "Front (html)": "What contains flow designer triggers and actions dedicated to a particular application.",
+  "Back (HTML)": "<p>A spoke<\/p>",
   "Category": "Flow Designer",
   "Random Sort Code": "541091.0",
   "Type": "Quiz"
@@ -5064,8 +5064,8 @@
  {
   "Number": "CSAP0016",
   "Active": true,
-  "Front": "Navigate here to set the prefix or number of digits for a table's record numbers",
-  "Back": "System Definition > Number Maintenance",
+  "Front (html)": "Navigate here to set the prefix or number of digits for a table's record numbers",
+  "Back (HTML)": "System Definition > Number Maintenance",
   "Category": "Development",
   "Random Sort Code": "141563",
   "Type": "Menu Path"
@@ -5265,8 +5265,8 @@
  {
   "Number": "CSAP0271",
   "Active": true,
-  "Front": "Where to navigate to view the tables not included in the cloning process.",
-  "Back": "<p>System Clone > Clone Definition > Exclude Tables<\/p>",
+  "Front (html)": "Where to navigate to view the tables not included in the cloning process.",
+  "Back (HTML)": "<p>System Clone > Clone Definition > Exclude Tables<\/p>",
   "Category": "Development",
   "Random Sort Code": "343590",
   "Type": "Menu Path"
@@ -5637,8 +5637,8 @@
  {
   "Number": "CSAP0283",
   "Active": true,
-  "Front": "Navigate here to view the Transaction Log",
-  "Back": "System Logs > Transactions",
+  "Front (html)": "Navigate here to view the Transaction Log",
+  "Back (HTML)": "System Logs > Transactions",
   "Category": "Data Schema",
   "Random Sort Code": "48307",
   "Type": "Menu Path"
@@ -6075,8 +6075,8 @@
  {
   "Number": "CSAP0046",
   "Active": true,
-  "Front": "Navigate here to view a Dependency View Map",
-  "Back": "Dependency Views > View Map",
+  "Front (html)": "Navigate here to view a Dependency View Map",
+  "Back (HTML)": "Dependency Views > View Map",
   "Category": "CMDB",
   "Random Sort Code": "583125",
   "Type": "Menu Path"
@@ -6163,8 +6163,8 @@
  {
   "Number": "CSAP0277",
   "Active": true,
-  "Front": "Navigate here to customize banner image, text, colors",
-  "Back": "System Properties > Basic Configuration UI16",
+  "Front (html)": "Navigate here to customize banner image, text, colors",
+  "Back (HTML)": "System Properties > Basic Configuration UI16",
   "Category": "Branding",
   "Random Sort Code": "112970",
   "Type": "Menu Path"
@@ -6253,8 +6253,8 @@
  {
   "Number": "CSAP1812",
   "Active": true,
-  "Front": "With ATF A _____ result stores the output of a test step run. ",
-  "Back": "<p>step<\/p>",
+  "Front (html)": "With ATF A _____ result stores the output of a test step run. ",
+  "Back (HTML)": "<p>step<\/p>",
   "Category": "Automated Test Framework",
   "Random Sort Code": "235194.0",
   "Type": "Quiz"
@@ -6455,8 +6455,8 @@
  {
   "Number": "CSAP1640",
   "Active": true,
-  "Front": "The _____  Access Control grants all rows and all fields to both the table_admin and table_user roles.",
-  "Back": "<p>None<\/p>",
+  "Front (html)": "The _____  Access Control grants all rows and all fields to both the table_admin and table_user roles.",
+  "Back (HTML)": "<p>None<\/p>",
   "Category": "Application\/Access Control",
   "Random Sort Code": "504752.0",
   "Type": "Quiz"
