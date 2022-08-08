@@ -77,6 +77,8 @@
     <h1>Servicenow: Certified System Administrator</h1>
     <h3>( Practice Set )</h3>
     <h6>This practice set is based on the <a href="https://community.servicenow.com/community?id=community_Article&sys_id=a0e7f10bdb01dd50f77799ead3961917">community post</a> created by <i>Lon Landry</i>. Created for better readability, Happy Learning.</h6>
+    
+  
   </div>
       <div ng-view> 
       </div>
@@ -130,6 +132,8 @@ function CSAQnAController($scope,$http) {
     $http.get( "csa_qna.json" ).then( function ( response ) {
         $scope.recommendations = response.data;
     } );
+
+    $scope.uniqueCategoryList=['Virtual Agent', 'Update Sets', 'Task Management', 'ServiceNow Overview', 'Service Catalog', 'Scripting', 'Reporting', 'Product', 'Notifications', 'Lists & Filters', 'Knowledge Management', 'Integrations', 'Import Sets', 'Forms and Templates', 'Flow Designer', 'Events', 'Development', 'Data Schema', 'CMDB', 'Branding', 'Automated Test Framework', 'Application/Access Control', 'Agent Workspace'];
 }
             </script>
           </body>

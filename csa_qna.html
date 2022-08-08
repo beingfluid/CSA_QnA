@@ -1,5 +1,12 @@
  <main class="px-3">
-    <div class="container py-5 h-100" ng-repeat="recinfo in recommendations">
+<div>
+  <br />
+  <span>Filter out by Categories: </span>
+  <select name="queCategories" ng-model="userSelectedCategory"  ng-options="uniqueCategory as uniqueCategory for uniqueCategory in uniqueCategoryList">
+    <option value="">--Select--</option>
+  </select>
+</div>
+    <div class="container py-5 h-100" ng-repeat="recinfo in recommendations | filter:{Category:userSelectedCategory}">
         <div class="card">
           <div class="card-body">
               <div class="shadow-1-strong" style="color: rgb(255, 0, 132)">

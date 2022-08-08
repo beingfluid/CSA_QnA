@@ -52,7 +52,7 @@
  {
   "Number": "CSAP1527",
   "Active": true,
-  "Front (html)": "<p>Select <strong>three<\/strong> things a Virtual Agent can access:<\/p>\n<ul style=\"list-style-position: inside;\"><li>Flows &amp; Workflows<\/li><li>Knowledge Bases<\/li><li>Service Catalog<\/li><li>Playbooks created with the Process Automation Designer<\/li><li>System records<\/li><\/ul>",
+  "Front (html)": "<p>Select <strong>three<\/strong> things a Virtual Agent can access:<\/p>\n<ul style=\"list-style-position: inside;\"><li>Flows & Workflows<\/li><li>Knowledge Bases<\/li><li>Service Catalog<\/li><li>Playbooks created with the Process Automation Designer<\/li><li>System records<\/li><\/ul>",
   "Back (HTML)": "<p>Knowledge Bases<br \/>Service Catalog<br \/>System records<\/p>",
   "Category": "Virtual Agent",
   "Random Sort Code": "533911.0",
@@ -926,7 +926,7 @@
  {
   "Number": "CSAP1020",
   "Active": true,
-  "Front (html)": "<p>Which statement below is true with respect to Insert &amp; Update?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Inset updates an existing record, update saves a new record, both options close the form.<\/li><li>Insert creates a new record, update saves an existing record, both options close the form and return to the list view of records.<\/li><li>Insert creates a new record, update saves an existing record, with both options user is left in form view.<\/li><\/ul>",
+  "Front (html)": "<p>Which statement below is true with respect to Insert & Update?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Inset updates an existing record, update saves a new record, both options close the form.<\/li><li>Insert creates a new record, update saves an existing record, both options close the form and return to the list view of records.<\/li><li>Insert creates a new record, update saves an existing record, with both options user is left in form view.<\/li><\/ul>",
   "Back (HTML)": "<p>Insert creates a new record, update saves an existing record, both options close the form and return to the list view of records.<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "275358.0",
@@ -936,12 +936,12 @@
  {
   "Number": "CSAP1217",
   "Active": true,
-  "Front (html)": "<p>Name&nbsp;<strong>four<\/strong> features of the main screen element for <strong>All Menus<\/strong> in the Next Experience Unified Navigation:<\/p>\n<ul style=\"list-style-position: inside;\"><li>All (Applications &amp; Modules)<\/li><li>History<\/li><li>Global Search<\/li><li>Navigation Filter<\/li><li>Favorites<\/li><li>Forms<\/li><\/ul>",
-  "Back (HTML)": "<p>All (Applications &amp; Modules)<br \/>History<br \/>Navigation Filter<br \/>Favorites<\/p>",
+  "Front (html)": "<p>Name&nbsp;<strong>four<\/strong> features of the main screen element for <strong>All Menus<\/strong> in the Next Experience Unified Navigation:<\/p>\n<ul style=\"list-style-position: inside;\"><li>All (Applications & Modules)<\/li><li>History<\/li><li>Global Search<\/li><li>Navigation Filter<\/li><li>Favorites<\/li><li>Forms<\/li><\/ul>",
+  "Back (HTML)": "<p>All (Applications & Modules)<br \/>History<br \/>Navigation Filter<br \/>Favorites<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "256680.0",
   "Type": "Quiz",
-  "Guess": "<p>All (Applications &amp; Modules)<br \/>History<br \/>Navigation Filter<br \/>Favorites<\/p>"
+  "Guess": "<p>All (Applications & Modules)<br \/>History<br \/>Navigation Filter<br \/>Favorites<\/p>"
  },
  {
   "Number": "CSAP0360",
@@ -1169,12 +1169,12 @@
  {
   "Number": "CSAP1188",
   "Active": true,
-  "Front (html)": "<p>How many Support Centers &amp; Data Centers does service now have?<\/p>\n<ul style=\"list-style-position: inside;\"><li>30 Support Centers &amp; 10 Data Centers<\/li><li>10 Support Centers &amp; 10 Data Centers<\/li><li>100 Support Centers &amp; 10 Data Centers<\/li><\/ul>",
-  "Back (HTML)": "<p>10 Support Centers &amp; 10 Data Centers<\/p>",
+  "Front (html)": "<p>How many Support Centers & Data Centers does service now have?<\/p>\n<ul style=\"list-style-position: inside;\"><li>30 Support Centers & 10 Data Centers<\/li><li>10 Support Centers & 10 Data Centers<\/li><li>100 Support Centers & 10 Data Centers<\/li><\/ul>",
+  "Back (HTML)": "<p>10 Support Centers & 10 Data Centers<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "514126.0",
   "Type": "Quiz",
-  "Guess": "<p>10 Support Centers &amp; 10 Data Centers<\/p>"
+  "Guess": "<p>10 Support Centers & 10 Data Centers<\/p>"
  },
  {
   "Number": "CSAP1206",
@@ -1270,12 +1270,12 @@
  {
   "Number": "CSAP1218",
   "Active": true,
-  "Front (html)": "<p>Name&nbsp;<strong>three<\/strong> features of the main screen element for the <strong>Content Frame<\/strong>&nbsp;in the Next Experience Unified Navigation:<\/p>\n<ul style=\"list-style-position: inside;\"><li>User Menu<\/li><li>Forms<\/li><li>List of records<\/li><li>Favorites<\/li><li>Home pages &amp; Dashboards<\/li><\/ul>",
-  "Back (HTML)": "<p>Forms<br \/>List of records<br \/>Home pages &amp; Dashboards<\/p>",
+  "Front (html)": "<p>Name&nbsp;<strong>three<\/strong> features of the main screen element for the <strong>Content Frame<\/strong>&nbsp;in the Next Experience Unified Navigation:<\/p>\n<ul style=\"list-style-position: inside;\"><li>User Menu<\/li><li>Forms<\/li><li>List of records<\/li><li>Favorites<\/li><li>Home pages & Dashboards<\/li><\/ul>",
+  "Back (HTML)": "<p>Forms<br \/>List of records<br \/>Home pages & Dashboards<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "581929.0",
   "Type": "Quiz",
-  "Guess": "<p>Forms<br \/>List of records<br \/>Home pages &amp; Dashboards<\/p>"
+  "Guess": "<p>Forms<br \/>List of records<br \/>Home pages & Dashboards<\/p>"
  },
  {
   "Number": "CSAP0938",
@@ -1505,7 +1505,7 @@
  {
   "Number": "CSAP0708",
   "Active": true,
-  "Front (html)": "<p>What is the primary way to interact with an Instance's apps &amp; data?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Now Mobile<\/li><li>Now Platform User Interface<\/li><li>Service Portal<\/li><li>Workspace<\/li><\/ul>",
+  "Front (html)": "<p>What is the primary way to interact with an Instance's apps & data?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Now Mobile<\/li><li>Now Platform User Interface<\/li><li>Service Portal<\/li><li>Workspace<\/li><\/ul>",
   "Back (HTML)": "<p>Now Platform User Interface<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "783770",
@@ -1605,7 +1605,7 @@
  {
   "Number": "CSAP0689",
   "Active": true,
-  "Front (html)": "<p>What creates a new record and closes the form?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Save<\/li><li>Insert<\/li><li>Insert &amp; Stay<\/li><li>Copy Incident<\/li><\/ul>",
+  "Front (html)": "<p>What creates a new record and closes the form?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Save<\/li><li>Insert<\/li><li>Insert & Stay<\/li><li>Copy Incident<\/li><\/ul>",
   "Back (HTML)": "<p>Insert<\/p>",
   "Category": "ServiceNow Overview",
   "Random Sort Code": "790494",
@@ -1830,7 +1830,7 @@
   "Active": true,
   "Front (html)": "<p>Which of the <strong>three<\/strong> things listed below are created when an order is placed for a catalog item?<\/p>\n<ul style=\"list-style-position: inside;\"><li>RITM<\/li><li>SCTASK<\/li><li>VAR<\/li><li>REQ<\/li><\/ul>",
   "Back (HTML)": "<p>RITM<br \/>SCTASK<br \/>REQ<\/p>",
-  "Comments": "<p>Only REQ &amp; RITM is created by default. SCTASK depends on workflow or flow. A SCTASK related list is created but the list is empty by default.<\/p>",
+  "Comments": "<p>Only REQ & RITM is created by default. SCTASK depends on workflow or flow. A SCTASK related list is created but the list is empty by default.<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "370533",
   "Type": "Quiz",
@@ -1849,7 +1849,7 @@
  {
   "Number": "CSAP1744",
   "Active": true,
-  "Front": "What gives you the ability to dynamically control the ordering options from user to user &amp; be defined for groups that use a Catalog?",
+  "Front": "What gives you the ability to dynamically control the ordering options from user to user & be defined for groups that use a Catalog?",
   "Back": "<p>Views<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "541372.0",
@@ -2033,7 +2033,7 @@
   "Active": true,
   "Front (html)": "<p>What are the <strong>two<\/strong> steps to define the fulfillment process for a service catalog item?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Plan<\/li><li>Flow<\/li><li>Roadmap<\/li><li>Workflow<\/li><\/ul>",
   "Back (HTML)": "<p>Flow<br \/>Workflow<\/p>",
-  "Comments": "<p>Why are Workflow &amp; Flow referred to as \"steps\". These are \"applications\" why do they become steps for this question.<\/p>",
+  "Comments": "<p>Why are Workflow & Flow referred to as \"steps\". These are \"applications\" why do they become steps for this question.<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "543354",
   "Type": "Quiz",
@@ -2162,12 +2162,12 @@
  {
   "Number": "CSAP0679",
   "Active": true,
-  "Front (html)": "<p>How are products and services in the Service Catalog organized.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tickets and Requests<\/li><li>Tasks and Subtasks<\/li><li>Incidents and Problems<\/li><li>Categories &amp; Subcategories<\/li><\/ul>",
-  "Back (HTML)": "<p>Categories &amp; Subcategories<\/p>",
+  "Front (html)": "<p>How are products and services in the Service Catalog organized.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tickets and Requests<\/li><li>Tasks and Subtasks<\/li><li>Incidents and Problems<\/li><li>Categories & Subcategories<\/li><\/ul>",
+  "Back (HTML)": "<p>Categories & Subcategories<\/p>",
   "Category": "Service Catalog",
   "Random Sort Code": "766554",
   "Type": "Quiz",
-  "Guess": "<p>Categories &amp; Subcategories<\/p>"
+  "Guess": "<p>Categories & Subcategories<\/p>"
  },
  {
   "Number": "CSAP1444",
@@ -2693,7 +2693,7 @@
  {
   "Number": "CSAP0609",
   "Active": true,
-  "Front (html)": "<p>Which Report Designer tab allows you to choose colors &amp; title?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Data<\/li><li>Style<\/li><li>Configure<\/li><li>Type<\/li><\/ul>",
+  "Front (html)": "<p>Which Report Designer tab allows you to choose colors & title?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Data<\/li><li>Style<\/li><li>Configure<\/li><li>Type<\/li><\/ul>",
   "Back (HTML)": "<p>Style<\/p>",
   "Category": "Reporting",
   "Random Sort Code": "90653",
@@ -2906,7 +2906,7 @@
   "Active": true,
   "Front (html)": "<p>Where do you navigate to see the notifications currently defined in the system?<\/p>\n<ul style=\"list-style-position: inside;\"><li>System Notification > Notifications<\/li><li>System Notification > Email > Notifications<\/li><li>System Properties > Notifications<\/li><li>Notifications > System<\/li><\/ul>",
   "Back (HTML)": "<p>System Notification > Email > Notifications<\/p>",
-  "Comments": "<p>Book had incorrect answer \"System Notification > Notifications\". I took correct answer from docs.servicenow.com &amp; what I observe in my PDI.<\/p>",
+  "Comments": "<p>Book had incorrect answer \"System Notification > Notifications\". I took correct answer from docs.servicenow.com & what I observe in my PDI.<\/p>",
   "Category": "Notifications",
   "Random Sort Code": "327194",
   "Type": "Menu Path",
@@ -3190,7 +3190,7 @@
   "Active": true,
   "Front (html)": "<p>Which context menu allows you to export data from the list view?<\/p>\n<ul style=\"list-style-position: inside;\"><li>List Title Context menu<\/li><li>Record Context menu<\/li><li>List Column Context menu<\/li><li>Form Context menu<\/li><\/ul>",
   "Back (HTML)": "<p>List Column Context menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "560378.0",
   "Type": "Quiz",
   "Guess": "<p>List Column Context menu<\/p>"
@@ -3200,7 +3200,7 @@
   "Active": true,
   "Front (html)": "<p>What are the filter conditions also known as?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Filed Values<\/li><li>Title Bars<\/li><li>Breadcrumbs<\/li><li>Column Heading<\/li><li>Bread dots<\/li><\/ul>",
   "Back (HTML)": "<p>Breadcrumbs<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "641819",
   "Type": "Quiz",
   "Guess": "<p>Breadcrumbs<\/p>"
@@ -3210,7 +3210,7 @@
   "Active": true,
   "Front (html)": "<p>Name<strong> four<\/strong> things that the list interface consists of:<\/p>\n<ul style=\"list-style-position: inside;\"><li>A title bar<\/li><li>Favorites<\/li><li>Filters<\/li><li>Breadcrumbs<\/li><li>Columns of data<\/li><li>Dashboards<\/li><\/ul>",
   "Back (HTML)": "<p>A title bar<br \/>Filters<br \/>Breadcrumbs<br \/>Columns of data<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "575583.0",
   "Type": "Quiz",
   "Guess": "<p>A title bar<br \/>Filters<br \/>Breadcrumbs<br \/>Columns of data<\/p>"
@@ -3220,7 +3220,7 @@
   "Active": true,
   "Front (html)": "<p>Name<strong> three<\/strong> ways to create a favorite?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Drag the breadcrumbs of a filters list to the Favorites tab<\/li><li>Drag an individual record to the Favorites tab<\/li><li>Select the personalization gear icon<\/li><li>Select the start of its corresponding section<\/li><li>Select the star of its corresponding application or module<\/li><\/ul>",
   "Back (HTML)": "<p>Drag the breadcrumbs of a filters list to the Favorites tab<br \/>Drag an individual record to the Favorites tab<br \/>Select the star of its corresponding application or module<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "613539",
   "Type": "Quiz",
   "Guess": "<p>Drag the breadcrumbs of a filters list to the Favorites tab<br \/>Drag an individual record to the Favorites tab<br \/>Select the star of its corresponding application or module<\/p>"
@@ -3230,7 +3230,7 @@
   "Active": true,
   "Front (html)": "<p>A filter is a set of conditions applied to a table to help you find and work with a subset of data. In the Now Platform, filter conditions are also referred to as:<\/p>\n<ul style=\"list-style-position: inside;\"><li>Column Headings<\/li><li>Filed values<\/li><li>Breadcrumbs<\/li><li>Title Bars<\/li><\/ul>",
   "Back (HTML)": "<p>Breadcrumbs<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "228733",
   "Type": "Quiz",
   "Guess": "<p>Breadcrumbs<\/p>"
@@ -3240,7 +3240,7 @@
   "Active": true,
   "Front (html)": "<p>What allows you to filter the list data using natural language, instead of the condition builder?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Natural Language Query<\/li><li>Artificial Intelligence Query<\/li><li>Natural Predictive Intelligence<\/li><\/ul>",
   "Back (HTML)": "<p>Natural Language Query<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "375477.0",
   "Type": "Quiz",
   "Guess": "<p>Natural Language Query<\/p>"
@@ -3250,7 +3250,7 @@
   "Active": true,
   "Front (html)": "<p>How can you modify field data in a list view without opening the record?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Column editor<\/li><li>Field editor<\/li><li>List editor<\/li><li>table editor<\/li><\/ul>",
   "Back (HTML)": "<p>List editor<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "598934.0",
   "Type": "Quiz",
   "Guess": "<p>List editor<\/p>"
@@ -3260,7 +3260,7 @@
   "Active": true,
   "Front (html)": "<p>What does the list editor do?<\/p>\n<ul style=\"list-style-position: inside;\"><li>It shows the average response time of your ServiceNow instance<\/li><li>It displays the processing time, including the total time, network latency and browser rendering and parsing<\/li><li>It allows you to update the record without having to open a form<\/li><li>All of the above<\/li><li>None of the above<\/li><\/ul>",
   "Back (HTML)": "<p>It allows you to update the record without having to open a form<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "6928",
   "Type": "Quiz",
   "Guess": "<p>It allows you to update the record without having to open a form<\/p>"
@@ -3270,7 +3270,7 @@
   "Active": true,
   "Front (html)": "<p>What are the <strong>two<\/strong> list versions?<\/p>\n<ul style=\"list-style-position: inside;\"><li>v3<\/li><li>v0<\/li><li>v1<\/li><li>v2<\/li><\/ul>",
   "Back (HTML)": "<p>v3<br \/>v2<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "128222",
   "Type": "Quiz",
   "Guess": "<p>v3<br \/>v2<\/p>"
@@ -3280,7 +3280,7 @@
   "Active": true,
   "Front (html)": "<p>Which role is required to change list layout?<\/p>\n<ul style=\"list-style-position: inside;\"><li>configure_list<\/li><li>personalize_list_control<\/li><li>list_control<\/li><li>personalize_list<\/li><li>list_admin<\/li><\/ul>",
   "Back (HTML)": "<p>personalize_list<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "65956.0",
   "Type": "Quiz",
   "Guess": "<p>personalize_list<\/p>"
@@ -3290,7 +3290,7 @@
   "Active": true,
   "Front (html)": "<p>What is a set of conditions applied to a table to work with a subset of data?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Record<\/li><li>List<\/li><li>Filter<\/li><li>Field<\/li><\/ul>",
   "Back (HTML)": "<p>Filter<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "356429",
   "Type": "Quiz",
   "Guess": "<p>Filter<\/p>"
@@ -3300,7 +3300,7 @@
   "Active": true,
   "Front (html)": "<p>What context menu is available for each value in a list?<\/p>\n<ul style=\"list-style-position: inside;\"><li>List column context menu<\/li><li>List filter context menu<\/li><li>List field context menu<\/li><li>List title menu<\/li><\/ul>\n<p>&nbsp;<\/p>",
   "Back (HTML)": "<p>List field context menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "301427",
   "Type": "Quiz",
   "Guess": "<p>List field context menu<\/p>"
@@ -3309,7 +3309,7 @@
   "Number": "CSAP0918",
   "Active": true,
   "Front (html)": "<p>Where are breadcrumbs in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>The menu on each column header<\/li><li>The menu at the top of a list<\/li><li>The filter conditions in a list view are referred to as breadcrumbs<\/li><\/ul>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "78528.0",
   "Type": "Quiz"
  },
@@ -3318,7 +3318,7 @@
   "Active": true,
   "Front (html)": "<p>Select<strong> three<\/strong> items that List Title menu consists of:<\/p>\n<ul style=\"margin-bottom: 0cm; margin-top: 0px; list-style-position: inside;\"><li style=\"margin: 0cm 0cm 0cm 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\">Show<\/li><li style=\"margin: 0cm 0cm 0cm 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\">User<\/li><li style=\"margin: 0cm 0cm 0cm 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\">Refresh List<\/li><li style=\"margin: 0cm 0cm 0cm 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\">Export<\/li><li style=\"margin: 0cm 0cm 8pt 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\">Create Favorite<\/li><\/ul>",
   "Back (HTML)": "<p>Show<br \/>Refresh List<br \/>Create Favorite<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "585759.0",
   "Type": "Quiz",
   "Guess": "<p>Show<br \/>Refresh List<br \/>Create Favorite<\/p>"
@@ -3328,7 +3328,7 @@
   "Active": true,
   "Front (html)": "<p>Name<strong> two<\/strong> types of context menus ServiceNow provides.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Filter Context menu<\/li><li>List Column Context menu<\/li><li>Form Context menu<\/li><li>List Filter Context menu<\/li><\/ul>",
   "Back (HTML)": "<p>List Column Context menu<br \/>Form Context menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "74961.0",
   "Type": "Quiz",
   "Guess": "<p>List Column Context menu<br \/>Form Context menu<\/p>"
@@ -3339,7 +3339,7 @@
   "Front (html)": "<p>Where do we go in Next Experience UI to create a new view?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Right click any list context menu and select Configure > List Layout<\/li><li>Right click any column header and select Configure > List Layout<\/li><li>Right click any field context menu and select Configure > List Layout<\/li><\/ul>",
   "Back (HTML)": "<p>Right click any column header and select Configure > List Layout<\/p>",
   "Comments": "<p>Don't like how they call this column header as opposed to list column context menu.<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "198567.0",
   "Type": "Quiz",
   "Guess": "<p>Right click any column header and select Configure > List Layout<\/p>"
@@ -3349,7 +3349,7 @@
   "Active": true,
   "Front (html)": "<p>What displays actions like quick reports, configuring lists, and exporting data?<\/p>\n<ul style=\"list-style-position: inside;\"><li>List Context Menu<\/li><li>Column Context Menu<\/li><li>Record Context Menu<\/li><li>Value Context Menu<\/li><\/ul>",
   "Back (HTML)": "<p>Column Context Menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "119649",
   "Type": "Quiz",
   "Guess": "<p>Column Context Menu<\/p>"
@@ -3359,7 +3359,7 @@
   "Active": true,
   "Front": "Where to navigate to see a list of all configuration items",
   "Back": "Configuration > Base Items > All",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "15731",
   "Type": "Menu Path"
  },
@@ -3368,7 +3368,7 @@
   "Active": true,
   "Front (html)": "<p>Which menu can users access to display actions that involve creating quick reports, configuring lists and exporting data?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Column context menu<\/li><li>Record context menu<\/li><li>Value context menu<\/li><li>List context menu<\/li><\/ul>",
   "Back (HTML)": "<p>Column context menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "378583",
   "Type": "Quiz",
   "Guess": "<p>Column context menu<\/p>"
@@ -3378,7 +3378,7 @@
   "Active": true,
   "Front (html)": "<p>Lists provide context menus at <strong>three<\/strong> different levels. What are the three names of those context menus?<\/p>\n<ul style=\"list-style-position: inside;\"><li>List filter context menu<\/li><li>List title menu<\/li><li>List fields context menu<\/li><li>List description menu<\/li><li>List column context menu<\/li><\/ul>",
   "Back (HTML)": "<p>List title menu<br \/>List fields context menu<br \/>List column context menu<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "624995",
   "Type": "Quiz",
   "Guess": "<p>List title menu<br \/>List fields context menu<br \/>List column context menu<\/p>"
@@ -3388,7 +3388,7 @@
   "Active": true,
   "Front (html)": "<p>What is part of a filter condition?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Field, Value, Operation<\/li><li>Field, Value, Operator<\/li><li>Field, Condition, Value<\/li><\/ul>",
   "Back (HTML)": "<p>Field, Value, Operator<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "440876.0",
   "Type": "Quiz",
   "Guess": "<p>Field, Value, Operator<\/p>"
@@ -3398,7 +3398,7 @@
   "Active": true,
   "Front (html)": "<p>Which search feature can be used to help narrow down search results in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Context Finder<\/li><li>Wildcard Characters<\/li><li>Platform Locator<\/li><li>Containers<\/li><\/ul>",
   "Back (HTML)": "<p>Wildcard Characters<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "849480",
   "Type": "Quiz",
   "Guess": "<p>Wildcard Characters<\/p>"
@@ -3408,7 +3408,7 @@
   "Active": true,
   "Front (html)": "<p>What displays a set of records from a table in the content frame?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Activity Stream<\/li><li>Workspace<\/li><li>List<\/li><li>Form<\/li><\/ul>",
   "Back (HTML)": "<p>List<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "224917",
   "Type": "Quiz",
   "Guess": "<p>List<\/p>"
@@ -3418,7 +3418,7 @@
   "Active": true,
   "Front (html)": "<p>How to you save a filter for a list?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Click Create it, Name it, Save it<\/li><li>Give it a name, Set visibility, Save<\/li><li>Give it a name, Set roles, Save<\/li><li>Save, Set name, Set roles<\/li><\/ul>",
   "Back (HTML)": "<p>Give it a name, Set visibility, Save<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "596870.0",
   "Type": "Quiz",
   "Guess": "<p>Give it a name, Set visibility, Save<\/p>"
@@ -3426,29 +3426,29 @@
  {
   "Number": "CSAP0628",
   "Active": true,
-  "Front (html)": "<p>What key combination allows you to select multiple consecutive values when using the list editor.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Ctrl &amp; up or down arrow<\/li><li>Shift &amp; M<\/li><li>Control &amp; M<\/li><li>Shift &amp; up or down arrow<\/li><\/ul>",
-  "Back (HTML)": "<p>Shift &amp; up or down arrow<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Front (html)": "<p>What key combination allows you to select multiple consecutive values when using the list editor.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Ctrl & up or down arrow<\/li><li>Shift & M<\/li><li>Control & M<\/li><li>Shift & up or down arrow<\/li><\/ul>",
+  "Back (HTML)": "<p>Shift & up or down arrow<\/p>",
+  "Category": "Lists & Filters",
   "Random Sort Code": "10624",
   "Type": "Quiz",
-  "Guess": "<p>Shift &amp; up or down arrow<\/p>"
+  "Guess": "<p>Shift & up or down arrow<\/p>"
  },
  {
   "Number": "CSAP1240",
   "Active": true,
-  "Front (html)": "<p>Name two shortcuts that select multiple consecutive values:<\/p>\n<ul style=\"list-style-position: inside;\"><li>Shift &amp; Down Arrow<\/li><li>Ctrl &amp; Up Arrow<\/li><li>Shift &amp; Up Arrow<\/li><li>Alt &amp; Down Arrow<\/li><\/ul>",
-  "Back (HTML)": "<p>Shift &amp; Down Arrow<br \/>Shift &amp; Up Arrow<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Front (html)": "<p>Name two shortcuts that select multiple consecutive values:<\/p>\n<ul style=\"list-style-position: inside;\"><li>Shift & Down Arrow<\/li><li>Ctrl & Up Arrow<\/li><li>Shift & Up Arrow<\/li><li>Alt & Down Arrow<\/li><\/ul>",
+  "Back (HTML)": "<p>Shift & Down Arrow<br \/>Shift & Up Arrow<\/p>",
+  "Category": "Lists & Filters",
   "Random Sort Code": "474867.0",
   "Type": "Quiz",
-  "Guess": "<p>Shift &amp; Down Arrow<br \/>Shift &amp; Up Arrow<\/p>"
+  "Guess": "<p>Shift & Down Arrow<br \/>Shift & Up Arrow<\/p>"
  },
  {
   "Number": "CSAP0562",
   "Active": true,
   "Front (html)": "<p>What is accessible via the list title menu icon, or right clicking the title bar?<\/p>\n<ul style=\"list-style-position: inside;\"><li>List Properties<\/li><li>Tags<\/li><li>Label Properties<\/li><li>List controls<\/li><\/ul>",
   "Back (HTML)": "<p>List controls<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "617783",
   "Type": "Quiz",
   "Guess": "<p>List controls<\/p>"
@@ -3459,7 +3459,7 @@
   "Front (html)": "<p>What appears to the right of the gear if you've personalized a list?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Red star<\/li><li>Yellow dot<\/li><li>Green dot<\/li><li>Red exclamation point<\/li><\/ul>",
   "Back (HTML)": "<p>Green dot<\/p>",
   "Comments": "<p>docs.servicenow.com <a title=\"Comparison of List v2 and List v3\" href=\"https:\/\/docs.servicenow.com\/bundle\/sandiego-platform-user-interface\/page\/use\/using-lists-v3\/reference\/r_ComparisonOfListV2V3.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">Comparison of List v2 and List v3 <\/a>clearly shows a blue dot. My Personal Developer Instance displays a blue gear with a blue dot. But I have seen customer owned instances with a green dot.&nbsp;&nbsp;<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "867487",
   "Type": "Quiz",
   "Guess": "<p>Green dot<\/p>"
@@ -3469,7 +3469,7 @@
   "Active": true,
   "Front (html)": "<p>A column in a list represents what in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>A filter<\/li><li>A list<\/li><li>A record<\/li><li>A field<\/li><\/ul>",
   "Back (HTML)": "<p>A field<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "141437.0",
   "Type": "Quiz",
   "Guess": "<p>A field<\/p>"
@@ -3479,7 +3479,7 @@
   "Active": true,
   "Front (html)": "<p>Select <strong>three<\/strong> items that List Title menu consists of:<\/p>\n<ul style=\"list-style-position: inside;\"><li>View<\/li><li>User<\/li><li>Filters<\/li><li>Export<\/li><li>Group By<\/li><\/ul>",
   "Back (HTML)": "<p>View<br \/>Filters<br \/>Group By<\/p>",
-  "Category": "Lists &amp; Filters",
+  "Category": "Lists & Filters",
   "Random Sort Code": "545329.0",
   "Type": "Quiz",
   "Guess": "<p>View<br \/>Filters<br \/>Group By<\/p>"
@@ -3638,12 +3638,12 @@
  {
   "Number": "CSAP1435",
   "Active": true,
-  "Front (html)": "<p>Which feature allows end users to post questions and answer other user's questions?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Social Q&amp;A<\/li><li>Social FAQ<\/li><li>Ask ServiceNow<\/li><li>Neighborhoods<\/li><\/ul>",
-  "Back (HTML)": "<p>Social Q&amp;A<\/p>",
+  "Front (html)": "<p>Which feature allows end users to post questions and answer other user's questions?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Social Q&A<\/li><li>Social FAQ<\/li><li>Ask ServiceNow<\/li><li>Neighborhoods<\/li><\/ul>",
+  "Back (HTML)": "<p>Social Q&A<\/p>",
   "Category": "Knowledge Management",
   "Random Sort Code": "192900.0",
   "Type": "Quiz",
-  "Guess": "<p>Social Q&amp;A<\/p>"
+  "Guess": "<p>Social Q&A<\/p>"
  },
  {
   "Number": "CSAP0463",
@@ -4164,12 +4164,12 @@
  {
   "Number": "CSAP1266",
   "Active": true,
-  "Front (html)": "<p>Which<strong> two<\/strong> of the options below, Creates a new record and keeps the form open?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Submit<\/li><li>Copy Incident<\/li><li>Insert &amp; Stay<\/li><li>Insert<\/li><\/ul>",
-  "Back (HTML)": "<p>Copy Incident<br \/>Insert &amp; Stay<\/p>",
+  "Front (html)": "<p>Which<strong> two<\/strong> of the options below, Creates a new record and keeps the form open?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Submit<\/li><li>Copy Incident<\/li><li>Insert & Stay<\/li><li>Insert<\/li><\/ul>",
+  "Back (HTML)": "<p>Copy Incident<br \/>Insert & Stay<\/p>",
   "Category": "Forms and Templates",
   "Random Sort Code": "508764.0",
   "Type": "Quiz",
-  "Guess": "<p>Copy Incident<br \/>Insert &amp; Stay<\/p>"
+  "Guess": "<p>Copy Incident<br \/>Insert & Stay<\/p>"
  },
  {
   "Number": "CSAP0675",
@@ -4266,7 +4266,7 @@
   "Active": true,
   "Front (html)": "<p>What allows a user to add a new field to a table in Form Designer?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Form Views<\/li><li>Field Formatter<\/li><li>Field Navigator<\/li><li>Form Settings<\/li><\/ul>",
   "Back (HTML)": "<p>Field Navigator<\/p>",
-  "Comments": "<p><strong>Fields<\/strong> (including formatters) &amp; <strong>Field Types&nbsp;<\/strong>are the tabs available in Field Navigator.<\/p>",
+  "Comments": "<p><strong>Fields<\/strong> (including formatters) & <strong>Field Types&nbsp;<\/strong>are the tabs available in Field Navigator.<\/p>",
   "Category": "Forms and Templates",
   "Random Sort Code": "268915",
   "Type": "Quiz",
@@ -4407,7 +4407,7 @@
   "Active": true,
   "Front (html)": "<p>What creates a new record and keeps the form open?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Copy Incident<\/li><li>Insert<\/li><li>Save<\/li><li>Submit<\/li><\/ul>",
   "Back (HTML)": "<p>Copy Incident<\/p>",
-  "Comments": "<p>This question assumes that you are in an existing record without mentioning whether the record is new or existing. In an existing record the answer would be insert &amp; stay.<\/p>",
+  "Comments": "<p>This question assumes that you are in an existing record without mentioning whether the record is new or existing. In an existing record the answer would be insert & stay.<\/p>",
   "Category": "Forms and Templates",
   "Random Sort Code": "786769",
   "Type": "Quiz",
@@ -4743,7 +4743,7 @@
   "Active": true,
   "Front (html)": "<p>_____ spokes are included with the subscriptions.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Professional<\/li><li>Enterprise<\/li><li>Starter<\/li><li>Standard<\/li><\/ul>\n<p>&nbsp;<\/p>",
   "Back (HTML)": "<p>Starter<\/p>",
-  "Comments": "<p>Book incorrect: Question is badly phrased. What spokes are included with Subscriptions? the following is from dos.servicenow.com \"The Integration Hub Standard spokes are available to new customers as part of an IntegrationHub Professional subscription. Existing customers can use the spokes as part of an IntegrationHub Standard subscription.\" So, there are two correct answers here, Standard &amp; Professional.<\/p>",
+  "Comments": "<p>Book incorrect: Question is badly phrased. What spokes are included with Subscriptions? the following is from dos.servicenow.com \"The Integration Hub Standard spokes are available to new customers as part of an IntegrationHub Professional subscription. Existing customers can use the spokes as part of an IntegrationHub Standard subscription.\" So, there are two correct answers here, Standard & Professional.<\/p>",
   "Category": "Flow Designer",
   "Random Sort Code": "886453",
   "Type": "Quiz",
@@ -5174,12 +5174,12 @@
  {
   "Number": "CSAP1032",
   "Active": true,
-  "Front (html)": "<p>Where to look for fields in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tables &amp; Fields module<\/li><li>Form &amp; Columns module<\/li><li>Forms &amp; Fields module<\/li><li>Tables &amp; Columns module<\/li><\/ul>",
-  "Back (HTML)": "<p>Tables &amp; Columns module<\/p>",
+  "Front (html)": "<p>Where to look for fields in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tables & Fields module<\/li><li>Form & Columns module<\/li><li>Forms & Fields module<\/li><li>Tables & Columns module<\/li><\/ul>",
+  "Back (HTML)": "<p>Tables & Columns module<\/p>",
   "Category": "Development",
   "Random Sort Code": "343091.0",
   "Type": "Quiz",
-  "Guess": "<p>Tables &amp; Columns module<\/p>"
+  "Guess": "<p>Tables & Columns module<\/p>"
  },
  {
   "Number": "CSAP1014",
@@ -5204,12 +5204,12 @@
  {
   "Number": "CSAP0452",
   "Active": true,
-  "Front (html)": "<p>Difference between Business Rule &amp; Client Script?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Business rule works on before insert, update and delete in a database &amp; client script works only on Submit.<\/li><li>Business rule works on before or after Insert, update and delete in a database &amp; client script works on Submit, on change, on Cell Edit &amp; on Load.<\/li><li>Business Rule works on Browser side and client scripts works on Server side.<\/li><\/ul>",
-  "Back (HTML)": "<p>Business rule works on before or after Insert, update and delete in a database &amp; client script works on Submit, on change, on Cell Edit &amp; on Load.<\/p>",
+  "Front (html)": "<p>Difference between Business Rule & Client Script?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Business rule works on before insert, update and delete in a database & client script works only on Submit.<\/li><li>Business rule works on before or after Insert, update and delete in a database & client script works on Submit, on change, on Cell Edit & on Load.<\/li><li>Business Rule works on Browser side and client scripts works on Server side.<\/li><\/ul>",
+  "Back (HTML)": "<p>Business rule works on before or after Insert, update and delete in a database & client script works on Submit, on change, on Cell Edit & on Load.<\/p>",
   "Category": "Development",
   "Random Sort Code": "481448",
   "Type": "Quiz",
-  "Guess": "<p>Business rule works on before or after Insert, update and delete in a database &amp; client script works on Submit, on change, on Cell Edit &amp; on Load.<\/p>"
+  "Guess": "<p>Business rule works on before or after Insert, update and delete in a database & client script works on Submit, on change, on Cell Edit & on Load.<\/p>"
  },
  {
   "Number": "CSAP0501",
@@ -5284,7 +5284,7 @@
  {
   "Number": "CSAP0439",
   "Active": true,
-  "Front (html)": "<p>What are the types of Client script used in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>onCellEdit &amp; onLoad<\/li><li>onSubmit &amp; onChange<\/li><li>All of the above<\/li><li>None of the above<\/li><\/ul>",
+  "Front (html)": "<p>What are the types of Client script used in ServiceNow?<\/p>\n<ul style=\"list-style-position: inside;\"><li>onCellEdit & onLoad<\/li><li>onSubmit & onChange<\/li><li>All of the above<\/li><li>None of the above<\/li><\/ul>",
   "Back (HTML)": "<p>All of the above<\/p>",
   "Category": "Development",
   "Random Sort Code": "180128",
@@ -5396,8 +5396,8 @@
  {
   "Number": "CSAP1539",
   "Active": true,
-  "Front (html)": "<p>Where module do you navigate to for viewing the field settings and attributes for a table.<\/p>\n<ul style=\"list-style-position: inside;\"><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables &amp; Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables<\/strong><\/li><li><strong>All<\/strong> > <strong>System Properties<\/strong>&nbsp;> <strong>Tables &amp; Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System<\/strong>&nbsp;> <strong>Tables &amp; Columns<\/strong><\/li><\/ul>",
-  "Back (HTML)": "<p><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables &amp; Columns<\/strong><\/p>",
+  "Front (html)": "<p>Where module do you navigate to for viewing the field settings and attributes for a table.<\/p>\n<ul style=\"list-style-position: inside;\"><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables & Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables<\/strong><\/li><li><strong>All<\/strong> > <strong>System Properties<\/strong>&nbsp;> <strong>Tables & Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System<\/strong>&nbsp;> <strong>Tables & Columns<\/strong><\/li><\/ul>",
+  "Back (HTML)": "<p><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables & Columns<\/strong><\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "423153.0",
   "Type": "Menu Path"
@@ -5405,7 +5405,7 @@
  {
   "Number": "CSAP1570",
   "Active": true,
-  "Front (html)": "<p>Using the _____&nbsp; _____ feature provides the ability to define a field on a child table differently from the field on the parent table.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Dictionary<\/li><li>Dictionary override<\/li><li>Table override<\/li><li>Tables &amp; Columns<\/li><\/ul>",
+  "Front (html)": "<p>Using the _____&nbsp; _____ feature provides the ability to define a field on a child table differently from the field on the parent table.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Dictionary<\/li><li>Dictionary override<\/li><li>Table override<\/li><li>Tables & Columns<\/li><\/ul>",
   "Back (HTML)": "<p>Dictionary override<\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "411223.0",
@@ -5427,7 +5427,7 @@
   "Active": true,
   "Front (html)": "<p>ServiceNow is built on a multi-________ architecture?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Data-model<\/li><li>Tenant<\/li><li>Instance<\/li><li>Platform<\/li><\/ul>",
   "Back (HTML)": "<p>Instance<\/p>",
-  "Comments": "<table style=\"border-collapse: collapse; width: 54pt;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col style=\"width: 54pt;\" \/><\/colgroup><tbody><tr style=\"height: 216.0pt;\"><td style=\"width: 54pt; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;\">ServiceNow like to phrase with <span style=\"color: black; font-size: 11pt; font-weight: bold; font-style: normal; font-family: Calibri, sans-serif;\">Uses architecture<\/span><span style=\"color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif;\"> for Single Tenant &amp; <strong>Built on<\/strong> architecture for Multi-Instance. This idea is not really logical.<\/span><\/td><\/tr><\/tbody><\/table>",
+  "Comments": "<table style=\"border-collapse: collapse; width: 54pt;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col style=\"width: 54pt;\" \/><\/colgroup><tbody><tr style=\"height: 216.0pt;\"><td style=\"width: 54pt; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;\">ServiceNow like to phrase with <span style=\"color: black; font-size: 11pt; font-weight: bold; font-style: normal; font-family: Calibri, sans-serif;\">Uses architecture<\/span><span style=\"color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif;\"> for Single Tenant & <strong>Built on<\/strong> architecture for Multi-Instance. This idea is not really logical.<\/span><\/td><\/tr><\/tbody><\/table>",
   "Category": "Data Schema",
   "Random Sort Code": "673615",
   "Type": "Quiz",
@@ -5436,8 +5436,8 @@
  {
   "Number": "CSAP1592",
   "Active": true,
-  "Front (html)": "<p>To generate a schema map, navigate to:<\/p>\n<ul style=\"list-style-position: inside;\"><li><strong>All<\/strong> ><strong> System Definition<\/strong> > <strong>Tables <\/strong><\/li><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables &amp; Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Security<\/strong> > <strong>Tables &amp; Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Properties<\/strong> > <strong>Tables <\/strong><\/li><\/ul>",
-  "Back (HTML)": "<p><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables &amp; Columns<\/strong><\/p>",
+  "Front (html)": "<p>To generate a schema map, navigate to:<\/p>\n<ul style=\"list-style-position: inside;\"><li><strong>All<\/strong> ><strong> System Definition<\/strong> > <strong>Tables <\/strong><\/li><li><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables & Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Security<\/strong> > <strong>Tables & Columns<\/strong><\/li><li><strong>All<\/strong> > <strong>System Properties<\/strong> > <strong>Tables <\/strong><\/li><\/ul>",
+  "Back (HTML)": "<p><strong>All<\/strong> > <strong>System Definition<\/strong> > <strong>Tables & Columns<\/strong><\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "494295.0",
   "Type": "Menu Path"
@@ -5536,7 +5536,7 @@
   "Active": true,
   "Front (html)": "<p>Parent of incident and problem table?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Task<\/li><li>Parent<\/li><li>Table<\/li><li>Change<\/li><\/ul>",
   "Back (HTML)": "<p>Task<\/p>",
-  "Comments": "<p>I never liked this question, problems &amp; incidents can have a parent or a child can be problem\/incident (depending). Problem &amp; Incident extend the task table. So I believe the Problem &amp; Incident tables extend the task table as opposed to being a parent.<\/p>",
+  "Comments": "<p>I never liked this question, problems & incidents can have a parent or a child can be problem\/incident (depending). Problem & Incident extend the task table. So I believe the Problem & Incident tables extend the task table as opposed to being a parent.<\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "32637",
   "Type": "Quiz",
@@ -5545,12 +5545,12 @@
  {
   "Number": "CSAP0492",
   "Active": true,
-  "Front (html)": "<p>Which <strong>two<\/strong> modules are used to create a new table?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Create New<\/li><li>Tables &amp; Columns<\/li><li>Tables<\/li><li>Import Table<\/li><\/ul>",
-  "Back (HTML)": "<p>Tables &amp; Columns<br \/>Tables<\/p>",
+  "Front (html)": "<p>Which <strong>two<\/strong> modules are used to create a new table?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Create New<\/li><li>Tables & Columns<\/li><li>Tables<\/li><li>Import Table<\/li><\/ul>",
+  "Back (HTML)": "<p>Tables & Columns<br \/>Tables<\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "100541",
   "Type": "Quiz",
-  "Guess": "<p>Tables &amp; Columns<br \/>Tables<\/p>"
+  "Guess": "<p>Tables & Columns<br \/>Tables<\/p>"
  },
  {
   "Number": "CSAP1555",
@@ -5806,12 +5806,12 @@
  {
   "Number": "CSAP0437",
   "Active": true,
-  "Front (html)": "<p>Which application has the links to view field attributes for tables?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tables &amp; Columns<\/li><li>Incident<\/li><li>Tables &amp; Fields<\/li><li>Column &amp; Fields<\/li><\/ul>",
-  "Back (HTML)": "<p>Tables &amp; Columns<\/p>",
+  "Front (html)": "<p>Which application has the links to view field attributes for tables?<\/p>\n<ul style=\"list-style-position: inside;\"><li>Tables & Columns<\/li><li>Incident<\/li><li>Tables & Fields<\/li><li>Column & Fields<\/li><\/ul>",
+  "Back (HTML)": "<p>Tables & Columns<\/p>",
   "Category": "Data Schema",
   "Random Sort Code": "94918",
   "Type": "Quiz",
-  "Guess": "<p>Tables &amp; Columns<\/p>"
+  "Guess": "<p>Tables & Columns<\/p>"
  },
  {
   "Number": "CSAP1550",
@@ -5996,7 +5996,7 @@
  {
   "Number": "CSAP0909",
   "Active": true,
-  "Front (html)": "<p>Name<strong> three<\/strong> CMDB components from the list below.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Dependency Views<\/li><li>Tables &amp; Columns<\/li><li>Business Services<\/li><li>Processes<\/li><li>Studio<\/li><\/ul>",
+  "Front (html)": "<p>Name<strong> three<\/strong> CMDB components from the list below.<\/p>\n<ul style=\"list-style-position: inside;\"><li>Dependency Views<\/li><li>Tables & Columns<\/li><li>Business Services<\/li><li>Processes<\/li><li>Studio<\/li><\/ul>",
   "Back (HTML)": "<p>Dependency Views<br \/>Business Services<br \/>Processes<\/p>",
   "Category": "CMDB",
   "Random Sort Code": "491329.0",
