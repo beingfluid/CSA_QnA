@@ -1,0 +1,31 @@
+ <main class="px-3">
+  <div style="text-align: center;">
+    <h1>ITIL 4: Foundation</h1>
+    <h3>( Practice Sets )</h3>
+  </div>
+<div>
+  <br />
+  <span>Select the Practice set: </span>
+  <select name="practiceSets" ng-model="userSelectedPracticeSet"  ng-options="practiceSet as practiceSet for practiceSet in practiceSetsList">
+    <option value="">--Select--</option>
+  </select>
+</div>
+<div class="container py-5 h-100" ng-repeat="itilQue in itilPracticeQues | filter:{set:userSelectedPracticeSet}">
+        <div class="card">
+          <div class="card-body">
+              <div class="shadow-1-strong" style="color: rgb(255, 0, 132)">
+                 <strong>Que {{itilQue["number"]}}.</strong> <span style="color: grey;">( {{itilQue["set"]}} )</span>
+              </div>
+              <p class="mb-0 mt-2 font-italic text-dark" ng-bind-html="itilQue['que']"></p>
+              <footer class="pt-4 mt-4 border-top">
+               <b style="color: green;"> &#10003;Answer:</b>
+                <span ng-bind-html="itilQue['ans']"></span>
+                <div ng-show="{{itilQue.hasOwnProperty('explaination')}}">
+                  <br />
+                  <p style="color: rgb(18, 103, 140);" ng-bind-html="itilQue['explaination']"></p>  
+                </div>      
+              </footer>
+          </div>
+        </div>
+    </div>
+  </main>

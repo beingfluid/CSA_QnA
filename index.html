@@ -73,13 +73,6 @@
 
 <!--Start-->
     <div ng-controller="MainController as ctrl">
-      <div style="text-align: center;">
-    <h1>Servicenow: Certified System Administrator</h1>
-    <h3>( Practice Set )</h3>
-    <h6>This practice set is based on the <a href="https://community.servicenow.com/community?id=community_Article&sys_id=a0e7f10bdb01dd50f77799ead3961917">community post</a> created by <i>Lon Landry</i>. Created for better readability, Happy Learning.</h6>
-    
-  
-  </div>
       <div ng-view> 
       </div>
      <!--End-->
@@ -117,8 +110,14 @@ function RoutesConfig ( $routeProvider ) {
         .when( '/csa_qna', {
         templateUrl: 'csa_qna.html',
         controller: 'CSAQnAController'
+    } ).when( '/toc', {
+        templateUrl: 'toc.html',
+        controller: 'TOCController'
+    } ).when( '/itil', {
+        templateUrl: 'itil.html',
+        controller: 'ITILController'
     } ).otherwise( {
-        redirectTo:"/csa_qna"
+        redirectTo:"/toc"
     });
 }
 
@@ -134,6 +133,27 @@ function CSAQnAController($scope,$http) {
     } );
 
     $scope.uniqueCategoryList=['Virtual Agent', 'Update Sets', 'Task Management', 'ServiceNow Overview', 'Service Catalog', 'Scripting', 'Reporting', 'Product', 'Notifications', 'Lists & Filters', 'Knowledge Management', 'Integrations', 'Import Sets', 'Forms and Templates', 'Flow Designer', 'Events', 'Development', 'Data Schema', 'CMDB', 'Branding', 'Automated Test Framework', 'Application/Access Control', 'Agent Workspace'];
+}
+
+app.controller( "TOCController", TOCController );
+TOCController.$inject = [];
+function TOCController() {
+}
+
+app.controller( "ITILController", ITILController );
+ITILController.$inject = ["$scope","$http"];
+function ITILController($scope,$http) {
+   $http.get( "itil.json" ).then( function ( response ) {
+        $scope.itilPracticeQues = response.data;
+    } );
+
+  $scope.practiceSetsList=[
+    'Practice Set 1', 
+    'Practice Set 2', 
+    'Practice Set 3',
+    'Practice Set 4',
+    'Practice Set 5'
+  ];
 }
             </script>
           </body>
