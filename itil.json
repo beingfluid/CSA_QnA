@@ -41,7 +41,7 @@
     {
         "set": "Practice Set 1",
         "number":4,
-        "que":"Identify the missing word(s) in the following sentence. An event is any change of state that has significance for the management of a(n) [?] or other configuration items.",
+        "que":"Identify the missing word(s) in the following sentence.<br />An event is any change of state that has significance for the management of a(n) [?] or other configuration items.",
         "que_options":[
             "Output",
             "Product",
@@ -600,7 +600,7 @@
     {
         "set": "Practice Set 2",
         "number":7,
-        "que":"Identify the missing word in the following sentence.<br />[?] management is the practice of minimizing the negative impact of incidents by restoring normal service operation as quickly as ",
+        "que":"Identify the missing word in the following sentence.<br />[?] management is the practice of minimizing the negative impact of incidents by restoring normal service operation as quickly as possible.",
         "que_options":[
             "Availability",
 "Event",
