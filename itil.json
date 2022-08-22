@@ -54,470 +54,469 @@
     {
         "set": "Practice Set 1",
         "number":5,
-        "que":"PracticeSetQuestion0",
+        "que":"What is the purpose of the 'information security management' practice?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Protecting an organization by understanding and managing risks to the confidentiality, integrity, and availability of information",
+            "Ensuring that services achieve agreed and expected performance levels, satisfying current and future demand in a cost-effective way",
+            "Ensuring that services deliver agreed levels of availability or that change can be assessed",
+            "Systematically observing services and service components and recording and reporting selected changes of state identified as events"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"Protecting an organization by understanding and managing risks to the confidentiality, integrity, and availability of information"
     },
     {
         "set": "Practice Set 1",
         "number":6,
-        "que":"PracticeSetQuestion0",
+        "que":"What is the purpose of the 'monitoring and event management' practice?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner","Systematically observing services and service components and recording and reporting selected changes of state identified as events",
+            "Minimizing the negative impact of incidents by restoring normal service operation as quickly as possible",
+            "Ensuring that all an organization's projects are successfully delivered"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Systematically observing services and service components and recording and reporting selected changes of state identified as events"
     },
     {
         "set": "Practice Set 1",
         "number":7,
-        "que":"PracticeSetQuestion0",
+        "que":"What is the purpose of the 'incident management' practice?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner",
+            "Ensuring that services deliver agreed levels of availability or that change can be assessed",
+            "Ensuring that all an organization's projects are successfully delivered",
+            "Minimizing the negative impact of incidents by restoring normal service operation as quickly as possible"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"D",
+        "explaination":"Minimizing the negative impact of incidents by restoring normal service operation as quickly as possible"
     },
     {
         "set": "Practice Set 1",
         "number":8,
-        "que":"PracticeSetQuestion0",
+        "que":"What is defined as the practice of ensuring that accurate and reliable information about the configuration of services, and the configuration items that support them, is available when and where needed?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Change control",
+            "IT asset management",
+            "Service configuration management",
+            "Service level management"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Service configuration management"
     },
     {
         "set": "Practice Set 1",
         "number":9,
-        "que":"PracticeSetQuestion0",
+        "que":"Identify the missing word in the following sentence.<br />The [?] is the practice of capturing demand for incident resolution and service requests.",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Incident management",
+"Service level management",
+"Service request management",
+"Service desk"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"D",
+        "explaination":"Service desk"
     },
     {
         "set": "Practice Set 1",
         "number":10,
-        "que":"PracticeSetQuestion0",
+        "que":"Dion Training has decided to offer two membership levels to their training programs. The first membership level includes all of their video courses, practice exams, and study guides for a single monthly fee. This plan does not provide the students with the actual exam voucher to take the certification exams, though. What term best describes this membership level which provides several services for a single price?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "An outcome",
+"Value",
+"A service offering",
+"An output"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"A service offering"
     },
     {
         "set": "Practice Set 1",
         "number":11,
-        "que":"PracticeSetQuestion0",
+        "que":"Which describes outputs?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Tangible or intangible deliverables",
+"Functionality offered by a product or service",
+"Results for a stakeholder",
+"Configuration of an organization’s resources"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"Tangible or intangible deliverables"
     },
     {
         "set": "Practice Set 1",
         "number":12,
-        "que":"PracticeSetQuestion0",
+        "que":"What term best describes a person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Consumer",
+"Service provider",
+"Customer",
+"Organization"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"D",
+        "explaination":"Organization"
     },
     {
         "set": "Practice Set 1",
         "number":13,
-        "que":"PracticeSetQuestion0",
+        "que":"Which describes the nature of the guiding principles?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "A guiding principle is mandatory and must be used when adopting a new service within the organization",
+"A guiding principle is specific and only applies to one initiative within the organization",
+"An organization must implement the guiding principles exactly as defined by the ITIL 4 Foundation manual",
+"A guiding principle is a recommendation used as guidance in all circumstances"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"D",
+        "explaination":"A guiding principle is a recommendation used as guidance in all circumstances"
     },
     {
         "set": "Practice Set 1",
         "number":14,
-        "que":"PracticeSetQuestion0",
+        "que":"Which guiding principle is most affected by the customer experience (CX)?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Progress iteratively with feedback",
+"Focus on value",
+"Think and work holistically",
+"Start where you are"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Focus on value"
     },
     {
         "set": "Practice Set 1",
         "number":15,
-        "que":"PracticeSetQuestion0",
+        "que":"Dion Training Solutions wants to build a new service to automatically fulfill exam voucher orders for students. Currently, exam vouchers are fulfilled manually by a staff member once the order is received from the student by copying and pasting the voucher number from a spreadsheet into an email template and sending out the email to the students. Before attempting to automate this fulfillment process, the team lead takes an inventory of the current services, processes, and procedures that are being used by the voucher fulfillment team to see if they might be able to be reused. What guiding principle best describes this scenario?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Focus on value",
+"Collaborate and promote visibility",
+"Start where you are",
+"Keep it simple and practical"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Start where you are"
     },
     {
         "set": "Practice Set 1",
         "number":16,
-        "que":"PracticeSetQuestion0",
+        "que":"Dion Training Solutions has decided to create an online course for the ITIL 4 Foundation exam. The company developed their curriculum and then invited 50 students to participate in live training to determine if the training was effective. During the training, some students didn't understand the concept of the service value chain, so the instructor rewrote that portion of the curriculum. Which guiding principle is being demonstrated by this approach to curriculum development?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Focus on value",
+"Collaborate and promote visibility",
+"Optimize and automate",
+"Progress iteratively with feedback"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"D",
+        "explaination":"Progress iteratively with feedback"
     },
     {
         "set": "Practice Set 1",
         "number":17,
-        "que":"PracticeSetQuestion0",
+        "que":"You are working to design a new service for internal use across your organization. As part of your design efforts, you form a small team with relevant stakeholders from the human resources, information technology, sales, and other relevant departments to ensure the service adequately meets each department's needs and hope this results in great acceptance of the service when delivered. Which guiding principle best describes this scenario?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Focus on value",
+"Collaborate and promote visibility",
+"Start where you are",
+"Keep it simple and practical"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Collaborate and promote visibility"
     },
     {
         "set": "Practice Set 1",
         "number":18,
-        "que":"PracticeSetQuestion0",
+        "que":"John is currently working to create a new service that would allow a customer to purchase a digital product online and have it delivered to the user's inbox. John is responsible for the payment portion of this service, but Sally is responsible for the digital product fulfillment portion of the service. Which of the following should John do in order to follow the principle of 'think and work holistically'?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "John should optimize his code to ensure it runs efficiently",
+"John should meet with Sally to determine how the digital product fulfillment will occur",
+"John should wait until Sally's portion is complete before beginning his to ensure they work together properly",
+"John should tell Sally to wait until his portion is done before starting hers to ensure compatibility"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"John should meet with Sally to determine how the digital product fulfillment will occur"
     },
     {
         "set": "Practice Set 1",
         "number":19,
-        "que":"PracticeSetQuestion0",
+        "que":"Which of these are a key focus of the ‘organization and people’ dimension?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Security and compliance",
+"Activities that transform inputs into outputs",
+"Roles and responsibilities",
+"Contracts and agreements"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Roles and responsibilities"
     },
     {
         "set": "Practice Set 1",
         "number":20,
-        "que":"PracticeSetQuestion0",
+        "que":"Which of these are NOT a key focus of the ‘partners and suppliers’ dimension?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Workflow management and inventory systems",
+"Roles and responsibilities",
+"Contracts and agreements",
+"Security and compliance"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"Workflow management and inventory systems"
     },
     {
         "set": "Practice Set 1",
         "number":21,
-        "que":"PracticeSetQuestion0",
+        "que":"Which ITIL concept describes the service value chain?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Seven guiding principles",
+"Four dimensions of service management",
+"Service value system",
+"Practices"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Service value system"
     },
     {
         "set": "Practice Set 1",
         "number":22,
-        "que":"PracticeSetQuestion0",
+        "que":"What operating model outlines the key activities required to respond to demand and facilitate value realization through the creation and management of products and services?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Continual improvement",
+"Service value chain",
+"Practices",
+"Guiding principles"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Service value chain"
     },
     {
         "set": "Practice Set 1",
         "number":23,
-        "que":"PracticeSetQuestion0",
+        "que":"Which value chain activity includes portfolio decisions for design and transition?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Engage",
+"Improve",
+"Plan",
+"Deliver and support"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Plan"
     },
     {
         "set": "Practice Set 1",
         "number":24,
-        "que":"PracticeSetQuestion0",
+        "que":"Which step of the continual improvement model states that \"each improvement initiative should support the organization's goals and objectives\"?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Where are we now",
+"What is the vision",
+"Where do we want to be",
+"How do we get there"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"What is the vision"
     },
     {
         "set": "Practice Set 1",
         "number":25,
-        "que":"PracticeSetQuestion0",
+        "que":"When working within the 'what is the vision' step of the continual improvement model, what must you ensure to occur?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "The high-level direction of the initiative has been understood",
+"The detailed steps of how to achieve your objectives",
+"What metrics you will use to measure success",
+"The current processes being used"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"The high-level direction of the initiative has been understood"
     },
     {
         "set": "Practice Set 1",
         "number":26,
-        "que":"PracticeSetQuestion0",
+        "que":"Bridgett is leading an improvement initiative within your company. She has been told that the company wants to have the highest customer satisfaction in the industry. Currently, the company has a customer satisfaction rating of 92% but the industry leader has an average of 94%. Bridgett decides that the company should set their goal of obtaining a 96% customer satisfaction score within the next 12 months. What step of the continual improvement model is Bridgett currently in?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "What is the vision",
+"Where do we want to be",
+"How do we get there",
+"Where are we now"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Where do we want to be"
     },
     {
         "set": "Practice Set 1",
         "number":27,
-        "que":"PracticeSetQuestion0",
+        "que":"What is a normal change?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "A change that doesn't need risk assessment because the procedure has been pre-authorized",
+"A change that needs to be assessed, authorized, and scheduled by a change authority",
+"A change that doesn't need risk assessment because it is required to resolve an incident",
+"A change that is routine in nature, is fully documented, and the risks are well understood"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"A change that needs to be assessed, authorized, and scheduled by a change authority"
     },
     {
         "set": "Practice Set 1",
         "number":28,
-        "que":"PracticeSetQuestion0",
+        "que":"Your company's external router has just malfunctioned and needs to be replaced. The entire organization's connection to the Wide Area Network will remain offline until this router is replaced. Which type of change should be initiated?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Standard",
+"Normal",
+"Emergency",
+"Routine"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Emergency"
     },
     {
         "set": "Practice Set 1",
         "number":29,
-        "que":"PracticeSetQuestion0",
+        "que":"What is a change schedule NOT used for?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Developing features",
+"Planning changes",
+"Avoiding conflicts",
+"Assigning resources"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"Developing features"
     },
     {
         "set": "Practice Set 1",
         "number":30,
-        "que":"PracticeSetQuestion0",
+        "que":"How can you ensure the incidents with the highest business impact are resolved first?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Implement incident classification",
+"Use automation",
+"Utilize self-help tools",
+"Utilize problem management"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"Implement incident classification"
     },
     {
         "set": "Practice Set 1",
         "number":31,
-        "que":"PracticeSetQuestion0",
+        "que":"Which incidents should be logged?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Only an incident that cannot be immediately resolved",
+"Every incident should be logged",
+"Any incident that occurs more than once",
+"Only incidents that are not solved using self-help tools"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Every incident should be logged"
     },
     {
         "set": "Practice Set 1",
         "number":32,
-        "que":"PracticeSetQuestion0",
+        "que":"What is NOT a phase in problem management?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Problem identification",
+"Problem classification",
+"Problem control",
+"Error control"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Problem classification"
     },
     {
         "set": "Practice Set 1",
         "number":33,
-        "que":"PracticeSetQuestion0",
+        "que":"If a problem cannot be resolved quickly, you might wish to document and implement a temporary solution to reduce the impact of the problem. What is this known as?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Incident",
+"Solution",
+"Workaround",
+"Known error"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Workaround"
     },
     {
         "set": "Practice Set 1",
         "number":34,
-        "que":"PracticeSetQuestion0",
+        "que":"How does 'service request management' contribute to the 'improve' value chain activity?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "It ensures that users continue to be productive when they need assistance from the service provider",
+"It collects user-specific requirements, sets expectations, and provides status updates",
+"It analyzes data to identify opportunities to provide new service request options",
+"It acquires pre-approved service components to help fulfill service requests"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"It analyzes data to identify opportunities to provide new service request options"
     },
     {
         "set": "Practice Set 1",
         "number":35,
-        "que":"PracticeSetQuestion0",
+        "que":"Fill in the blank.<br />Service requests and their fulfillment should be [?] and automated to the greatest degree possible.",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Uniquely handled",
+"Standardized",
+"Creatively solved",
+"Ignored"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Standardized"
     },
     {
         "set": "Practice Set 1",
         "number":36,
-        "que":"PracticeSetQuestion0",
+        "que":"Your smartphone isn't working properly. You call the toll-free number for your service provider's support center. Which practice would you reach that serves as the entry point for all contact between the service provider and its users?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Problem Management",
+"Service desk",
+"Service request management",
+"Incident management"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Service desk"
     },
     {
         "set": "Practice Set 1",
         "number":37,
-        "que":"PracticeSetQuestion0",
+        "que":"Which is a recommendation of the ‘service desk’ practice?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Service desks should never use technologies such as SMS and chat functions",
+"Service desks should be highly technical functions",
+"Service desks should have a practical understanding of the business practices across the organization",
+"Service desks should always use a virtual service desk"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Service desks should have a practical understanding of the business practices across the organization"
     },
     {
         "set": "Practice Set 1",
         "number":38,
-        "que":"PracticeSetQuestion0",
+        "que":"What is a service level agreement used for?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "To measure the performance of services from a customer's point of view",
+"To measure the performance of the service availability",
+"To measure the performance of the service capability",
+"To measure the performance of the service from the service provider's point of view."
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"A",
+        "explaination":"To measure the performance of services from a customer's point of view"
     },
     {
         "set": "Practice Set 1",
         "number":39,
-        "que":"PracticeSetQuestion0",
+        "que":"How does 'service level management' contribute to the 'plan' value chain activity?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Uses feedback from users about the service and requirements from customers to make the service better",
+"Provides information about the actual service performance and trends",
+"Collects and processes feedback from customers and users",
+"Collects feedback during interactions and communicates service performance objectives to the operations and support teams"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"B",
+        "explaination":"Provides information about the actual service performance and trends"
     },
     {
         "set": "Practice Set 1",
         "number":40,
-        "que":"PracticeSetQuestion0",
+        "que":"What should be included in every service level agreement?",
         "que_options":[
-            "PracticeSetOption0.1",
-            "PracticeSetOption0.2",
-            "PracticeSetOption0.3",
-            "PracticeSetOption0.4"
+            "Detailed metrics to capture availability of the system",
+"Metrics for system response time",
+"Clearly defined service outcomes",
+"Number of emails sent per hour"
         ],
-        "ans":"PracticeSetAnswer0",
-        "explaination":"PracticeSetExplaination0"
+        "ans":"C",
+        "explaination":"Clearly defined service outcomes"
     },
     
     {
