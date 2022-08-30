@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link data-require="bootstrap-css@2.3.2" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+<link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet'>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -95,12 +97,14 @@
             crossorigin="anonymous"></script>     
             <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha512-28WMav3WUIziq1D5l+8y2BrzN+CJgEeIyLksiKOSHWofTgaZc3RMPzvleRhXbLwnzf/C7Xnb0W6pE8PlqeRSog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js" integrity="sha512-Verh3o2plvhEbk/ct46ThMyRkWOeokouYUg2N8BH6DYphkBhespORMmgTg7MuNBbYKZ1zzit+44K6lzXVcMBmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.js"></script>
             <script>
               
               var app = angular.module( 'being-fluid', [
     "ngSanitize",
-    "ngRoute"
+    "ngRoute",
+    'ui.bootstrap'
 ] );
 
 app.config( RoutesConfig );
@@ -119,6 +123,9 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/ucsa1', {
         templateUrl: 'ucsa1.html',
         controller: 'UCSAController'
+    } ).when( '/ucsanew1', {
+        templateUrl: 'ucsanew1.html',
+        controller: 'QuizController'
     } ).otherwise( {
         redirectTo:"/toc"
     });
@@ -175,6 +182,38 @@ function UCSAController($scope,$http) {
         $scope.uCSA1Ques = response.data;
     } );
 }
+
+
+app.controller( 'QuizController',  QuizController);
+QuizController.$inject = [ '$scope', '$http' ];
+function QuizController( $scope, $http ) {
+
+    $http.get( "ucsanew1.json" ).then( function ( response ) {
+        var itemsDetails = response.data;
+ 
+        $scope.curPage = 1;
+        $scope.itemsPerPage = 1;
+        $scope.maxSize = 5;
+        $scope.showAnswerTrue = false;
+
+        $scope.numOfPages = function () {
+            return Math.ceil( itemsDetails.length / $scope.itemsPerPage );
+        };
+
+        $scope.$watch( 'curPage + numPerPage', function () {
+            $scope.showAnswerTrue = false;
+            var begin = ( ( $scope.curPage - 1 ) * $scope.itemsPerPage ),
+                end = begin + $scope.itemsPerPage;
+            $scope.filteredItems = itemsDetails.slice( begin, end );
+        } );
+        
+        $scope.showAnswer = function () {
+            $scope.showAnswerTrue = true;
+        };
+
+    } ); 
+}
+
 
 app.controller( "UCSA2Controller", UCSA2Controller );
 UCSA2Controller.$inject = ["$scope","$http"];
