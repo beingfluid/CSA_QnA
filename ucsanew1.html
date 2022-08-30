@@ -14,7 +14,7 @@
                         </ol>
                         <br />
                         <div>
-                            <input type="submit" class="button button-primary" value="Show Answer" ng-click="showAnswer()" />
+                            <input type="submit" class="btn btn-info btn-sm" value="Show Answer" ng-click="showAnswer()" />
                         </div>
                         
                         <footer ng-show="showAnswerTrue">
@@ -27,13 +27,18 @@
                     
             </div>
 
-            <div style="display: flex; align-items: center; justify-content: center;">
-                <div data-pagination=""
+          
+                <div style="display: flex; align-items: center; justify-content: center;" data-pagination=""
                     data-num-pages="numOfPages()"
                     data-current-page="curPage"
                     data-max-size="maxSize"
-                    data-boundary-links="true">
+                    data-boundary-links="true"
+                    previous-text="‹" 
+                    next-text="›" 
+                    first-text="«" 
+                    last-text="»"
+                >
                 </div>
-            </div>
+           
         </div>
 </main>
