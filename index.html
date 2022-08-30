@@ -116,6 +116,9 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/itil', {
         templateUrl: 'itil.html',
         controller: 'ITILController'
+    } ).when( '/ucsa1', {
+        templateUrl: 'ucsa1.html',
+        controller: 'UCSAController'
     } ).otherwise( {
         redirectTo:"/toc"
     });
@@ -155,6 +158,16 @@ function ITILController($scope,$http) {
     // 'Practice Set 5'
   ];
 }
+
+
+app.controller( "UCSAController", UCSAController );
+UCSAController.$inject = ["$scope","$http"];
+function UCSAController($scope,$http) {
+   $http.get( "udemy_csa1.json" ).then( function ( response ) {
+        $scope.uCSA1Ques = response.data;
+    } );
+}
+
             </script>
           </body>
 </html>

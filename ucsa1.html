@@ -1,0 +1,30 @@
+ <main class="px-3">
+  <div style="text-align: center;">
+    <h1>Servicenow: Certified System Administrator</h1>
+    <h3>( Practice Set 2 )</h3>
+  </div>
+<div>
+  <br />
+</div>
+    <div class="container py-5 h-100" ng-repeat="itilQue in uCSA1Ques">
+        <div class="card">
+          <div class="card-body">
+              <div class="shadow-1-strong" style="color: rgb(255, 0, 132)">
+                 <strong>{{ itilQue['que']}}</strong>
+              </div>
+              <ol type="A">
+                <li ng-repeat="itilQueOption in itilQue['opt']" ng-bind-html="itilQueOption"></li>
+              </ol>
+              <footer class="pt-4 mt-4 border-top">
+               <b style="color: green;"> &#10003;Answer:</b>
+                <span ng-bind-html="itilQue['ans']"></span>
+                <div ng-show="{{itilQue.hasOwnProperty('explaination')}}">
+                  <br />
+                  <p style="color: rgb(18, 103, 140);" ng-bind-html="itilQue['explaination']"></p>  
+                </div>      
+              </footer>
+          </div>
+        </div>
+    </div>
+
+  </main>
