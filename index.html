@@ -119,12 +119,17 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/ucsa1', {
         templateUrl: 'ucsa1.html',
         controller: 'UCSAController'
-    } ).when( '/ucsa2', {
-        templateUrl: 'ucsa2.html',
-        controller: 'UCSA2Controller'
     } ).otherwise( {
         redirectTo:"/toc"
     });
+
+    // .when( '/ucsa2', {
+    //     templateUrl: 'ucsa2.html',
+    //     controller: 'UCSA2Controller'
+    // } ).when( '/ucsa3', {
+    //     templateUrl: 'ucsa3.html',
+    //     controller: 'UCSA3Controller'
+    // } )
 }
 
 app.controller( "MainController", MainController );
@@ -179,6 +184,16 @@ function UCSA2Controller($scope,$http) {
         $scope.uCSA1Ques = response.data;
     } );
 }
+
+app.controller( "UCSA3Controller", UCSA3Controller );
+UCSA3Controller.$inject = ["$scope","$http"];
+function UCSA3Controller($scope,$http) {
+  $scope.setNumber = 4;
+   $http.get( "ucsa3.json" ).then( function ( response ) {
+        $scope.uCSA1Ques = response.data;
+    } );
+}
+
 
             </script>
           </body>

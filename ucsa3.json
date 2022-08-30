@@ -1,0 +1,185 @@
+[
+  {
+    "que": "Your company is giving all first line workers a special T-shirt as a recognition for their hard work. Management team wants a way for employees to order the T- shirt, with the ability to specify the preferred size and color. How would you ensure that only first line workers (non-managers) can submit the order?",
+    "opt": [
+      "Create Record Producer and use the Available For list to specify First Line [sn_first_line] role",
+      "Create Catalog Item and use the Not Available list to specify the Manager Group",
+      "Create Catalog Item and use the Available For list to specify ITIL [itil] role",
+      "Create Order Guide and use the User Criteria list to specify First Line [sn_first_line] role"
+    ],
+    "ans": "B",
+    "explaination": "Create Catalog Item and use the Not Available list to specify the Manager Group"
+  },
+  {
+    "que": "What is the path an Administrator could take to view the fulfillment stage task list for an order placed by a user?",
+    "opt": [
+      "RITM (Number)&gt;REQ (Number)&gt;PROCUREMENT (Number)",
+      "REQ (Number)&gt;RITM (Number)&gt;PROCUREMENT (Number)",
+      "REQ (Number)&gt;RITM (Number)&gt;TASK (Number)",
+      "FULFILLMENT (Number)&gt;RITM (Number)&gt;TASK (Number)"
+    ],
+    "ans": "C",
+    "explaination": "REQ (Number)&gt;RITM (Number)&gt;TASK (Number)"
+  },
+  {
+    "que": "What is the Import Set Table?",
+    "opt": [
+      "A table where data will be placed, post-transformation",
+      "A table that determines relationships",
+      "A staging area for imported records",
+      "A repository for Update Set information"
+    ],
+    "ans": "C",
+    "explaination": "A staging area for imported records"
+  },
+  {
+    "que": "A Service Catalog may include which of the following components?",
+    "opt": [
+      "Order Guides, Exchange Rates, Calendars",
+      "Order Guides, Catalog Items, and Interceptors",
+      "Catalog Items, Asset Contracts, Task Surveys",
+      "Record Producers, Order Guides, and Catalog Items"
+    ],
+    "ans": "D",
+    "explaination": "Record Producers, Order Guides, and Catalog Items"
+  },
+  {
+    "que": "After finishing your work on High Security Settings, what do you do to return to normal admin security levels?",
+    "opt": [
+      "Select Normal role",
+      "Log out and back in",
+      "Use System Administration &gt; Normal Security module",
+      "Select Global Update Set",
+      "End Impersonation"
+    ],
+    "ans": "B",
+    "explaination": "Log out and back in"
+  },
+  {
+    "que": "The display sequence is controlled in a Service Catalog Item using which of the following?",
+    "opt": [
+      "The Default Value field in the Catalog Item form",
+      "The Sequence field in the Catalog Item form",
+      "The Order field in the Variable form",
+      "The Choice field in the Variable form"
+    ],
+    "ans": "C",
+    "explaination": "The Order field in the Variable form"
+  },
+  {
+    "que": "What needs to be specified, when creating a Business Rule? (Choose four.)",
+    "opt": [
+      "UI action",
+      "Table",
+      "Fields to update",
+      "Who can run",
+      "Script to run",
+      "Application scope"
+    ],
+    "ans": "A,B,E,F",
+    "explaination": "UI action<br />Table<br />Script to run<br />Application scope"
+  },
+  {
+    "que": "When moving multiple update sets at one time, what might you do to facilitate the move?",
+    "opt": [
+      "Merge",
+      "Verify",
+      "Order",
+      "Sequence",
+      "Sequence",
+      "Combine"
+    ],
+    "ans": "A",
+    "explaination": "Merge"
+  },
+  {
+    "que": "Which of the following statement describes the purpose of an Order Guide?",
+    "opt": [
+      "Order Guides restrict the number of items in an order to only one item per request",
+      "Order Guide provide a list of guidelines for Administrators on how to set up item variables",
+      "Order Guide provide the ability to order multiple, related items as one request",
+      "Order Guides take the user directly to the checkout without prompting for information"
+    ],
+    "ans": "C",
+    "explaination": "Order Guide provide the ability to order multiple, related items as one request"
+  },
+  {
+    "que": "Which of the following statements is true when a new table is created by extending another table?",
+    "opt": [
+      "The new table archives the parent table and assumed its roles in the database",
+      "The new table inherits all of the Business Rules, Client Scripts, and UI Policies of the parent table, but none of the existing fields",
+      "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself",
+      "The new table inherits all of the fields, but does not inherit Access Control rules, Client Scripts, and UI Policies of the parent table"
+    ],
+    "ans": "C",
+    "explaination": "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself"
+  },
+  {
+    "que": "What field contains a record's 32-character, unique identifier?",
+    "opt": [
+      "sn_rec_id",
+      "rec_id",
+      "u_id",
+      "sys_id",
+      "sn_gu_id",
+      "sn_sys_id"
+    ],
+    "ans": "D",
+    "explaination": "sys_id"
+  },
+  {
+    "que": "The baseline Service Catalog homepage contains links to which of the following components?",
+    "opt": [
+      "Record Producers, Order Guides, and Catalog Items",
+      "Order Guides, Item Variables, and flows",
+      "Order Guides, Catalog Items, and flows",
+      "Record Producers, Order Guides, and Item Variables"
+    ],
+    "ans": "A",
+    "explaination": "Record Producers, Order Guides, and Catalog Items"
+  },
+  {
+    "que": "Which tool is used for creating dependencies between configuration items in the CMDB?",
+    "opt": [
+      "CI Relationship Editor",
+      "CMDB Builder",
+      "CI Service Manager",
+      "Cl Class Manager"
+    ],
+    "ans": "A",
+    "explaination": "CI Relationship Editor"
+  },
+  {
+    "que": "When using the Load Data and Transform Map process, what is the Mapping Assist used for?",
+    "opt": [
+      "Mapping fields using the Import Log",
+      "Mapping fields using Transform History",
+      "Mapping fields using an SLA",
+      "Mapping fields using a Field Map"
+    ],
+    "ans": "D",
+    "explaination": "Mapping fields using a Field Map"
+  },
+  {
+    "que": "For Administrators creating new Service Catalog items, what is a characteristic they should know about Service Catalog variables?",
+    "opt": [
+      "Service Catalog variables can only be used in Record Producers",
+      "Service Catalog variables can only be used in Order Guides",
+      "Service Catalog variables cannot affect the order price",
+      "Service Catalog variables are global by default"
+    ],
+    "ans": "D",
+    "explaination": "Service Catalog variables are global by default"
+  },
+  {
+    "que": "What is specified in an Access Control rule?",
+    "opt": [
+      "Groups, Conditional Expressions and Workflows",
+      "Table Schema, CRUD, and User Authentication",
+      "Object and Operation being secured; Permissions required to access the object",
+      "security_admin"
+    ],
+    "ans": "C",
+    "explaination": "Object and Operation being secured; Permissions required to access the object"
+  }
+]
