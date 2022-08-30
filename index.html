@@ -119,6 +119,9 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/ucsa1', {
         templateUrl: 'ucsa1.html',
         controller: 'UCSAController'
+    } ).when( '/ucsa2', {
+        templateUrl: 'ucsa2.html',
+        controller: 'UCSA2Controller'
     } ).otherwise( {
         redirectTo:"/toc"
     });
@@ -164,6 +167,15 @@ app.controller( "UCSAController", UCSAController );
 UCSAController.$inject = ["$scope","$http"];
 function UCSAController($scope,$http) {
    $http.get( "udemy_csa1.json" ).then( function ( response ) {
+        $scope.uCSA1Ques = response.data;
+    } );
+}
+
+app.controller( "UCSA2Controller", UCSA2Controller );
+UCSA2Controller.$inject = ["$scope","$http"];
+function UCSA2Controller($scope,$http) {
+  $scope.setNumber = 3;
+   $http.get( "ucsa2.json" ).then( function ( response ) {
         $scope.uCSA1Ques = response.data;
     } );
 }
