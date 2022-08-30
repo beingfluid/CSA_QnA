@@ -195,6 +195,7 @@ function QuizController( $scope, $http ) {
         $scope.itemsPerPage = 1;
         $scope.maxSize = 5;
         $scope.showAnswerTrue = false;
+        $scope.totalQuestions = itemsDetails.length;
 
         $scope.numOfPages = function () {
             return Math.ceil( itemsDetails.length / $scope.itemsPerPage );

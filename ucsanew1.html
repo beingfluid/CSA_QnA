@@ -4,10 +4,13 @@
                 <h3>( Practice Set 3 )</h3>
             </div>
             <br />
+          
+                <label>Current Que: </label><input type="number" min="1" max="totalQuestions" ng-model="curPage" /><span style="text-align: center;vertical-align: top;"> / {{totalQuestions}}</span>
+           
             <div  class="container py-5 h-100" ng-repeat="itilQue in filteredItems">
                 
                         <div class="shadow-1-strong" style="font-weight: bold; color: rgb(255, 0, 132)">
-                            <p>{{ itilQue['que']}}</p>
+                            <p>Que. {{curPage}}) {{ itilQue['que']}}</p>
                         </div>
                         <ol type="A">
                             <li ng-repeat="itilQueOption in itilQue['opt']" ng-bind-html="itilQueOption"></li>
