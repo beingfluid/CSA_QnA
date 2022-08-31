@@ -9,8 +9,8 @@
       "diary",
       "activity"
     ],
-    "ans": "F",
-    "explaination": "activity"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "What are examples of UI actions, relating to lists? choose four answers?",
@@ -22,8 +22,8 @@
       "list control",
       "lists overwrite"
     ],
-    "ans": "A,B,C,D",
-    "explaination": "List buttons<br />list context menu<br />list choices<br />list links"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "which feature allows you to automate business logic for a particular application or process such as approvals, task, notifications, and record Operations?",
@@ -34,8 +34,8 @@
       "action sets",
       "task flows"
     ],
-    "ans": "A",
-    "explaination": "Flows"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "when a Flow runs an action, it generates a runtime value, which stays the same for the duration of the flow. what is the name of that runtime value?",
@@ -46,8 +46,8 @@
       "trigger runtime value",
       "input runtime value"
     ],
-    "ans": "A",
-    "explaination": "data pill runtime value"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "the employee on-boarding team has asked for a way for managers to order computers, monitors, business cards, and cell phones for new employees. how would you proceed to meet this requirement?",
@@ -57,8 +57,8 @@
       "create record producer",
       "create on boarding bot"
     ],
-    "ans": "A",
-    "explaination": "create order guide"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "which resource would you use to determine if a specific user could contribute to a particular knowledge base?",
@@ -69,8 +69,8 @@
       "knowledge author group",
       "KB author group"
     ],
-    "ans": "A",
-    "explaination": "User criteria diagnostics"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "If a knowledge base has no access details specified. what users are able to read articles in that knowledge base?",
@@ -81,8 +81,8 @@
       "any user with an articles for permalink",
       "any active user"
     ],
-    "ans": "E",
-    "explaination": "any active user"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "while showing a customer their incident form, they ask to change the priority field title to display their internal terminology Pvalue. how would you do that? choose two answers?",
@@ -92,8 +92,8 @@
       "right click on priority and select configure display settings",
       "right click on priority and select configure column"
     ],
-    "ans": "A,B",
-    "explaination": "right click on priority and select configure dictionary<br />right click on priority and select configure label"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what access does a user need to be able to import articles to a knowledge base?",
@@ -105,8 +105,8 @@
       "can write",
       "can import"
     ],
-    "ans": "C",
-    "explaination": "can contribute"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what controls the publishing and retiring process for knowledge articles?",
@@ -117,8 +117,8 @@
       "approval policies",
       "approval definitions"
     ],
-    "ans": "B",
-    "explaination": "workflows"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what is an advantage of defining relationship types between ci classes?",
@@ -128,8 +128,8 @@
       "it automates the loading of the ci dependency view.",
       "makes relating CIs easier, because predefined relationship suggests which type of CIs should be"
     ],
-    "ans": "D",
-    "explaination": "makes relating CIs easier, because predefined relationship suggests which type of CIs should be"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "when using the CI dependency view, how would you view the relationship between one CI and another CI?",
@@ -139,8 +139,8 @@
       "click down arrow, view relationship",
       "Hover on connection line"
     ],
-    "ans": "D",
-    "explaination": "Hover on connection line"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "Of the Ci tables, which is a base table of the CMDB hierarchy?",
@@ -152,8 +152,8 @@
       "Ecmdb_rel_ci",
       "Ecmdb_ci"
     ],
-    "ans": "D",
-    "explaination": "cmdb"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what table acts as a staging area for records imported from a data source?",
@@ -163,8 +163,8 @@
       "transform table",
       "import set row table"
     ],
-    "ans": "D",
-    "explaination": "import set row table"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "which field (or fields) is used as a unique key during imports?",
@@ -174,8 +174,8 @@
       "coalesce fields",
       "key fields"
     ],
-    "ans": "C",
-    "explaination": "coalesce fields"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what module enables an administrator to define destinations for imported data on any ServiceNow table?",
@@ -185,19 +185,19 @@
       "import map",
       "transform map"
     ],
-    "ans": "D",
-    "explaination": "transform map"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "the customer wants all users to have access to the records in the offerings table. what setting on access control definition would you use to grant access to all of the offering table records?",
     "opt": [
-      "Offering.None",
+      "Offering. None",
       "None. Offering",
-      "Offering.Name",
+      "Offering. Name",
       "Offering"
     ],
-    "ans": "A",
-    "explaination": "Offering.None"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "a manager wants to review a snapshot of month end sales performance data, as compared to sales target. in addition, the manager wants to able to see those monthly numbers trended overtime and forecasted into the future. what capability do you suggest for this manager?",
@@ -208,8 +208,8 @@
       "scheduled reports and excel",
       "key performance indicators."
     ],
-    "ans": "C",
-    "explaination": "performance analytics."
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "which component of a table contains a piece of data for one record?",
@@ -220,8 +220,8 @@
       "item",
       "element"
     ],
-    "ans": "A",
-    "explaination": "Field"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what do you click when you have made modifications to your report, and you want to see the results without saving?",
@@ -232,8 +232,8 @@
       "Preview",
       "try it"
     ],
-    "ans": "A",
-    "explaination": "Run"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "The report designer contains different sections for configuring your report. which section is used to specify grouping and calculations to be run against the data?",
@@ -244,8 +244,8 @@
       "Style",
       "group by"
     ],
-    "ans": "C",
-    "explaination": "Configure"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what section on the notes tab shows the history of the work documented on the record?",
@@ -256,8 +256,8 @@
       "audit log",
       "diary"
     ],
-    "ans": "B",
-    "explaination": "Activity"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "Your customer wants to update a notification, so it is sent to the caller and also to the manager of the caller. how would you approach this requirement?",
@@ -266,10 +266,11 @@
       "on the send to tab, add caller field, dot walk to caller’s manager to add manager.",
       "Create workflow and include a notification in the workflow",
       "on who will receive tab, select copy manager checkbox.",
-      "on who will receive tab, add caller field, dot walk to caller’s Manager to add managers."
+      "on who will receive tab, add caller field, dot walk to caller’s Manager to add",
+      "managers."
     ],
-    "ans": "E",
-    "explaination": "on who will receive tab, add caller field, dot walk to caller’s Manager to add managers."
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "An IT User calls the service desk Because they need to work on task records. all they can see his self-service on their homepage when they log into the service now instance. what issue could explain this? choose two answers?",
@@ -280,20 +281,21 @@
       "their user account does not have itil role",
       "That user account failed LDAP authentication"
     ],
-    "ans": "B,D",
-    "explaination": "that user account does not belong to any group which contains the ITIL role.<br />their user account does not have itil role"
+    "ans": "",
+    "explaination": ""
   },
   {
-    "que": "What type of rules specify which user groups are responsible to work on different types of tasks?",
+    "que": "What type of rules specify which user groups are responsible to work on different types of",
     "opt": [
+      "tasks?",
       "On call",
       "Assignment",
       "Routing",
       "Calendar",
       "Escalation"
     ],
-    "ans": "B",
-    "explaination": "Assignment"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "using the module. system properties> my company. what branding options are available?",
@@ -303,8 +305,8 @@
       "banner image, banner text",
       "company name, company logo, colour scheme"
     ],
-    "ans": "C",
-    "explaination": "banner image, banner text"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "From form designer, how would you define a section, so it displays as a tab?",
@@ -315,8 +317,8 @@
       "add _tap to the end of the section name",
       "name the section"
     ],
-    "ans": "E",
-    "explaination": "name the section"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "When looking at a long list of records, you want to quickly filter, to show only those which have category of hardware. How might you do that?",
@@ -327,8 +329,8 @@
       "on the list, locate and right click on the value Hardware, select show matching",
       "on the category column header, right click and select show > hardware."
     ],
-    "ans": "D",
-    "explaination": "on the list, locate and right click on the value Hardware, select show matching"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "groups are defined at what?",
@@ -339,8 +341,8 @@
       "A team of users",
       "A collection of users"
     ],
-    "ans": "E",
-    "explaination": "A collection of users"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what is the best way to learn about performance analytics?",
@@ -350,8 +352,8 @@
       "take a service now performance analytics course on now learning",
       "activate the plugin on your production environment and start the default data collectors."
     ],
-    "ans": "C",
-    "explaination": "take a service now performance analytics course on now learning"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "A subject matter expert routinely receives task which have been worked by first and level support before receiving the assignment. what could you suggest, to make it easier for the expert to read only the work notes in the activity log?",
@@ -362,8 +364,8 @@
       "click personalise icon and select activity stream",
       "right click form header > form layout > add work note section"
     ],
-    "ans": "B",
-    "explaination": "click funnel icon and select only work notes"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "for a customer’s inventory application, several inventory applications fields on a needed-on inventory ticket. this ticket will be assigned to inventory support team members. how would you start to implement this requirement?",
@@ -373,8 +375,8 @@
       "create the inventory table with the inventory specification fields. then create many to many relationships between the inventory and the task table.",
       "create inventory table as an extended table from the task table. then add the inventory specification fields, as needed."
     ],
-    "ans": "D",
-    "explaination": "create inventory table as an extended table from the task table. then add the inventory specification fields, as needed."
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "when using the report designer, it is best practice to make copy of an existing report then make modification to your copy of that report. when viewing the report inside the designer, how would you make a copy of the report?",
@@ -385,8 +387,8 @@
       "click on context menu and select insert and stay",
       "click on the funnel icon and create copy"
     ],
-    "ans": "B",
-    "explaination": "click on the down triangle and select insert and stay"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "while testing a catalog item for ordering an expensive computer, the mandatory approval is being skipped for requester Bob Smith, but not for any of the other requests. what could explain the issue?",
@@ -397,8 +399,8 @@
       "Bob Smith is a VIP",
       "Bob Smith does not have a delegate set up on his account"
     ],
-    "ans": "C",
-    "explaination": "Bob Smith is a VIP"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "what module do you use to access the report that are available to you?",
@@ -409,8 +411,8 @@
       "report's> view/run",
       "self-service> my dashboards"
     ],
-    "ans": "D",
-    "explaination": "report's> view/run"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "Why is it recommended that you Limit update sets to maximum of 100 records? Choose 2 answers?",
@@ -423,8 +425,8 @@
       "keeps update set logs shorter",
       "Make it easier for developers to organise their work"
     ],
-    "ans": "C,E",
-    "explaination": "reduce potential conflicts<br />make it easier to identify and review changes"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "which flow components allow you to specify when a flow should be run?",
@@ -435,8 +437,8 @@
       "scope and trigger condition",
       "trigger criteria and clock"
     ],
-    "ans": "A",
-    "explaination": "Trigger and condition"
+    "ans": "",
+    "explaination": ""
   },
   {
     "que": "a customer has asked for the following updates to a form: make resolution code mandatory, when state is changed to resolved, hide major incident checkbox, unless logged in user as major incident manager role. what type of rules would you use to implement this requirement?",
