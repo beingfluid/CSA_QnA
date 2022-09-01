@@ -447,8 +447,8 @@
       "dictionary design",
       "form constraint"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "UI policy and actions"
   },
   {
     "que": "what utility enables process owners to other cross enterprise workflows within a single unified process?",
@@ -461,8 +461,8 @@
       "process automation designer",
       "process flow manager"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "F",
+    "explaination": "process automation designer"
   },
   {
     "que": "which type of script runs in the browser?",
@@ -474,33 +474,33 @@
       "transform maps",
       "UI policies and client scripts"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "F",
+    "explaination": "UI policies and client scripts"
   },
   {
     "que": "it time for end user is based on the round trip between the client and the server. What activities are included in the round trips?",
     "opt": [
-      "Submit+ query",
-      "request+ response",
-      "insert+ verify",
-      "save+ update",
-      "write+ read"
+      "Submit + query",
+      "request + response",
+      "insert + verify",
+      "save + update",
+      "write + read"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "request + response"
   },
   {
     "que": "What instance resource allows you to access guided tours, information about actions, and instruction on how to use inputs and outputs in your flow?",
     "opt": [
       "Getting started",
       "Wiki",
-      "help panel (question mark Icon) (Choose this ans if getting started is not option)",
+      "help panel",
       "Docs",
       "user guide",
       "community"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Getting started"
   },
   {
     "que": "here is as example of the criteria set for a knowledge base: Companies: ACME North America, department: HR, groups: ACME MANAGERS, Match all: yes. in this example, what user would have access to this knowledge base?",
@@ -510,8 +510,8 @@
       "members of the ACME Manager group, who are also members of HR departments and part of ACME North America",
       "users which are members of either ACME North America, or HR department or ACME Managers group"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "members of the ACME Manager group, who are also members of HR departments and part of ACME North America"
   },
   {
     "que": "What is a set of condition applied to a table list to show as subset of the data?",
@@ -522,8 +522,8 @@
       "Funnel",
       "Query"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "Filter"
   },
   {
     "que": "what are the different ways you can create a favourite for a particular record? Choose two answers?",
@@ -535,8 +535,8 @@
       "from list, drag record number to favourites on the navigator.",
       "from the record form header, click paperclip icon."
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,E",
+    "explaination": "from the record form header, click additional action menus and select create favourite<br />from list, drag record number to favourites on the navigator."
   },
   {
     "que": "if you have the impersonate role, what type of user are you not able to impersonate?",
@@ -547,8 +547,8 @@
       "government customers",
       "security incident response users"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Extended security admin"
   },
   {
     "que": "on a list, what part of the table, does each column show?",
@@ -559,8 +559,8 @@
       "a attribute",
       "a Field"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "a Field"
   },
   {
     "que": "Which type of field allows you to enter freely using letters, numbers, and special characters?",
@@ -571,8 +571,8 @@
       "text",
       "string"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "string"
   },
   {
     "que": "To quickly return to your instances home page, what item would you click?",
@@ -584,8 +584,8 @@
       "instance logo",
       "user menu"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "instance logo"
   },
   {
     "que": "Which admin role is required to make changes to high security setting?",
@@ -596,8 +596,8 @@
       "Admin",
       "Security_admin"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "Security_admin"
   },
   {
     "que": "with the admin role, a user would have access to all platform features, functions, and data with what exceptions?",
@@ -608,8 +608,8 @@
       "human resource and enterprise CMDB",
       "security operations and vulnerability response"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "human resources and security operations"
   },
   {
     "que": "from the my approval module, you want to quickly authorize a request. how can you do this quickly from the list view?",
@@ -619,8 +619,8 @@
       "select approval record by checking box, click on green check",
       "right click on the approval number, select approved, click green check"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "right click on the approval number, select approve"
   },
   {
     "que": "what attributes you can manage using system properties> basic configuration UI16? Choose five answers?",
@@ -639,8 +639,8 @@
       "header background colour",
       "default homepage"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,F,H,K,L",
+    "explaination": "base theme<br />banner image<br />browser tab title<br />module text colour<br />header background colour"
   },
   {
     "que": "What module do you use to access the full screen view of connect?",
@@ -651,8 +651,8 @@
       "Connect> tools> workspace",
       "Connect> agent workspace"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "Connect> connect chat"
   },
   {
     "que": "A new employee joins the IT department and needs to perform work assigned to network and Hardware groups. how would you set up their access? Choose 3 answers?",
@@ -664,19 +664,19 @@
       "add user account to IT knowledge base",
       "add user account to network group"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,D,F",
+    "explaination": "add user account to hardware group<br />Create user account<br />add user account to network group"
   },
   {
-    "que": "when would you use the following steps?i) Homepage admin > pages ii) Right click on homepage record iii) select unload portal page",
+    "que": "when would you use the following steps? i) Homepage admin > pages ii) Right click on homepage record iii) select unload portal page",
     "opt": [
       "to add a homepage to an update set",
       "to delete homepage",
       "to publish a homepage to the portal",
       "to retire homepage"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "to add a homepage to an update set"
   },
   {
     "que": "On a business rule, when setting determines at what points the rule executes. what are the options for specifying that timing?",
@@ -686,8 +686,8 @@
       "Before, synchronous, schedule job, views",
       "Before, after, Async, display"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "Before, after, Async, display"
   },
   {
     "que": "what is the language used for scripting in the ServiceNow?",
@@ -699,8 +699,8 @@
       "PHP",
       "Glide"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "JavaScript"
   },
   {
     "que": "which script can run when a record is displayed, inserted, updated, deleted or when a table is queried?",
@@ -711,8 +711,8 @@
       "scheduled job",
       "record rule"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "business rule"
   },
   {
     "que": "what process allows user to create, categorise, review, approve and browse important information in a centralised location that is shared by the entire organization?",
@@ -723,8 +723,8 @@
       "business information management",
       "information portal management"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "knowledge management"
   },
   {
     "que": "Which storefront is a single location for accessing prebuilt spokes, to quickly integrate with 3rd party services to build and share content?",
@@ -737,8 +737,8 @@
       "integration spoke hub",
       "spoke store"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "ServiceNow store"
   },
   {
     "que": "which role can manage multiple knowledge bases?",
@@ -748,8 +748,8 @@
       "Knowledge_admin",
       "Knowledge_base_admin"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "Knowledge_admin"
   },
   {
     "que": "You are creating a catalog item for ordering a new desktop computer. The computer have these options: colour: black or silver, ram: 32 MB or 64 MB, keyboard: standard or economic,monitor: 24 inch or 32 inch. how would you add this option to the catalog item form?",
@@ -759,32 +759,20 @@
       "add variables",
       "add fields"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "add variables"
   },
   {
-    "que": "A service catalog project will involve building 80 catalog items. for each of the catalog items, the following fields will be mandatory on the forms:",
+    "que": "A service catalog project will involve building 80 catalog items. for each of the catalog items, the following fields will be mandatory on the forms: requested for, requested by, approving manager, delivery instructions. all of the other variables will be specific to the individual catalog item. what features would you use when designing the catalog item form?",
     "opt": [
-      "requested for",
-      "requested by",
-      "approving manager",
-      "delivery instructions"
-    ],
-    "ans": "",
-    "explaination": ""
-  },
-  {
-    "que": "all of the other variables will be specific to the individual catalog item. what features would you use when designing the catalog item form?",
-    "opt": [
-      "create an order guide which includes all variables; then copy and hide variables",
-      "as needed.",
+      "create an order guide which includes all variables; then copy and hide variables as needed.",
       "create one variable set for the four variables; then add the variable set to each of the eighty catalog items",
       "create a variable set template; they apply to all of the catalog items",
       "create a record producer that contains the four fields; then add to the record producer related list on the catalog items",
       "create a floor designer action, with variable set data pill; then apply flow to all of the eighty catalog items"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "create one variable set for the four variables; then add the variable set to each of the eighty catalog items"
   },
   {
     "que": "what is the best practice regarding data imports?",
@@ -795,11 +783,11 @@
       "create a new import set table for each new data load",
       "monitor data quality and clean imported data using the data scrub workspace"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "plan time before your import to remove obsolete or inaccurate data."
   },
   {
-    "que": "which service now resource can be used as a blueprint to map your IT services to service now?",
+    "que": "which service now resource can be used as a blueprint to map your IT services to servicenow?",
     "opt": [
       "Configuration management database (CMDB)",
       "now learning",
@@ -808,8 +796,8 @@
       "common service data model (CSDM)",
       "IT service management (ITSM)"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "common service data model (CSDM)"
   },
   {
     "que": "What are the steps for importing data using an import set?",
@@ -819,8 +807,8 @@
       "select source file; run auto map; transform data; clean up target table",
       "set up LDAP; run auto map; transform data; clean up target table"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "Load the data; create transform map; transform data; clean up import table"
   },
   {
     "que": "you have been asked to create a way for users to order a new iPhone, but only if they get two levels of approval. the approvers and users should be automatically notified at each approval level. what feature would you use to manage the approvals and notification?",
@@ -831,8 +819,8 @@
       "approval delegates",
       "parent child approvers"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Flows"
   },
   {
     "que": "when importing data, what happens to imported rows, if no coalesce field is specified?",
@@ -842,11 +830,11 @@
       "all rows are treated as new records. no existing records were updated",
       "all rows or rejected from the import, as coalesce field is required"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "all rows are treated as new records. no existing records were updated"
   },
   {
-    "que": "what tool allows you to drag and drop to specify links between source fields on an import set table and destination fields on any service now table?",
+    "que": "what tool allows you to drag and drop to specify links between source fields on an import set table and destination fields on any servicenow table?",
     "opt": [
       "Mapping assist utility",
       "import workspace",
@@ -855,8 +843,8 @@
       "transform designer",
       "transform dashboard"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Mapping assist utility"
   },
   {
     "que": "when importing data from a spreadsheet which step defines where the incoming data columns will be written in the receiving tables?",
@@ -867,8 +855,8 @@
       "load data",
       "create transform app"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "field mapping"
   },
   {
     "que": "to quickly return to a homepage you were using 5 minutes ago, which item would you click?",
@@ -880,8 +868,8 @@
       "history module",
       "start icon"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "clock icon"
   },
   {
     "que": "what is the most important thing to remember about activating a plugin?",
@@ -892,20 +880,20 @@
       "submit HI ticket to get Authorization",
       "plugins are prohibited in personal developer instances"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "plugins once installed cannot be uninstalled"
   },
   {
     "que": "Certain tables have a prefix like HR_. which kind of tables has a name that starts with a custom prefix?",
     "opt": [
       "excluded table",
-      "scooped application table",
+      "scoped application table",
       "system table",
       "explanation table",
       "Xray search table"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "scoped application table"
   },
   {
     "que": "within the report library, there are many baseline reports that can be used for learning about reports. what could you search for to locate ITIL best practice indicator reports?",
@@ -916,19 +904,19 @@
       "PA",
       "Sn_itil"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "KPI"
   },
   {
-    "que": "while on an incident record, how would you add a tag for” special Handling” To the record?",
+    "que": "while on an incident record, how would you add a tag for 'special Handling' To the record?",
     "opt": [
       "click on the context menu, select add tag, type special handling, press enter",
       "on the special handling field, check the box",
       "on the tag field, select special handling from the choice list",
       "click on the …. icon, click add tag, type special handling, press enter"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "click on the …. icon, click add tag, type special handling, press enter"
   },
   {
     "que": "when using context menu on list, form, and column headings, what are the quick way to access the menus? choose two answers?",
@@ -939,8 +927,8 @@
       "double click on the list, form, or column heading.",
       "Ctrl M"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B",
+    "explaination": "right click on the list, form, or column heading<br />click on context menu icon"
   },
   {
     "que": "which icon in the banner do you use to turn on the application picker and the update set picker?",
@@ -951,8 +939,8 @@
       "Gear",
       "chat bubbles"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "Gear"
   },
   {
     "que": "A new service desk employee in Latin America Complaints that the create dates and time are incorrect on their incident list. what would you suggest to fix this issue?",
@@ -963,8 +951,8 @@
       "Have them use the gear icon to set the employees time zone",
       "have them clear their cache"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "Have them use the gear icon to set the employees time zone"
   },
   {
     "que": "A department uses SLA data extensively to run reports. they keep asking for help with building reports off of the same set of tables. they seem to be conducted by dot walking. What could you do to make it easier for them to build their reports?",
@@ -975,8 +963,8 @@
       "send a team member to a reporting class knock out any untrained users",
       "show them how to export to excel format"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "create a data source for them and show them how to use it"
   },
   {
     "que": "what are examples of core tables in the ServiceNow platform?",
@@ -986,8 +974,8 @@
       "Work, caller, timecard",
       "base configuration item, configuration item, base task"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "User, task, incident"
   },
   {
     "que": "What are benefits of assigning work tasks to a group, rather than to an individual? choose five answers?",
@@ -1001,8 +989,8 @@
       "group members can pick task, based on highest priority",
       "group members can choose their preferred task from my groups works"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D,E,F,G,H",
+    "explaination": "groups can assign task to users based on on-call schedules<br />group can assign task to users based on skills<br />groups can assign task to user based on availability<br />group members can pick task, based on highest priority<br />group members can choose their preferred task from my groups works"
   },
   {
     "que": "what sections on the CI form, can you find information about the other CIs associated with your CI?",
@@ -1013,8 +1001,8 @@
       "related links",
       "child CI tab"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "related items"
   },
   {
     "que": "A manager wants to run a report showing how many service requests have been fulfilled for business cards since the beginning of the year. what table would they select for building this report?",
@@ -1026,8 +1014,8 @@
       "catalog task[sc_task]",
       "service catalog[sc_catalog]"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "requested item[sc_req_item]"
   },
   {
     "que": "your customer requires that they be able to monitor which users are performing impersonation in their instance. what would you do to meet that requirement?",
@@ -1038,8 +1026,8 @@
       "on the impersonator role record, right click and select create log",
       "from the user icon, select elevate roles"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "activate the glide.sys.log_impersonation script"
   },
   {
     "que": "sections on a form can appear as: one or two columns, tabs. From form designer, how do you define a section, so it displays as a tab?",
@@ -1050,11 +1038,11 @@
       "click context menu> configure tabs",
       "click the gear and check the tab option"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "name the section"
   },
   {
-    "que": "a manager is complaining that they can't get the data then they need on a report, because the data resides in two different tables. this data is used for many different reports in their department. you have checked to see if dot walking will meet the requirement and it is not possible. what else might you try to help this manager?",
+    "que": "a manager is complaining that they can't get the data that they need on a report, because the data resides in two different tables. this data is used for many different reports in their department. you have checked to see if dot walking will meet the requirement and it is not possible. what else might you try to help this manager?",
     "opt": [
       "create a database view",
       "create a report source",
@@ -1062,8 +1050,8 @@
       "export the tables to spreadsheet",
       "create a report template"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "create a database view"
   },
   {
     "que": "tables can be characterised in multiple ways. which of this combination is impossible? choose 2 answers?",
@@ -1077,8 +1065,8 @@
       "custom and base",
       "parent and child"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,H",
+    "explaination": "custom and core<br />child and parent"
   },
   {
     "que": "What are advantages of using flow designer? choose three answers?",
@@ -1091,8 +1079,8 @@
       "compliments the integration store",
       "smooth integration with 3rd party systems"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,D,G",
+    "explaination": "less manual scripting<br />reduces technical debt<br />smooth integration with 3rd party systems"
   },
   {
     "que": "what policies are applied to all data entered into the platform via form (UI), import sets or web services?",
@@ -1103,8 +1091,8 @@
       "data policies",
       "write policies"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "data policies"
   },
   {
     "que": "You have been asked to configure form so an Employee could order a tablet and select the standard accessory options to purchase with it. these Standard options are carrying case, screen cleaner, tablet stand, and screen protector. what approach would you take? choose three answers?",
