@@ -1886,15 +1886,13 @@
   {
     "que": "What is the result of the order in which access controls are evaluated?",
     "opt": [
-      "Ensures user has access to the application, before evaluating access to a module",
-      "within the application",
-      "ensures user has access to the fields in a table, before considering their access to",
-      "the table",
+      "Ensures user has access to the application, before evaluating access to a module within the application",
+      "ensures user has access to the fields in a table, before considering their access tothe table",
       "Ensures user has access to a table, before evaluating access to a field in the table",
       "ensures user can get to work as quickly as possible."
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "Ensures user has access to a table, before evaluating access to a field in the table"
   },
   {
     "que": "what is a no-code approach to control the mandatory or read only state of a form field?",
@@ -1906,7 +1904,7 @@
       "UI Script"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "UI policy"
   },
   {
     "que": "Which module is used as the first step for importing data?",
@@ -1917,7 +1915,7 @@
       "import data"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "Load data"
   },
   {
     "que": "Which tool graphically displays an infrastructure view for a configuration item (CI) and Its relationship with the other CIs?",
@@ -1928,7 +1926,7 @@
       "database view"
     ],
     "ans": "B",
-    "explaination": ""
+    "explaination": "dependency view"
   },
   {
     "que": "Group records are stored in which table?",
@@ -1939,7 +1937,7 @@
       "Group[sn_sys_group]"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "Group[sys_user_group]"
   },
   {
     "que": "What is the most common role that has access to almost all platform features, Functions and data?",
@@ -1951,7 +1949,7 @@
       "Base admin[base_admin]"
     ],
     "ans": "B",
-    "explaination": ""
+    "explaination": "System Administrator[admin]"
   },
   {
     "que": "What service now features can be triggered by events, and is used to inform users about activities or updates in service now?",
@@ -1963,7 +1961,7 @@
       "Notifications"
     ],
     "ans": "E",
-    "explaination": ""
+    "explaination": "Notifications"
   },
   {
     "que": "The serviceNow platform includes which type of interfaces? Choose 3 answers?",
@@ -1976,7 +1974,7 @@
       "agent Control Center"
     ],
     "ans": "B,C,E",
-    "explaination": ""
+    "explaination": "Now mobile apps<br />service portals<br />now platform user interface"
   },
   {
     "que": "An IT manager is responsible for the network and hardware assignment groups, each group contains 5 team members. These team members are working on many tasks, but the manager cannot see any tasks on the service desk > My Groups Work List. What could explain this?",
@@ -1987,7 +1985,7 @@
       "the manager does not have the ITIL role."
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "the manager is not a member of the network and hardware groups."
   },
   {
     "que": "You are showing your customer a new form that you have created for their new application. they would like to add a field to the form. where could you do that? Choose 2 answers?",
@@ -1998,7 +1996,7 @@
       "right click on the form header, select configure > form layout"
     ],
     "ans": "C,D",
-    "explaination": ""
+    "explaination": "click on context menu, select configure > form design<br />right click on the form header, select configure > form layout"
   },
   {
     "que": "A role is defined as what?",
@@ -2009,7 +2007,7 @@
       "a set of access control rules"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "a collection of permissions"
   },
   {
     "que": "Which application is used primarily to load data into service now?",
@@ -2020,7 +2018,7 @@
       "import hub"
     ],
     "ans": "B",
-    "explaination": ""
+    "explaination": "system import sets"
   },
   {
     "que": "what are the three key tables in an enterprise CMDB? Choose 3 answers?",
@@ -2034,7 +2032,7 @@
       "Sn_cmdb"
     ],
     "ans": "C,E,F",
-    "explaination": ""
+    "explaination": "Cmdb_rel_ci<br />Cmdb_ci<br />Cmdb"
   },
   {
     "que": "How would you define an access control, to allow a user with itil role to have permission to create incident records?",
@@ -2046,7 +2044,7 @@
       "Name: incident.Any; operation: write; Permission: itil"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "Name: incident.none; operation: create; role: itil"
   },
   {
     "que": "What do you activate when you want to add applications or functionality within your development instance?",
@@ -2058,31 +2056,18 @@
       "updated pack"
     ],
     "ans": "D",
-    "explaination": ""
-  },
-  {
-    "que": "from a form, what would you Click to add additional fields to the form? Choose 2 answers?",
-    "opt": [
-      "right click on header > add > field",
-      "context menu > form > layout",
-      "context menu > configure > form design",
-      "context menu > configure > Form layout",
-      "context menu > form > designer",
-      "right click on header > configure > UX dashboard"
-    ],
-    "ans": "C,D",
-    "explaination": ""
+    "explaination": "plugin"
   },
   {
     "que": "what resource can you use to view details of the tables and configuration items (CIs) associated with a particular use case?",
     "opt": [
       "scenario dashboard",
-      "how much service data model (CSDM) Product View",
+      "common service data model (CSDM) Product View",
       "CMDB Use Case Modeler",
       "CI Use Case Modeler"
     ],
     "ans": "B",
-    "explaination": ""
+    "explaination": "common service data model (CSDM) Product View"
   },
   {
     "que": "service now contains a resource which provides the following: 1) A standard and shared set of service related definition across service now products and platforms that will enable and support true service level reporting. 2) A CMDB framework across our products and platforms that will enable and support multiple configuration strategies. what resource do these statements describe?",
@@ -2093,7 +2078,7 @@
       "information technology service management (ITSM)"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "common service data model (CSDM)"
   },
   {
     "que": "you are asked to create an option in the service catalog, which will allow a user to click get help and describe the issue they are having. these forms should create incident records which are automatically routed to the service desk, which method would you use?",
@@ -2104,7 +2089,7 @@
       "create order guide"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "create record producer"
   },
   {
     "que": "what type of query allows you to filter list data using normal words, instead of the condition builder?",
@@ -2116,7 +2101,7 @@
       "predictive intelligence query"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "natural language query"
   },
   {
     "que": "what is the best practice related to using the default update set for moving customization and instances?",
@@ -2127,7 +2112,7 @@
       "merge default update sets before moving between instances"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "you should not use the default update sets for moving between instances"
   },
   {
     "que": "What is the name of the table relationship, where two or more tables are related in a bidirectional relationship, so that the related records are visible from both tables in a related list?",
@@ -2138,7 +2123,7 @@
       "one to many"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "many to many"
   },
   {
     "que": "What function do you use to add buttons, links, and context menu items on forms and list?",
@@ -2149,7 +2134,7 @@
       "UI config"
     ],
     "ans": "B",
-    "explaination": ""
+    "explaination": "UI actions"
   },
   {
     "que": "what feature do you use to specify which users are you able to access a service catalog item?",
@@ -2160,7 +2145,7 @@
       "User criteria"
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "User criteria"
   },
   {
     "que": "Tables may have a one-to-many relationship. from the service catalog, what are examples of tables having a one-to-many relationship? Choose 3 answers?",
@@ -2172,7 +2157,7 @@
       "one requested item can have many catalog tasks"
     ],
     "ans": "B,D,E",
-    "explaination": ""
+    "explaination": "one request can have many requested items<br />one requested item can have many approvals<br />one requested item can have many catalog tasks"
   },
   {
     "que": "On a form header, what is the three-bar icon called?",
@@ -2183,7 +2168,7 @@
       "additional actions or context menu"
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "additional actions or context menu"
   },
   {
     "que": "a user is complaining that they are seeing a blank page, when they click create new, from your custom inventory application. you have confirmed that they can see the inventory application, and the create new module on the application navigator. what could be the cause of this issue?",
@@ -2195,7 +2180,7 @@
       "user session has timed out"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "user has read role, but not the write role on the inventory table"
   },
   {
     "que": "which service now capability allows you to provide knowledge articles, via a conventional messaging interface?",
@@ -2206,7 +2191,7 @@
       "connect agent"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "Virtual agent"
   },
   {
     "que": "when moving multiple update sets at one time, what might you do to facilitate the move?",
@@ -2217,7 +2202,7 @@
       "Verify"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "Batch"
   },
   {
     "que": "what are the components that make up a filter condition? Choose 3 answers?",
@@ -2229,7 +2214,7 @@
       "match criteria"
     ],
     "ans": "A,C,D",
-    "explaination": ""
+    "explaination": "Field<br />Value<br />Operator"
   },
   {
     "que": "When impersonating a user for testing purpose, what is the best way to return the instance, logged in with in your user account?",
@@ -2240,7 +2225,7 @@
       "end impersonation"
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "end impersonation"
   },
   {
     "que": "What type of field has a drop down list, from which you can pick from predefined options?",
@@ -2251,7 +2236,7 @@
       "picker"
     ],
     "ans": "C",
-    "explaination": ""
+    "explaination": "choice"
   },
   {
     "que": "a customer requests the following data quality measures to be added: 1. incident number should be read only on all list and forms, For all users. 2. short description field should be mandatory, on all records, across all applications, on insert. which type of policy would you use to meet this requirement?",
@@ -2262,7 +2247,7 @@
       "data policy"
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "data policy"
   },
   {
     "que": "User records are stored in which table?",
@@ -2273,7 +2258,7 @@
       "User[s_user]"
     ],
     "ans": "A",
-    "explaination": ""
+    "explaination": "User[sys_user]"
   },
   {
     "que": "Your Customer would like to create a new templates to notify users who are affected by network outage at their site. which module would you use to create a new notification?",
@@ -2285,7 +2270,7 @@
       "click gear > notifications > new"
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "system notification > email > notifications"
   },
   {
     "que": "Two departments (HR onboarding and facilities) have come to you, asking for a way for employees to request event room setup services. The requirements are the same for the form and the task routing to the facilities assignment group. 1) For HR, the item will be used primarily for the onboarding condition, for employees orientation sessions. 2) for facilities, the item will be used for anyone in the company who needs room setup services. However, both departments have their own service catalogs. what do you do, to support these requirements?",
@@ -2296,7 +2281,7 @@
       "create one catalogue item for event room setup; then publish to both catalogs."
     ],
     "ans": "D",
-    "explaination": ""
+    "explaination": "create one catalogue item for event room setup; then publish to both catalogs."
   },
   {
     "que": "Which of the following is best practice when configuring assignment rules or predictive intelligence? (select 4)",
@@ -2325,9 +2310,10 @@
     "opt": [
       "Integrating with a WebDAV compliant source",
       "Creating articles directly in the platform",
-      "Importing Microsoft word files",
-      "Benefits of using spokes"
-    ]
+      "Importing Microsoft word files"
+    ],
+    "ans": "A,B,C",
+    "explaination": "Integrating with a WebDAV compliant source<br />Creating articles directly in the platform<br />Importing Microsoft word files"
   },
   {
     "que": "Which of the following are valid report sharing options?",
