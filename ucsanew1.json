@@ -1103,8 +1103,8 @@
       "Create a record producer and on the form, add a checkbox variable for each accessory options.",
       "create catalog item for the tablet, and on the form, add a checkbox variable for each accessory option"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,D,E",
+    "explaination": "create catalog item for the tablet and add a variable set to the form for the accessory options<br />Create a record producer and on the form, add a checkbox variable for each accessory options.<br />create catalog item for the tablet, and on the form, add a checkbox variable for each accessory option"
   },
   {
     "que": "when moving a homepage or dashboard between instances, what must you remember?",
@@ -1116,8 +1116,8 @@
       "manually add them to the update set",
       "they cannot be moved via updates set"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "manually add them to the update set"
   },
   {
     "que": "when be set up with many to many relationships. what is a classic example of a scenario where the tables could have many to many relationships?",
@@ -1127,8 +1127,8 @@
       "request can contain many items and items can be any item from the catalogs",
       "a configuration item can belong to multiple classes and classes can contain multiple configuration items"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "vendors can sell multiple products and products can be sold by multiple vendors"
   },
   {
     "que": "Your customer wants to add the company’s email banner to each customer Facing email notification. how would you approach this requirement?",
@@ -1138,8 +1138,8 @@
       "create a company CSS package for emails",
       "create a company email header and footer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "create a company email header and footer"
   },
   {
     "que": "what catalog tool would you use to create a catalog item or record producer?",
@@ -1152,8 +1152,8 @@
       "form designer",
       "workflow designer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "catalog builder"
   },
   {
     "que": "On a form header, what icon would you Click to access template features?",
@@ -1163,8 +1163,8 @@
       "context menu",
       "more options (….)"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "more options (….)"
   },
   {
     "que": "Which tab on the knowledge base record, would you use to identify the set of users who are able to read articles in that knowledge base?",
@@ -1174,20 +1174,20 @@
       "accessible to",
       "can access"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "can read"
   },
   {
     "que": "when adding a related list to a form, you choose the related list from the list collector. what is an example of a related list you might see on the list collector? choose 3 answers?",
     "opt": [
       "Outages > Task number",
-      "catalog task> parent",
-      "HR case> parent",
-      "Problem== parent",
-      "release phase== parent"
+      "catalog task > parent",
+      "HR case > parent",
+      "Problem == parent",
+      "release phase == parent"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C",
+    "explaination": "Outages > Task number<br />catalog task > parent<br />HR case > parent"
   },
   {
     "que": "in flow designer, where is the data from an action stored so it can be used in subsequent actions in the flow?",
@@ -1198,8 +1198,8 @@
       "field icon",
       "field value"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Data pill"
   },
   {
     "que": "Which module would you use to create a new automation of business logic such as approvals, task and notifications?",
@@ -1210,8 +1210,8 @@
       "process automation> workflow editor",
       "process automation> flow designer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "process automation> flow designer"
   },
   {
     "que": "what are the different types of data sources, which may be imported into servicenow? Choose 4 answers?",
@@ -1223,8 +1223,8 @@
       "LDAP connection",
       "local sources (i.e., XML, CSV, excel)"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,C,E,F",
+    "explaination": "JDBC connection<br />DataHub<br />LDAP Connection<br />local sources (i.e., XML, CSV, excel)"
   },
   {
     "que": "What are the examples of UI actions relating to forms? Choose three answers?",
@@ -1235,8 +1235,8 @@
       "form buttons",
       "form View"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,C,D",
+    "explaination": "form context menu<br />form links<br />form buttons"
   },
   {
     "que": "Which icon would you double Click to expand and collapse the list of all applications and modules?",
@@ -1246,8 +1246,8 @@
       "Application",
       "Star"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "Application"
   },
   {
     "que": "on what part of the service now instance, would you find the option to impersonate user?",
@@ -1257,8 +1257,8 @@
       "application navigator",
       "banner"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "banner"
   },
   {
     "que": "what are the main components of the form design interface? Choose 3 answers?",
@@ -1269,8 +1269,8 @@
       "page header",
       "field navigator"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,D,E",
+    "explaination": "form layout<br />page header<br />field navigator"
   },
   {
     "que": "what features are available in knowledge management to support continuous improvement on the knowledge articles? Choose 4 answers?",
@@ -1282,8 +1282,8 @@
       "Add comments",
       "rate with stars"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,E,F",
+    "explaination": "flag articles<br />tag as helpful<br />Add comments<br />rate with stars"
   },
   {
     "que": "when a custom table is created, which access control rules are automatically created? Choose 4 answers?",
@@ -1295,8 +1295,8 @@
       "Delete",
       "Write"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,D,E,F",
+    "explaination": "Create<br />Read<br />Delete<br />Write"
   },
   {
     "que": "when you set a policy that is applied to all data entered into the platform (UI, import sets, or web services). where does this policy required the Default?",
@@ -1306,8 +1306,8 @@
       "Client",
       "Browser"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "Client"
   },
   {
     "que": "Which tool is used to define relationship between fields in an imports Set table and a target table?",
@@ -1317,8 +1317,8 @@
       "transform map",
       "field transformer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "transform map"
   },
   {
     "que": "How would you navigate to the schema map for a table?",
@@ -1328,8 +1328,8 @@
       "system definition> dictionary. select table. go to related links and click show schema map",
       "system definition> show schema map. select table"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "system definitions> tables. select table. Go to related links and click show schema map"
   },
   {
     "que": "what feature allows you to limit users able to contribute or read knowledge within",
@@ -1340,8 +1340,8 @@
       "categories",
       "groups"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "Roles"
   },
   {
     "que": "What does natural language query allow you to do on a list?",
@@ -1352,8 +1352,8 @@
       "Speak to the condition builder",
       "automatically select a filter based on keywords"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "filter list by typing in a phrase"
   },
   {
     "que": "your customer has a human resource knowledge base, which is only accessible to members of the human resource department. A new procedure regarding employee quarterly reviews needs to be published to the knowledge base but should be only visible to HR manager. how would you meet this requirement?",
@@ -1363,19 +1363,19 @@
       "on the knowledge article, add an access control for HR manager group on the can read list, then publish article to any category.",
       "On the knowledge base, add user criteria with a manager can read script to the can read list, publish articles to any category"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Add user criteria for HR manager group on the can read list of the article"
   },
   {
-    "que": "What type of entitles can receive task assignments, in service now? choose two answers?",
+    "que": "What type of entitles can receive task assignments, in servicenow? choose two answers?",
     "opt": [
       "Groups",
       "Departments",
       "Teams",
       "Users"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,D",
+    "explaination": "Groups<br />Users"
   },
   {
     "que": "what capability allows user to create dashboards with big widgets to visualise data over time in order to identify areas of improvement?",
@@ -1385,8 +1385,8 @@
       "analytics reports",
       "performance analytics"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "performance analytics"
   },
   {
     "que": "which would you follow when testing a catalogue item that has a manager approval flow? Choose three answers?",
@@ -1395,11 +1395,11 @@
       "use the instance Incognito settings to quickly toggle between requester and approval",
       "use your admin account, so you can approve the items quickly",
       "impersonate the requester to ensure the form works",
-      "make sure the requesters user record as manager specified",
+      "make sure the requesters user record has manager specified",
       "Create and select your testing update set before starting the test cases."
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,D,E",
+    "explaination": "use your admin account, so you can approve the items quickly<br />impersonate the requester to ensure the form works<br />make sure the requesters user record has manager specified"
   },
   {
     "que": "when designing a flow, how do you reference data from a record, in that flow?",
@@ -1410,8 +1410,8 @@
       "specify the source table on the data pill related list",
       "drag the table icon onto the flow definition"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "drag the data pill onto the flow definition"
   },
   {
     "que": "after finishing your work on high security setting, what is a possible way to return to normal admin security levels?",
@@ -1422,8 +1422,8 @@
       "select normal role",
       "logout and back in"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "logout and back in"
   },
   {
     "que": "access controls are evaluated in this order: 1. Match Object against table ACL 2. Match The object against field ACL. Within step one above, what order are the table ACLs evaluated?",
@@ -1434,8 +1434,8 @@
       "bottom to top: table ACL, table. field ACL, parent table. field ACL",
       "specific to general: table ACL, parent table ACL, wildcard(*) ACL"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "general to specific: table ACL, table.field ACL, parent table. field ACL"
   },
   {
     "que": "When selecting the target table for an import, which table can you select? choose three answers?",
@@ -1446,8 +1446,8 @@
       "tables within the global scope",
       "tables which allow write access to other applications"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C,D,E",
+    "explaination": "tables within the existing application scope<br />tables within the global scope<br />tables which allow write access to other applications"
   },
   {
     "que": "A user wants to create a set of filter conditions, where they want to show records which satisfy two conditions: 1. incidents where the state is closed, 2. incidents where assignment group is network. after clicking the funnel icon, what should the user do?",
@@ -1458,8 +1458,8 @@
       "define the first condition; click> icon on breadcrumb, define second condition; click run",
       "define the first condition; click AND button; define second condition; press enter"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "define the first condition; click AND button; define second condition; click run"
   },
   {
     "que": "What import utility does the system use when the field names on the import set match the name of the fields on the target table?",
@@ -1469,8 +1469,8 @@
       "automatic mapping",
       "mapping dashboard"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "automatic mapping"
   },
   {
     "que": "Report designer contains different sections for configuring your report which section is used to adjust the look of your report, including colours, titles and legend layout?",
@@ -1480,21 +1480,20 @@
       "Layout",
       "Style"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "Style"
   },
   {
     "que": "Which statement correctly describes the difference between a client script and a business rule?",
     "opt": [
-      "Client scripting executes before a record is loaded and a business rule executes",
-      "after a record is loaded",
+      "Client scripting executes before a record is loaded and a business rule executes after a record is loaded",
       "a client script executes on the server and a business rule executes on the client",
       "a client script executes before a record is loaded and a business rule executes after",
       "a record is updated",
       "a client script executes on the client and a business rule executes on the server"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "a client script executes on the client and a business rule executes on the server"
   },
   {
     "que": "What are the advantages of using flow designer? choose three answers?",
@@ -1505,8 +1504,8 @@
       "smooth integration with 3rd party system",
       "supports advanced developers"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,C,D",
+    "explaination": "reduces technical debt<br />less manual scripting<br />smooth integration with 3rd party system"
   },
   {
     "que": "What tool is used to import data from various data sources and map that data into servicenow tables?",
@@ -1516,8 +1515,8 @@
       "import set",
       "transform set"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "import set"
   },
   {
     "que": "How would you distinguish between a base class table and a parent class table?",
@@ -1527,8 +1526,8 @@
       "base class tables always have tables extended from them. parent tables do not have tables extended from them",
       "extended tables are always extended from parent tables. extended tables are usually extended from base tables"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "base class table is not extended from another table. parent class tables may be extended from another table"
   },
   {
     "que": "What are three security modules often used by the System Administrator? choose three answers?",
@@ -1539,8 +1538,8 @@
       "self-service> my access",
       "system security> access control (ACL)"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,C,E",
+    "explaination": "system properties> security<br />system security> high security settings<br />system security> access control (ACL)"
   },
   {
     "que": "On a filter condition, which component is always a choice list?",
@@ -1550,8 +1549,8 @@
       "match criteria",
       "operation"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Operator"
   },
   {
     "que": "Many actions are included with the flow designer, what are some frequently used core-actions? choose four answers?",
@@ -1563,8 +1562,8 @@
       "ask for approval",
       "wait for match"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,C,D,E",
+    "explaination": "wait for condition<br />create record<br />look up record<br />ask for approval"
   },
   {
     "que": "For your implementation, the following tables are extended from each other. 1) Incident table is extended from task table 2) super incident table is extended from incident table. in this situation, which tables are parent, child and base tables? choose five answers?",
@@ -1579,8 +1578,8 @@
       "incident table is a parent table",
       "incident table is a child table"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,E,G,H,I",
+    "explaination": "super incident table is a child table<br />task table is a parent table<br />task table is a base table<br />incident table is a parent table<br />incident table is a child table"
   },
   {
     "que": "Which is the most efficient way to move large amount of data between instances?",
@@ -1590,8 +1589,8 @@
       "export to zip",
       "export to XML"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Update sets"
   },
   {
     "que": "Which service now utility gives a service desk agent the ability to trace from a service Having an issue, to see which Cis supporting that service have active issues?",
@@ -1601,8 +1600,8 @@
       "service dashboard",
       "CI dependency view"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "CI health dashboard"
   },
   {
     "que": "When importing spreadsheet data into service now, what is the first step in the process?",
@@ -1613,8 +1612,8 @@
       "run data scrabber",
       "load data"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "E",
+    "explaination": "load data"
   },
   {
     "que": "when managing tags, you can adjust who is able to see it. what are the visibility options? choose three answers?",
@@ -1625,8 +1624,8 @@
       "Admins",
       "Roles and permissions"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C",
+    "explaination": "Everyone<br />groups and users<br />me"
   },
   {
     "que": "which modules can you use to create a new table? choose two answers?",
@@ -1636,8 +1635,8 @@
       "schema map",
       "tables"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,D",
+    "explaination": "tables and columns<br />tables"
   },
   {
     "que": "What service now feature allows you to include data from a secondary related table on a report?",
@@ -1647,8 +1646,8 @@
       "SQL",
       "dot walking"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "dot walking"
   },
   {
     "que": "which of the following are not included in an update set by default? Choose 3 Answers?",
@@ -1660,8 +1659,8 @@
       "home pages",
       "data"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,C,E",
+    "explaination": "Schedules<br/>scheduled jobs<br/>home pages"
   },
   {
     "que": "what options can you see, when you right click on a CI, from the CI dependency view map? choose three answers?",
@@ -1672,8 +1671,8 @@
       "view recent outages",
       "view knowledge"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,C,D",
+    "explaination": "view affected Cis<br />view related tasks<br />view recent outages"
   },
   {
     "que": "you have heard about a new application released by service now. you want to try it out, to see if it might be useful for your company’s service now implementation. what would be the best way to get hands on experience with the new application?",
@@ -1683,8 +1682,8 @@
       "search the wiki for sales demo request form",
       "Activate the application plug in, on your company’s production instance."
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "active the application plug in, on your personal dev instance"
   },
   {
     "que": "On a filter condition, there is an element, which is based on the table, the user access rights, and column on the table. what is this element called?",
@@ -1695,8 +1694,8 @@
       "attribute",
       "label"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "Field"
   },
   {
     "que": "which module would you use to customize your instance banner image, text and colours?",
@@ -1707,8 +1706,8 @@
       "home page admin> pages> branding",
       "system properties> branding"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "system properties> basic configuration UI16"
   },
   {
     "que": "Which service now capability provides assistance to help users obtain information, make decisions and perform common work task via messaging interface?",
@@ -1719,8 +1718,8 @@
       "chat box",
       "agent workspace"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "virtual agent"
   },
   {
     "que": "service now contains over 25 different report types. what are some of the types? choose five answers?",
@@ -1733,8 +1732,8 @@
       "Horizontal Bar",
       "Odometer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C,E,F",
+    "explaination": "Semi-donut<br />Speedometer<br />Donut<br />Pie<br />Horizontal Bar"
   },
   {
     "que": "On the CI dependency view, what enables you to trace from an infrastructure item, like a server, to the server that dependent on that server?",
@@ -1744,22 +1743,19 @@
       "automapping utility",
       "service tracer"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "Relationships"
   },
   {
     "que": "which one statement correctly describes access control rule evalution?",
     "opt": [
-      "roles are evaluated from the general to specific, so a table rule must be active to",
-      "continue.",
-      "if a row level rule and a field level rule exist, both rules must be true before an",
-      "operation is allowed",
-      "rules are evaluated using roles. the role with the most permissions evaluates the",
-      "rules first",
+      "roles are evaluated from the general to specific, so a table rule must be active to continue.",
+      "if a row level rule and a field level rule exist, both rules must be true before an operation is allowed",
+      "rules are evaluated using roles. the role with the most permissions evaluates the rules first",
       "if more than one rules applies to a row, the older rule is evaluated first"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "if a row level rule and a field level rule exist, both rules must be true before an operation is allowed"
   },
   {
     "que": "Which one of the following describe the primary operations performed against tables in the service now platform?",
@@ -1769,8 +1765,8 @@
       "create, rate, update, delete",
       "create, read, write, delete"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "create, read, write, delete"
   },
   {
     "que": "what are advantages of using spokes for integration? Choose 3 answers?",
@@ -1781,22 +1777,19 @@
       "ensures discoverability and reuse",
       "automated event management"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,E",
+    "explaination": "free spokes are available in the ServiceNow store<br />reduces the need for code<br />automated event management"
   },
   {
     "que": "when looking at a long list of records, you want to quickly filter, to show only those which have short description containing email. how might you do that?",
     "opt": [
       "on search box, select text, type email, click enter",
-      "click list magnifier to expand column search, on short description, type email, click",
-      "enter",
-      "click list magnifier to expand column search, on short description, type %email, click",
-      "enter",
-      "click list magnifier to expand column search, on short description, type *email, click",
-      "enter"
+      "click list magnifier to expand column search, on short description, type email, click enter",
+      "click list magnifier to expand column search, on short description, type %email, click enter",
+      "click list magnifier to expand column search, on short description, type *email, click enter"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "click list magnifier to expand column search, on short description, type *email, click enter"
   },
   {
     "que": "a task worker asks how they can monitor any updates occurring to records assigned to him, like responses from customers. what do you suggest?",
@@ -1806,8 +1799,8 @@
       "open an agent workspace tab for each record he wants to monitor",
       "click on the eyeglass icon to expand the monitor frame"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "on my work list, select activity stream icon to show a frame with live updates"
   },
   {
     "que": "you have an existing customer, who is using work floors for their catalog item. Existing purchasing policies to require approval for any request that totals over $1000. However, management wants to change the approval threshold to $1500. which workflow would you update to make this change?",
@@ -1817,8 +1810,8 @@
       "service catalog request",
       "service catalog item request"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "service catalog request"
   },
   {
     "que": "after you create a new table, what is the best practice regarding the navigation pane? Choose 2 answers?",
@@ -1830,8 +1823,8 @@
       "Create module with the plural of the table label",
       "specify which roles are able to see the application menu"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,E",
+    "explaination": "create application menu with the same name as the table label<br />Create module with the plural of the table label"
   },
   {
     "que": "What Icon do you use to change the label on your favorite?",
@@ -1841,8 +1834,8 @@
       "Clock",
       "Pencil"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "D",
+    "explaination": "Pencil"
   },
   {
     "que": "What is the platform name for the group table?",
@@ -1852,8 +1845,8 @@
       "Sys_group",
       "Sys_groups"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B",
+    "explaination": "Sys_user_group"
   },
   {
     "que": "from a form, what would you Click to modify the order of the fields on the form? Choose 2 answers?",
@@ -1864,8 +1857,8 @@
       "context menu> form> layout",
       "right click on header> configure>UX dashboard"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,C",
+    "explaination": "context menu> configure> form layout<br />right click on header> configure> form design"
   },
   {
     "que": "On access control definitions, what are ways you can set the permissions on a table? Choose 3 answers?",
@@ -1876,8 +1869,8 @@
       "CRUD",
       "conditional expressions"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "B,C,E",
+    "explaination": "Roles<br />script that sets the answer variable to true or false<br />conditional expressions"
   },
   {
     "que": "What is used to determine user access to knowledge bases or a knowledge article?",
@@ -1887,8 +1880,8 @@
       "user criteria",
       "sn_kb_read, sn_article_read"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "C",
+    "explaination": "user criteria"
   },
   {
     "que": "What is the result of the order in which access controls are evaluated?",
@@ -1900,7 +1893,7 @@
       "Ensures user has access to a table, before evaluating access to a field in the table",
       "ensures user can get to work as quickly as possible."
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -1912,7 +1905,7 @@
       "UI Rule",
       "UI Script"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -1923,7 +1916,7 @@
       "Load data",
       "import data"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -1934,7 +1927,7 @@
       "dependency map",
       "database view"
     ],
-    "ans": "",
+    "ans": "B",
     "explaination": ""
   },
   {
@@ -1945,7 +1938,7 @@
       "Group[u_sys_group]",
       "Group[sn_sys_group]"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -1957,7 +1950,7 @@
       "Admin[sn_admin]",
       "Base admin[base_admin]"
     ],
-    "ans": "",
+    "ans": "B",
     "explaination": ""
   },
   {
@@ -1969,7 +1962,7 @@
       "Events",
       "Notifications"
     ],
-    "ans": "",
+    "ans": "E",
     "explaination": ""
   },
   {
@@ -1982,7 +1975,7 @@
       "now platform user interfaces",
       "agent Control Center"
     ],
-    "ans": "",
+    "ans": "B,C,E",
     "explaination": ""
   },
   {
@@ -1993,7 +1986,7 @@
       "the manager is not a member of the service desk group",
       "the manager does not have the ITIL role."
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2004,7 +1997,7 @@
       "click on context menu, select configure > form design",
       "right click on the form header, select configure > form layout"
     ],
-    "ans": "",
+    "ans": "C,D",
     "explaination": ""
   },
   {
@@ -2015,7 +2008,7 @@
       "a collection of permissions",
       "a set of access control rules"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2026,7 +2019,7 @@
       "import management",
       "import hub"
     ],
-    "ans": "",
+    "ans": "B",
     "explaination": ""
   },
   {
@@ -2040,7 +2033,7 @@
       "Cmdb",
       "Sn_cmdb"
     ],
-    "ans": "",
+    "ans": "C,E,F",
     "explaination": ""
   },
   {
@@ -2052,7 +2045,7 @@
       "Name: incident. *; Permission: write; role: itil",
       "Name: incident.Any; operation: write; Permission: itil"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2064,7 +2057,7 @@
       "plugin",
       "updated pack"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2077,7 +2070,7 @@
       "context menu > form > designer",
       "right click on header > configure > UX dashboard"
     ],
-    "ans": "",
+    "ans": "C,D",
     "explaination": ""
   },
   {
@@ -2088,7 +2081,7 @@
       "CMDB Use Case Modeler",
       "CI Use Case Modeler"
     ],
-    "ans": "",
+    "ans": "B",
     "explaination": ""
   },
   {
@@ -2099,7 +2092,7 @@
       "common service data model (CSDM)",
       "information technology service management (ITSM)"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2110,7 +2103,7 @@
       "create catalog item",
       "create order guide"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2122,7 +2115,7 @@
       "machine learning query",
       "predictive intelligence query"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2133,7 +2126,7 @@
       "submit default updates set to application repository",
       "merge default update sets before moving between instances"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2144,7 +2137,7 @@
       "many to many",
       "one to many"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2155,7 +2148,7 @@
       "UI settings",
       "UI config"
     ],
-    "ans": "",
+    "ans": "B",
     "explaination": ""
   },
   {
@@ -2166,7 +2159,7 @@
       "can read role",
       "User criteria"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2178,7 +2171,7 @@
       "one requested item can have many approvals",
       "one requested item can have many catalog tasks"
     ],
-    "ans": "",
+    "ans": "B,D,E",
     "explaination": ""
   },
   {
@@ -2189,7 +2182,7 @@
       "cake icon",
       "additional actions or context menu"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2201,7 +2194,7 @@
       "known intermittent issues with UI15",
       "user session has timed out"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2212,7 +2205,7 @@
       "agent assist",
       "connect agent"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2223,7 +2216,7 @@
       "Batch",
       "Verify"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2235,7 +2228,7 @@
       "Operator",
       "match criteria"
     ],
-    "ans": "",
+    "ans": "A,C,D",
     "explaination": ""
   },
   {
@@ -2246,7 +2239,7 @@
       "clear browser cache",
       "end impersonation"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2257,7 +2250,7 @@
       "choice",
       "picker"
     ],
-    "ans": "",
+    "ans": "C",
     "explaination": ""
   },
   {
@@ -2268,7 +2261,7 @@
       "field criteria policy",
       "data policy"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2279,7 +2272,7 @@
       "User[u_sys_user]",
       "User[s_user]"
     ],
-    "ans": "",
+    "ans": "A",
     "explaination": ""
   },
   {
@@ -2291,7 +2284,7 @@
       "system notification > email > notifications",
       "click gear > notifications > new"
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2302,7 +2295,7 @@
       "create one catalog item for event room setup; then publish to the parent catalogue, which is accessible to both HR and facilities.",
       "create one catalogue item for event room setup; then publish to both catalogs."
     ],
-    "ans": "",
+    "ans": "D",
     "explaination": ""
   },
   {
@@ -2313,8 +2306,8 @@
       "Setting a user and assignment group based on short description",
       "Setting an assignment group based on category and subcategory"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C,D",
+    "explaination": "Setting an assignment group and user based on category and subcategory<br />Setting a user based on category and subcategory<br />Setting a user and assignment group based on short description<br />Setting an assignment group based on category and subcategory"
   },
   {
     "que": "Which of the following are four ways team members can collaborate on tasks?",
@@ -2324,8 +2317,8 @@
       "Work notes",
       "Connect chat"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C,D",
+    "explaination": "User presence<br />Activity stream<br />Work notes<br />Connect chat"
   },
   {
     "que": "Which of the following are possible methods of populating a knowledge base with knowledge articles?",
@@ -2345,8 +2338,8 @@
       "add to dashboard",
       "schedule"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C,D,E",
+    "explaination": "publish<br />export to pdf<br />share<br />add to dashboard<br />schedule"
   },
   {
     "que": "What are some of the benefits of branding your instance?",
@@ -2355,80 +2348,79 @@
       "Accelerate adoption rates",
       "Create a shared identity"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A,B,C",
+    "explaination": "Gain user trust<br />Accelerate adoption rates<br />Create a shared identity"
   },
   {
     "que": "When using form designer, icons presented on each field include which of the following?",
     "opt": [
       "Edit, Remove, Handle icons"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Edit, Remove, Handle icons"
   },
   {
     "que": "Different form templates can be applied to a form by accessing what?",
     "opt": [
       "Template bar"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Template bar"
   },
   {
     "que": "When configuring an email notification, where can you choose field values from the record to include in the message?",
     "opt": [
       "Select variables"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Select variables"
   },
   {
     "que": "Which feature allows users to manage which notifications they receive about various activities occurring on the platform?",
     "opt": [
       "Subscriptions"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Subscriptions"
   },
   {
     "que": "Where can users set their notification subscription preferences?",
     "opt": [
       "System settings"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "System settings"
   },
   {
     "que": "What is the recommended way to share a report?",
     "opt": [
-      "Share the report",
-      "By default, a report is shared with: The report creator only"
+      "Share the report"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Share the report"
   },
   {
     "que": "Which feature allows end users to post questions and other questions?",
     "opt": [
       "Social Q&A"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Social Q&A"
   },
   {
     "que": "What item in the Knowledge Management Service Portal displays articles that have the highest percentage of users marking them helpful?",
     "opt": [
       "Most useful"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "Most useful"
   },
   {
     "que": "What is the best way to share a knowledge article with another user?",
     "opt": [
       "a permalink"
     ],
-    "ans": "",
-    "explaination": ""
+    "ans": "A",
+    "explaination": "a permalink"
   }
 ]
