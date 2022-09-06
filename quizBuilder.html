@@ -1,0 +1,98 @@
+<main class="px-3">
+    <div style="text-align: center;">
+      <h1>Quiz Builder</h1>
+    </div>
+    <br />
+    
+    
+    <div class="container">
+        
+        <div class="row">
+          <div class="col-8">
+            <h6>Que ID: {{displayQueID}}</h6>
+            <h6>Que:</h6>
+            <div text-angular="text-angular" name="htmlcontent" ng-model="htmlcontent" ta-disabled='disabled'></div>
+    
+            <h6>Options:</h6>
+            <div>
+                <span>A.&nbsp;&nbsp;&nbsp;&nbsp;</span><input placeholder="Option 1" style="width:90%; height:auto" type="text" ng-model="currentOptionA"></input>
+            </div>
+            <div>
+                <span>B.&nbsp;&nbsp;&nbsp;&nbsp;</span><input placeholder="Option 2" style="width: 90%; height:auto" type="text" ng-model="currentOptionB"></input>
+            </div>
+            
+            <div>
+                <span>C.&nbsp;&nbsp;&nbsp;&nbsp;</span><input placeholder="Option 3" style="width: 90%; height:auto" type="text" ng-model="currentOptionC"></input>
+            </div>
+            <div>
+                <span>D.&nbsp;&nbsp;&nbsp;&nbsp;</span><input placeholder="Option 4" style="width: 90%; height:auto" type="text" ng-model="currentOptionD"></input>
+            </div>
+
+            <h6>Explaination:</h6>
+            <div placeholder="Option 1" text-angular="text-angular" name="htmlcontentexplaination" ng-model="htmlcontentexplaination" ta-disabled='disabled'></div>
+          </div>
+          <div class="col-4">
+            
+            <h6>Que Output:</h6>
+            <div ta-bind="text" ng-model="htmlcontent" ta-readonly='disabled'></div>
+            <div>
+                <div>
+                    <span>A.&nbsp;&nbsp;</span> {{currentOptionA}}
+                </div>
+                <div>
+                    <span>B.&nbsp;&nbsp;</span> {{currentOptionB}}
+                </div>
+                <div>
+                    <span>C.&nbsp;&nbsp;</span> {{currentOptionC}}
+                </div>
+                <div>
+                    <span>D.&nbsp;&nbsp;</span> {{currentOptionD}}
+                </div>
+            </div>
+            <h6>Explaination Output:</h6>
+            <div ta-bind="text" ng-model="htmlcontentexplaination" ta-readonly='disabled'></div>
+
+            <hr />
+            <button ng-click="addToQuiz()" class="btn btn-info" style="padding-left: 2%; padding-right:2%;" type="button">Add to Quiz</button>
+
+            <hr />
+            <h6>Que HTML:</h6>
+            <textarea ng-model="htmlcontent" style="width: 100%; height:auto;"></textarea>
+            <hr />
+            <h6>Explaination HTML:</h6>
+            <textarea ng-model="htmlcontentexplaination" style="width: 100%; height:auto"></textarea>
+           
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <h6>Quiz ID</h6>
+                    <input type="number" ng-model="quizID" style="height: auto;" min="1"/>
+                    
+                    <h6>Quiz Title</h6>
+                    <input type="text" ng-model="quizTitle" style="width: 50%; height: auto;"/>
+                            
+                    <h6>Quiz Description</h6>
+                    <input type="text" ng-model="quizDescription" style="width: 50%; height: auto;"/>
+                </div> 
+                <button ng-click="addQuizInfo()" type="button" class="btn btn-info">Add Quiz Info</button>
+                <hr />
+                <button style="display:block; margin-left:auto; margin-right: 0;" class="btn" ngclipboard data-clipboard-action="cut" data-clipboard-target="#quizObject">
+                    Copy to clipboard
+                </button>
+                
+                <pre style="width: 100%; height: auto" id="quizObject">{{quizTemplate}}</pre>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    
+</main>
+    

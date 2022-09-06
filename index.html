@@ -15,6 +15,14 @@
 <link data-require="bootstrap-css@2.3.2" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
 <link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet'>
     <style>
+      .ta-editor {
+  min-height: 300px;
+  height: auto;
+  overflow: auto;
+  font-family: inherit;
+  font-size: 100%;
+}
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -99,12 +107,18 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js" integrity="sha512-Verh3o2plvhEbk/ct46ThMyRkWOeokouYUg2N8BH6DYphkBhespORMmgTg7MuNBbYKZ1zzit+44K6lzXVcMBmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/textAngular/1.1.2/textAngular.min.js'></script>
+            <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ngclipboard/2.0.0/ngclipboard.min.js" integrity="sha512-7fOkUplsLgVIEGH1a+XVqxbzpKSzscbjMLMMOLC4jJLVueemmpu+z+wKh5dHR3Nhna/KMBuHp2E4vzGQ9wqNnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
             <script>
               
               var app = angular.module( 'being-fluid', [
     "ngSanitize",
     "ngRoute",
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'textAngular',
+    'ngclipboard'
 ] );
 
 app.config( RoutesConfig );
@@ -126,14 +140,17 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/ucsanew1', {
         templateUrl: 'ucsanew1.html',
         controller: 'QuizController'
+    } ).when( '/itilnew1', {
+        templateUrl: 'itilnew1.html',
+        controller: 'ITILNewQuizController'
+    } ).when( '/quizBuilder', {
+        templateUrl: 'quizBuilder.html',
+        controller: 'quizBuilderController'
     } ).otherwise( {
         redirectTo:"/toc"
     });
 
-    // .when( '/ucsa2', {
-    //     templateUrl: 'ucsa2.html',
-    //     controller: 'UCSA2Controller'
-    // } ).when( '/ucsa3', {
+    // .when( '/ucsa3', {
     //     templateUrl: 'ucsa3.html',
     //     controller: 'UCSA3Controller'
     // } )
@@ -157,6 +174,100 @@ app.controller( "TOCController", TOCController );
 TOCController.$inject = [];
 function TOCController() {
 }
+
+
+app.controller( "quizBuilderController", quizBuilderController );
+quizBuilderController.$inject = ["$scope","$window"];
+function quizBuilderController($scope,$window) {
+
+		$scope.disabled = false;
+
+    $scope.quizTemplateArray=[];
+    $scope.displayQueID=$scope.quizTemplateArray.length+1;
+    $scope.quizTemplateObject={
+        "quiz": {
+          "Id": 0,
+          "name": "",
+          "description": ""
+        },
+        "questions": []
+    };
+  
+    $scope.addQuizInfo=function(){
+      $scope.quizTemplateObject["quiz"]["Id"]=$scope.quizID;
+      $scope.quizTemplateObject["quiz"]["name"]=$scope.quizTitle;
+      $scope.quizTemplateObject["quiz"]["description"]=$scope.quizDescription;
+      $scope.quizTemplate=JSON.stringify( $scope.quizTemplateObject,null,4);
+    }
+
+    $scope.addToQuiz=function(){
+
+        var newQue={
+          "QuestionType": {
+          "Id": 1,
+          "Name": "Multiple Choice",
+          "IsActive": true
+        },
+        "QuestionTypeId":1
+      };
+
+      var newQueID=$scope.displayQueID;
+      $scope.displayQueID++;
+      
+      newQue["Id"]=newQueID;
+      newQue["Name"]=$scope.htmlcontent;
+
+      $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replace("<b>Correct</b>", "<b style=\"color:green;\">Correct</b>");
+      $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replace("<b>Incorrect</b>", "<b style=\"color:red;\">Incorrect</b>");
+
+      newQue["explaination"]=$scope.htmlcontentexplaination;
+
+      newQue["Options"]= [
+        {
+          "Id": 1,
+          "QuestionId": newQueID,
+          "Name": $scope.currentOptionA,
+          "IsAnswer": false
+        },
+        {
+          "Id": 2,
+          "QuestionId": newQueID,
+          "Name": $scope.currentOptionB,
+          "IsAnswer": false
+        },
+        {
+          "Id": 3,
+          "QuestionId": newQueID,
+          "Name": $scope.currentOptionC,
+          "IsAnswer": false
+        },
+        {
+          "Id": 4,
+          "QuestionId": newQueID,
+          "Name": $scope.currentOptionD,
+          "IsAnswer": false
+        }
+      ];
+
+
+      $scope.quizTemplateArray.push(newQue);
+
+      $scope.quizTemplateObject.questions=$scope.quizTemplateArray;
+
+      $scope.quizTemplate=JSON.stringify( $scope.quizTemplateObject,null,4);
+      // console.log($scope.quizTemplateArray);
+      $scope.htmlcontent='';
+      $scope.htmlcontentexplaination='';
+      $scope.currentOptionA='';
+      $scope.currentOptionB='';
+      $scope.currentOptionC='';
+      $scope.currentOptionD='';
+
+      $window.alert("Question has been added to Quiz!");
+
+    }
+}
+
 
 app.controller( "ITILController", ITILController );
 ITILController.$inject = ["$scope","$http"];
@@ -214,6 +325,41 @@ function QuizController( $scope, $http ) {
 
     } ); 
 }
+
+app.controller( 'ITILNewQuizController',  ITILNewQuizController);
+ITILNewQuizController.$inject = [ '$scope', '$http' ];
+function ITILNewQuizController( $scope, $http ) {
+
+    $http.get( "itilnew1.json" ).then( function ( response ) {
+        var itemsDetails = response.data;
+        $scope.quizTitleFrontEnd=itemsDetails["quiz"]["name"];
+        $scope.quizDescrFrontEnd=itemsDetails["quiz"]["description"];
+ 
+        $scope.curPage = 1;
+        $scope.itemsPerPage = 1;
+        $scope.maxSize = 5;
+        $scope.showAnswerTrue = false;
+        $scope.totalQuestions = itemsDetails.questions.length;
+
+        $scope.numOfPages = function () {
+            return Math.ceil( itemsDetails.questions.length / $scope.itemsPerPage );
+        };
+
+        $scope.$watch( 'curPage + numPerPage', function () {
+            $scope.showAnswerTrue = false;
+            var begin = ( ( $scope.curPage - 1 ) * $scope.itemsPerPage ),
+                end = begin + $scope.itemsPerPage;
+            $scope.filteredItems = itemsDetails.questions.slice( begin, end );
+        } );
+        
+        $scope.showAnswer = function () {
+            $scope.showAnswerTrue = true;
+            $scope.filteredItems = itemsDetails.questions;
+        };
+
+    } ); 
+}
+
 
 
 app.controller( "UCSA2Controller", UCSA2Controller );

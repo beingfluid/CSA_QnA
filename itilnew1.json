@@ -1,0 +1,83 @@
+{
+  "quiz": {
+      "Id": 3,
+      "name": "ITIL 4: Foundation",
+      "description": "Practice Set 3"
+  },
+  "questions": [
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 1,
+          "Name": "What is the effect of increased automation on the 'service desk' practice?",
+          "explaination": "A. <b style=\"color:green;\">Correct</b>. \"With increased automation… The impact on service desks is reduced\nphone contact, less low-level work, and a greater ability to focus on excellent CX\nwhen personal contact is needed\". Ref 5.2.14&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. The effect of automation is to increase self-service, not to decrease it.\n\"With increased automation, AI, robotic process automation (RPA), and chatbots,\nservice desks are moving to provide more self-service logging and resolution\ndirectly via online portals and mobile applications\". Ref 5.2.14&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. The opposite is true. \"With increased automation and the gradual\nremoval of technical debt, the focus of the service desk is to provide support for\n‘people and business’ rather than simply technical issues\". Ref 5.2.14&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The use of automation will not eliminate the need to escalate incidents.\n\"A key point to be understood is that, no matter how efficient the service desk and\nits people are, there will always be issues that need escalation and underpinning\nsupport from other teams\". Ref 5.2.14</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 1,
+                  "Name": "Greater ability to focus on customer experience when personal contact is needed",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 1,
+                  "Name": "Decrease in self-service incident logging and resolution",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 1,
+                  "Name": "Increased ability to focus on fixing technology instead of supporting people",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 1,
+                  "Name": "Elimination of the need to escalate incidents to support teams",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 2,
+          "Name": "Which term describes the functionality offered by a service?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Cost is \"The amount of money spent on a specific activity or resource.\"\nRef 2.5.2&nbsp;<div>B. <b style=\"color:green;\">Correct</b>. Utility is \"The functionality offered by a product or service.\" Ref 2.5.4&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Warranty is \"Assurance that a product or service will meet agreed\nrequirements\". Ref 2.5.4&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. A risk is \"A possible event that could cause harm or loss, or make it\nmore difficult to achieve objectives\". Ref 2.5.3</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 2,
+                  "Name": "Cost",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 2,
+                  "Name": "Utility",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 2,
+                  "Name": "Warranty",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 2,
+                  "Name": "Risk",
+                  "IsAnswer": false
+              }
+          ]
+      }
+  ]
+}
