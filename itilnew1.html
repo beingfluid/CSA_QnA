@@ -1,25 +1,33 @@
  <main class="px-3">
-    <div style="text-align: center;">
-        <h1>{{quizTitleFrontEnd}}</h1>
-        <h3>( {{quizDescrFrontEnd}} )</h3>
-        <h6 style="color: #a30101">This project is still in build state, I am working on it!</h6>
-      </div>
-            <br />
-          
+    <div class="container">
+        <div class="row">
+            <div class="col-12" style="text-align: center;">
+                <h1>{{quizTitleFrontEnd}}</h1>
+                <h3>( {{quizDescrFrontEnd}} )</h3>
+                <h6 style="color: #a30101">This project is still in build state, I am working on it!</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
                 <label ng-show="!showAnswerTrue" >Current Que: </label><input ng-show="!showAnswerTrue" type="number" min="1" max="totalQuestions" ng-model="curPage" /><span ng-show="!showAnswerTrue" style="text-align: center;vertical-align: top;"> of {{totalQuestions}}</span>
-                <!-- <div ng-show="!showAnswerTrue" style="padding:1%" class="label label-info">Question {{curPage}} of {{totalQuestions}}:</div> -->
                 <hr />
-            <div  class="container py-5 h-100" ng-repeat="itilQue in filteredItems">
-                
+            </div>
+        </div>
 
+                
+        <div class="row">        
+                <div class="col-12" ng-show="review!=true">
+                    
+            <div ng-repeat="itilQue in filteredItems">
+                
                         <div class="shadow-1-strong" style="font-weight: bold; color: rgb(255, 0, 132)">
-                            <p>Que. <span ng-show="!showAnswerTrue">{{curPage}}) </span><span ta-bind="text" ng-model="itilQue['Name']" ta-readonly='disabled'></span></p>
+                            <p>Que. {{itilQue["Id"]}}) <span ta-bind="text" ng-model="itilQue['Name']" ta-readonly='disabled'></span></p>
                         </div>
                         <ol type="A">
                             <div ng-repeat="option in itilQue['Options']">
 
                                 <label for="{{option.Id}}"></label>
-                                    <input id="{{option.Id}}" type="checkbox" ng-model="option.Selected" ng-change="onSelect(question, option);" />
+                                    <input id="{{option.Id}}" type="checkbox" ng-model="option.Selected" ng-change="onSelect(itilQue, option);" ng-disabled="quizSubmitted"/>
                                     <li style="display:inline-block; vertical-align: middle;">{{option.Name}}</li></label>
                             </div>
                             
@@ -30,8 +38,12 @@
                         
                         
                         <!-- <footer> -->
+                        <footer ng-show="showAnswerTrue" class="alert {{ isCorrect(itilQue) == 'You got it right!'? 'alert-success': 'alert-danger'}}">
+                            {{isCorrect(itilQue)}}
+                        </footer>
                         <footer ng-show="showAnswerTrue">
                             <div style="color: rgb(63, 9, 225);" ta-bind="text" ng-model="itilQue['explaination']" ta-readonly='disabled'></div>     
+                            <hr />
                         </footer>
                     
             </div>
@@ -48,12 +60,29 @@
                     last-text="»"
                 >
                 </div>
-                <div ng-show="!showAnswerTrue" style="display: flex; align-items: center; justify-content: center;">
-                    <input type="submit" class="btn btn-info btn-sm" value="Submit" ng-click="showAnswer()" />
-                </div>
+           
                 <div ng-show="showAnswerTrue" style="display: flex; align-items: center; justify-content: center;">
                     <h6 style="color: green;">You may close this window now.</h6>
                 </div>
-           
+            </div>
+        <!-- Review block -->
+        <div ng-show="review==true" class="col-12">  
+            <span ng-repeat="question in questionsList">
+                <span style="display: inline-block;" ng-click="goTo($index + 1)" class="{{ isAnswered($index) == 'Answered'? 'answered': 'not-answered' }}">{{$index + 1}}. {{ isAnswered($index) }}</span>
+            </span>
+              
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div ng-show="!showAnswerTrue" style="display: flex; align-items: center; justify-content: center;">
+                <input style="margin:10px;" type="submit" class="btn btn-info btn-sm" value="Review" ng-click="review=true" ng-show="review!=true"/>
+                <input style="margin:10px;" type="submit" class="btn btn-info btn-sm" value="Hide Review" ng-click="review=false" ng-show="review==true"/>
+                <input style="margin:10px;" type="submit" class="btn btn-info btn-sm" value="Submit" ng-click="showAnswer()" />
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
         </div>
 </main>

@@ -73,6 +73,20 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .answered {
+          background-color:#ccffcc;
+          border:1px solid #aaeeaa;
+          padding:12px;
+          margin: 10px;
+      }
+
+      .not-answered {
+          background-color:#ffcccc;
+          border:1px solid #eeaaaa;
+          padding:12px;
+          margin: 10px;
+      }
       
     </style>
 
@@ -331,10 +345,15 @@ ITILNewQuizController.$inject = [ '$scope', '$http' ];
 function ITILNewQuizController( $scope, $http ) {
 
     $http.get( "itilnew1.json" ).then( function ( response ) {
+      $scope.review=false;
+      $scope.quizSubmitted=false;
+
         var itemsDetails = response.data;
         $scope.quizTitleFrontEnd=itemsDetails["quiz"]["name"];
         $scope.quizDescrFrontEnd=itemsDetails["quiz"]["description"];
  
+        $scope.questionsList = itemsDetails.questions;
+
         $scope.curPage = 1;
         $scope.itemsPerPage = 1;
         $scope.maxSize = 5;
@@ -355,7 +374,57 @@ function ITILNewQuizController( $scope, $http ) {
         $scope.showAnswer = function () {
             $scope.showAnswerTrue = true;
             $scope.filteredItems = itemsDetails.questions;
+            $scope.review=false;
+            $scope.quizSubmitted=true;
         };
+
+        $scope.onSelect = function ( question, option ) {
+            if ( question.QuestionTypeId == 1 ) {
+                question.Options.forEach( function ( element) {
+                    if ( element.Id != option.Id ) {
+                        element.Selected = false;
+                    }
+                } );
+            }
+        };
+
+      $scope.toBool = function (val) {
+        if (val == 'undefined' || val == null || val == '' || val == 'false' || val == 'False')
+            return false;
+        else if (val == true || val == 'true' || val == 'True')
+            return true;
+        else
+            return 'unidentified';
+      };
+      $scope.isCorrect = function ( question ) {
+          var result = 'You got it right!';
+          question.Options.forEach( function ( option) {
+              if ( $scope.toBool( option.Selected ) != option.IsAnswer ) {
+                  result = 'Sorry, that\'s not quite right!';
+                  return false;
+              }
+          } );
+          return result;
+      };
+
+    $scope.isAnswered = function ( index ) {
+        var answered = 'Not Answered';
+        $scope.questionsList[ index ].Options.forEach( function ( element ) {
+            if ( element.Selected == true ) {
+                answered = 'Answered';
+                return false;
+            }
+        } );
+        return answered;
+    };
+
+     $scope.goTo = function ( index ) {
+        if ( index > 0 && index <= $scope.totalQuestions ) {
+            $scope.curPage = index;
+            $scope.review=false;
+        }
+    };
+
 
     } ); 
 }

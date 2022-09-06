@@ -20,7 +20,7 @@
                   "Id": 1,
                   "QuestionId": 1,
                   "Name": "Greater ability to focus on customer experience when personal contact is needed",
-                  "IsAnswer": false
+                  "IsAnswer": true
               },
               {
                   "Id": 2,
@@ -63,7 +63,7 @@
                   "Id": 2,
                   "QuestionId": 2,
                   "Name": "Utility",
-                  "IsAnswer": false
+                  "IsAnswer": true
               },
               {
                   "Id": 3,
