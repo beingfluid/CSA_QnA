@@ -28,6 +28,17 @@
                 <span>D.&nbsp;&nbsp;&nbsp;&nbsp;</span><input placeholder="Option 4" style="width: 90%; height:auto" type="text" ng-model="currentOptionD"></input>
             </div>
 
+            <h6>Answer:</h6>
+            <div>
+                <select name="singleSelect" ng-model="singleSelect">
+                    <option value="">Select the correct answer</option>
+                    <option value="A">A. {{currentOptionA}}</option>
+                    <option value="B">B. {{currentOptionB}}</option>
+                    <option value="C">C. {{currentOptionC}}</option>
+                    <option value="D">D. {{currentOptionD}}</option>
+                  </select>
+            </div>
+
             <h6>Explaination:</h6>
             <div placeholder="Option 1" text-angular="text-angular" name="htmlcontentexplaination" ng-model="htmlcontentexplaination" ta-disabled='disabled'></div>
           </div>

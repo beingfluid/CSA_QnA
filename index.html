@@ -231,8 +231,11 @@ function quizBuilderController($scope,$window) {
       newQue["Id"]=newQueID;
       newQue["Name"]=$scope.htmlcontent;
 
-      $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Correct</b>", "<b style=\"color:green;\">Correct</b>");
-      $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Incorrect</b>", "<b style=\"color:red;\">Incorrect</b>");
+      if($scope.htmlcontentexplainatio){
+        $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Correct</b>", "<b style=\"color:green;\">Correct</b>");
+        $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Incorrect</b>", "<b style=\"color:red;\">Incorrect</b>");
+      }
+      
 
       newQue["explaination"]=$scope.htmlcontentexplaination;
 
@@ -263,6 +266,16 @@ function quizBuilderController($scope,$window) {
         }
       ];
 
+      if($scope.singleSelect=='A'){
+        newQue["Options"][0]["IsAnswer"]=true;
+      }else if($scope.singleSelect=='B'){
+        newQue["Options"][1]["IsAnswer"]=true;
+      }else if($scope.singleSelect=='C'){
+        newQue["Options"][2]["IsAnswer"]=true;
+      }else if($scope.singleSelect=='D'){
+        newQue["Options"][3]["IsAnswer"]=true;
+      }
+
 
       $scope.quizTemplateArray.push(newQue);
 
@@ -276,6 +289,7 @@ function quizBuilderController($scope,$window) {
       $scope.currentOptionB='';
       $scope.currentOptionC='';
       $scope.currentOptionD='';
+      $scope.singleSelect='';
 
       $window.alert("Question has been added to Quiz!");
 
