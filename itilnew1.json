@@ -14,7 +14,7 @@
           "QuestionTypeId": 1,
           "Id": 1,
           "Name": "What is the effect of increased automation on the 'service desk' practice?",
-          "explaination": "A. <b style=\"color:green;\">Correct</b>. \"With increased automation… The impact on service desks is reduced\nphone contact, less low-level work, and a greater ability to focus on excellent CX\nwhen personal contact is needed\".&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. The effect of automation is to increase self-service, not to decrease it.\n\"With increased automation, AI, robotic process automation (RPA), and chatbots,\nservice desks are moving to provide more self-service logging and resolution\ndirectly via online portals and mobile applications\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. The opposite is true. \"With increased automation and the gradual\nremoval of technical debt, the focus of the service desk is to provide support for\n‘people and business’ rather than simply technical issues\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The use of automation will not eliminate the need to escalate incidents.\n\"A key point to be understood is that, no matter how efficient the service desk and\nits people are, there will always be issues that need escalation and underpinning\nsupport from other teams\".</div>",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"With increased automation… The impact on service desks is reduced\nphone contact, less low-level work, and a greater ability to focus on excellent CX\nwhen personal contact is needed\".&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. The effect of automation is to increase self-service, not to decrease it.\n\"With increased automation, AI, robotic process automation (RPA), and chatbots,\nservice desks are moving to provide more self-service logging and resolution\ndirectly via online portals and mobile applications\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. The opposite is true. \"With increased automation and the gradual\nremoval of technical debt, the focus of the service desk is to provide support for\n‘people and business’ rather than simply technical issues\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The use of automation will not eliminate the need to escalate incidents.\n\"A key point to be understood is that, no matter how efficient the service desk and\nits people are, there will always be issues that need escalation and underpinning\nsupport from other teams\".&nbsp;</div>",
           "Options": [
               {
                   "Id": 1,
@@ -51,7 +51,7 @@
           "QuestionTypeId": 1,
           "Id": 2,
           "Name": "Which term describes the functionality offered by a service?",
-          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Cost is \"The amount of money spent on a specific activity or resource.\"\n&nbsp;<div>B. <b style=\"color:green;\">Correct</b>. Utility is \"The functionality offered by a product or service.\" &nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Warranty is \"Assurance that a product or service will meet agreed\nrequirements\". &nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. A risk is \"A possible event that could cause harm or loss, or make it\nmore difficult to achieve objectives\". </div>",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Cost is \"The amount of money spent on a specific activity or resource.\"&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. Utility is \"The functionality offered by a product or service.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Warranty is \"Assurance that a product or service will meet agreed\nrequirements\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. A risk is \"A possible event that could cause harm or loss, or make it\nmore difficult to achieve objectives\".&nbsp;</div>",
           "Options": [
               {
                   "Id": 1,
@@ -75,6 +75,1412 @@
                   "Id": 4,
                   "QuestionId": 2,
                   "Name": "Risk",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 3,
+          "Name": "Which is the purpose of the 'monitoring and event management' practice?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the service configuration management practice is to\nensure that accurate and reliable information about the configuration of services,\nand the CIs that support them, is available when and where it is needed\".&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. \"The purpose of the monitoring and event management practice is to\nsystematically observe services and service components, and record and report\nselected changes of state identified as events\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the information security management practice is to\nprotect the information needed by the organization to conduct its business\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the incident management practice is to minimize the\nnegative impact of incidents by restoring normal service operation as quickly as\npossible\".</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 3,
+                  "Name": "To ensure that accurate and reliable information about the configuration of services is available when and where it is needed",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 3,
+                  "Name": "To systematically observe services and service components, and record and report selected changes of state",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 3,
+                  "Name": "To protect the information needed by the organization to conduct its business",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 3,
+                  "Name": "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 4,
+          "Name": "What should all 'continual improvement' decisions be based on?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. How services are measured is important, however only accurate data\ncan drive fact-based decisions for improvement.&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. \"Accurate data, carefully analyzed and understood, is the foundation of\nfact-based decision-making for improvement.\" The 'continual improvement' practice\nshould be supported by relevant data sources and by skilled data analytics to\nensure that each potential improvement situation is sufficiently understood.</div><div>C. <b style=\"color:red;\">Incorrect</b>. A balanced scorecard is one input to making a decision, but on its own\nit does not serve as the foundation for fact-based decisions.&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. Maturity assessments are useful but they provide only one piece of\ninformation, as opposed to providing the foundations for decision-making in the\ncontinual improvement practice. Ref 5.1.2</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 4,
+                  "Name": "Details of how services are measured",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 4,
+                  "Name": "Accurate and carefully analyzed data",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 4,
+                  "Name": "An up-to-date balanced scorecard",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 4,
+                  "Name": "A recent maturity assessment",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 5,
+          "Name": "How do all value chain activities transform inputs to outputs?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Demand is the input to the service value chain. Value chain activities\n\"represent the steps an organization takes in the creation of value. Each activity\ncontributes to the value chain by transforming specific inputs into outputs.\"&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. \"To convert inputs into outputs, the value chain activities use different\ncombinations of ITIL practices.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. It uses various resources from different practices when needed. \"To\nconvert inputs into outputs, the value chain activities use different combinations of\nITIL practices (sets of resources for performing certain types of work), drawing on\ninternal or third-party resources, processes, skills, and competencies as required.”&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The 'optimize and automate' guiding principle recommends that\nactivities should be automated where this is practical but the service value chain\ndoes not require automation. \"Technology should not always be relied upon without\nthe capability of human intervention, as automation for automation's sake can\nincrease costs and reduce organizational robustness and resilience.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 5,
+                  "Name": "By determining service demand",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 5,
+                  "Name": "By using a combination of practices",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 5,
+                  "Name": "By using a single functional team",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 5,
+                  "Name": "By implementing process automation",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 6,
+          "Name": "How does customer engagement contribute to the 'service level management' practice?&nbsp;<div><ol><li>It captures information that metrics can be based on&nbsp;</li><li><span style=\"font-family: inherit;\">It ensures the organization meets defined service levels&nbsp;</span></li><li><span style=\"font-family: inherit;\">It defines the workflows for service requests&nbsp;</span></li><li><span style=\"font-family: inherit;\">It supports progress discussions&nbsp;</span></li></ol></div>",
+          "explaination": "D.  <b style=\"color:green;\">Correct</b>.&nbsp;<div>(1) (4) \"Customer engagement: This involves initial listening, discovery, and\ninformation capture on which to base metrics, measurement, and ongoing progress\ndiscussions.\"&nbsp;</div><div><br><div>A, B, C. <b style=\"color:red;\">Incorrect</b>.&nbsp;</div><div>(2) Service level management \"ensures the organization meets the defined service\nlevels through the collection, analysis, storage, and reporting of the relevant\nmetrics for the identified services,\" not just through customer engagement.&nbsp;</div><div>(3) It may define the requirements for service requests but defining the workflow is\npart of ‘service request management’. \"When new service requests need to be\nadded to the service catalogue, existing workflow models should be leveraged\nwhenever possible.\"&nbsp;</div></div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 6,
+                  "Name": "1 and 2",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 6,
+                  "Name": "2 and 3",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 6,
+                  "Name": "3 and 4",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 6,
+                  "Name": "1 and 4",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 7,
+          "Name": "What is the starting point for optimization?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. This is step 4 of the principle 'optimize and automate': \"Ensure the\noptimization has the appropriate level of stakeholder engagement and commitment.\"&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. The first step of the principle 'optimize and automate' is: \"Understand\nand agree the context in which the proposed optimization exists. This includes\nagreeing the overall vision and objectives of the organization.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. This is step 2 of the principle 'optimize and automate': \"Assess the\ncurrent state of the proposed optimization. This will help to understand where it can\nbe improved and which improvement opportunities are likely to produce the biggest\npositive impact.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. This is step 3 of the principle 'optimize and automate': \"Agree what the\nfuture state and priorities of the organization should be, focusing on simplification\nand value. This typically also includes standardization of practices and services,\nwhich will make it easier to automate or optimize further at a later point.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 7,
+                  "Name": "Securing stakeholder engagement",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 7,
+                  "Name": "Understanding the vision and objectives of the organization",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 7,
+                  "Name": "Determining where the most positive impact would be",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 7,
+                  "Name": "Standardizing practices and services",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 8,
+          "Name": "Identify the missing words in the following sentence.&nbsp;<div><br></div><div>The purpose of the [?] is to ensure that the organization continually co-creates value with all\nstakeholders in line with the organization's objectives.</div>",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. The 'focus on value' guiding principle guides an organization to\nconsider the needs of the service consumer. It cannot ensure that the organization\ncontinually co-creates value with all stakeholders.&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. The four dimensions \"represent perspectives which are relevant to the\nwhole SVS, including the entirety of the service value chain and all ITIL practices.\"\nThey do not ensure that the organization continually co-creates value with all\nstakeholders.&nbsp;</div><div>C.  <b style=\"color:green;\">Correct</b>. \"The purpose of the SVS is to ensure that the organization continually\nco-creates value with all stakeholders through the use and management of products\nand services.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The purpose of the 'service request management' practice is to\n\"support the agreed quality of a service by handling all pre-defined, user-initiated\nservice requests in an effective and user-friendly manner.\" It doesn't ensure that the\norganization continually co-creates value with all stakeholders.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 8,
+                  "Name": "‘focus on value’ guiding principle",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 8,
+                  "Name": "four dimensions of service management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 8,
+                  "Name": "service value system",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 8,
+                  "Name": "‘service request management’ practice",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 9,
+          "Name": "Which practice provides support for managing feedback, compliments and complaints from\nusers?&nbsp;",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the change enablement practice is to maximize the\nnumber of successful service and product changes by ensuring that risks have been\nproperly assessed, authorizing changes to proceed, and managing the change\nschedule.”<div>B.  <b style=\"color:green;\">Correct</b>. \"The purpose of the service request management practice is to support\nthe agreed quality of a service by handling all pre-defined, user-initiated service\nrequests in an effective and user-friendly manner,\" and \"Each service request may\ninclude one or more of the following: ... feedback, compliments, and complaints (for\nexample, complaints about a new interface or compliments to a support team).\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the problem management practice is to reduce the\nlikelihood and impact of incidents by identifying actual and potential causes of\nincidents, and managing workarounds and known errors.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the incident management practice is to minimize the\nnegative impact of incidents by restoring normal service operation as quickly as\npossible.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 9,
+                  "Name": "Change enablement",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 9,
+                  "Name": "Service request management",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 9,
+                  "Name": "Problem management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 9,
+                  "Name": "Incident management",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 10,
+          "Name": "Which joint activity performed by a service provider and service consumer ensures continual\nvalue co-creation?&nbsp;",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Service provision is not a joint activity; it is performed by a service\nprovider.&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. Service consumption is not a joint activity; it is performed by a service\nconsumer.&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Service offering is not an activity; it is \"A description of one or more\nservices, designed to address the needs of a target consumer group. A service\noffering may include goods, access to resources, and service actions\".&nbsp;</div><div>D.  <b style=\"color:green;\">Correct</b>. Service relationship management is \"Joint activities performed by a\nservice provider and a service consumer to ensure continual value co-creation\nbased on agreed and available service offerings\".</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 10,
+                  "Name": "Service provision",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 10,
+                  "Name": "Service consumption",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 10,
+                  "Name": "Service offering",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 10,
+                  "Name": "Service relationship management",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 11,
+          "Name": "Which practice may involve the initiation of disaster recovery?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"In some extreme cases, disaster recovery plans may be invoked to\nresolve an incident.\"&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. \"Service requests are a normal part of service delivery and are not a\nfailure or degradation of service, which are handled as incidents.\"&nbsp;<div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the service level management practice is to set clear\nbusiness-based targets for service levels, and to ensure that delivery of services is\nproperly assessed, monitored, and managed against these targets.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the IT asset management practice is to plan and\nmanage the full lifecycle of all IT assets.\" Asset management \"includes the\nacquisition, operation, care and disposal of organizational assets.\"</div></div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 11,
+                  "Name": "Incident management",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 11,
+                  "Name": "Service request management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 11,
+                  "Name": "Service level management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 11,
+                  "Name": "IT asset management",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 12,
+          "Name": "What type of change is MOST likely to be managed by the 'service request management'\npractice?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"Normal changes: These are changes that need to be scheduled,\nassessed, and authorized\". This is supported by the ‘change enablement’ practice,\nnot by 'service request management'.&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. \"As far as possible, emergency changes should be subject to the same\ntesting, assessment, and authorization as normal changes.\" This is supported by the\n‘change enablement’ practice, not by 'service request management'.&nbsp;</div><div>C.  <b style=\"color:green;\">Correct</b>. \"Fulfilment of service requests may include changes to services or their\ncomponents; usually these are standard changes.\" and \"Standard changes: These\nare low-risk, pre-authorized changes that are well understood and fully documented,\nand can be implemented without needing additional authorization. They are often\ninitiated as service requests\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The scope of change enablement is defined by each organization. It\nwill typically include all IT infrastructure, applications, documentation, processes\".\nSome application changes may be managed as standard changes, but others will\nbe normal or emergency changes and will be supported by the 'change enablement'\npractice.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 12,
+                  "Name": "A normal change",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 12,
+                  "Name": "An emergency change",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 12,
+                  "Name": "A standard change",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 12,
+                  "Name": "An application change",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 13,
+          "Name": "Which guiding principle emphasizes the need to understand the flow of work in progress, identify\nbottlenecks, and uncover waste?&nbsp;",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. 'Focus on value' states that all improvement work should deliver\nmeasurable value for customers and other stakeholders, but it does not specifically\nhighlight the need to understand the flow of work, identify bottlenecks, and uncover\nwaste.&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. ‘Collaborate and promote’ visibility states \"Insufficient visibility of work\nleads to poor decision-making, which in turn impacts the organization’s ability to\nimprove internal capabilities. It will then become difficult to drive improvements as it\nwill not be clear which ones are likely to have the greatest positive impact on results.\nTo avoid this, the organization needs to perform such critical analysis activities as:\nunderstanding the flow of work in progress; identifying bottlenecks, as well as\nexcess capacity; and uncovering waste\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. 'Think and work holistically' states that the organization should work in\nan integrated way on the whole, not just on the parts, but it does not specifically\nhighlight the need to understand the flow of work, identify bottlenecks, and uncover\nwaste.&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. 'Keep it simple and practical' states that the organization should use\nthe minimum number of steps, and eliminate steps that produce no useful outcome.\nThis does imply that you should uncover waste, but it does not specifically highlight\nthe need to understand the flow of work and identify bottlenecks.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 13,
+                  "Name": "Focus on value",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 13,
+                  "Name": "Collaborate and promote visibility",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 13,
+                  "Name": "Think and work holistically",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 13,
+                  "Name": "Keep it simple and practical",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 14,
+          "Name": "What is a means of enabling value co-creation by facilitating outcomes that customers want to\nachieve?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. A service is \"A means of enabling value co-creation by facilitating\noutcomes that customers want to achieve, without the customer having to manage\nspecific costs and risks.\"<div>B. <b style=\"color:red;\">Incorrect</b>. An output is \"A tangible or intangible deliverable of an activity.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. Practices are \"Sets of organizational resources designed for performing\nwork or accomplishing an objective.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. 'Continual improvement' is a practice \"to align the organization’s\npractices and services with changing business needs.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 14,
+                  "Name": "A service",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 14,
+                  "Name": "An output",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 14,
+                  "Name": "A practice",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 14,
+                  "Name": "Continual improvement",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 15,
+          "Name": "Which statement about change authorization is <b>CORRECT</b>?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"It is essential that the correct change authority is assigned to each type\nof change to ensure that change enablement is both efficient and effective.\"&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. There is no rule that centralizing change authority is the most effective\nmethod. In some cases, decentralizing decision-making is better: \"In high-velocity\norganizations, it is a common practice to decentralize change approval, making the\npeer review a top predictor of high performance.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. This answer confuses normal changes with emergency changes.\n\"Emergency changes are not typically included in a change schedule, and the\nprocess for assessment and authorization is expedited to ensure they can be\nimplemented quickly.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. Standard changes are usually low risk and pre-authorized. \"These are\nlow-risk, pre-authorized changes that are well understood and fully documented,\nand can be implemented without needing additional authorization.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 15,
+                  "Name": "A change authority should be assigned to each type of change and change model",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 15,
+                  "Name": "Centralizing change authorization to a single person is the most effective means of authorization",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 15,
+                  "Name": "The authorization of normal changes should be expedited to ensure they can be implemented quickly",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 15,
+                  "Name": "Standard changes are high risk and should be authorized by the highest level of change authority",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 16,
+          "Name": "Which dimension of service management considers governance, management, and\ncommunication?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"It is important to ensure that the way an organization is structured and\nmanaged, as well as its roles, responsibilities, and systems of authority and\ncommunication, is well defined and supports its overall strategy and operating\nmodel.\"&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. The 'information and technology' dimension \"includes the information\nand knowledge necessary for the management of services, as well as the\ntechnologies required. It also incorporates the relationships between different\ncomponents of the SVS, such as the inputs and outputs of activities and practices.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The partners and suppliers dimension encompasses an organization’s\nrelationships with other organizations that are involved in the design, development,\ndeployment, delivery, support and/or continual improvement of services. It also\nincorporates contracts and other agreements between the organization and its\npartners or suppliers.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. The 'value streams and processes' dimension \"is concerned with how\nthe various parts of the organization work in an integrated and coordinated way to\nenable value creation through products and services.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 16,
+                  "Name": "Organizations and people",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 16,
+                  "Name": "Information and technology",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 16,
+                  "Name": "Partners and suppliers",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 16,
+                  "Name": "Value streams and processes",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 17,
+          "Name": "Identify the missing word in the following sentence.&nbsp;<div><br></div><div>A known error is a problem that has been [?] and has not been resolved.</div>",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. A known error is ”A problem that has been analyzed but has not been\nresolved\". If a problem has been logged but not analyzed, it would not be\nconsidered a known error.&nbsp;<div>B.  <b style=\"color:green;\">Correct</b>. A known error is ”A problem that has been analyzed but has not been\nresolved\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. A known error is ”A problem that has been analyzed but has not been\nresolved\" – it may or may not be escalated.&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. A known error is ”A problem that has been analyzed but has not been\nresolved\". If a problem has been closed, it would not be considered a known error.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 17,
+                  "Name": "logged",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 17,
+                  "Name": "analyzed",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 17,
+                  "Name": "escalated",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 17,
+                  "Name": "closed",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 18,
+          "Name": "Which statement about known errors and problems is <b>CORRECT</b>?&nbsp;",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. Known errors \"are problems where initial analysis has been completed; it\nusually means that faulty components have been identified… the problem remains\nin the known error status, and the documented workaround is applied\".<div>B. <b style=\"color:red;\">Incorrect</b>. A problem is \"A cause, or potential cause, of one or more incidents.\" A\nknown error is \"A problem that has been analyzed but has not been resolved.\"\nKnown errors do not cause problems; they are problems that have been analyzed\nbut not yet resolved.&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Both known errors and problems cause incidents. A problem is \"A\ncause, or potential cause, of one or more incidents.\" A known error is \"A problem\nthat has been analyzed but has not been resolved.\" Both problems and known\nerrors may be vulnerabilities: \"Every service has errors, flaws, or vulnerabilities that\nmay cause incidents.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"Many problem management activities rely on the knowledge and\nexperience of staff, rather than on following detailed procedures. People responsible\nfor diagnosing problems often need the ability to understand complex systems, and\nto think about how different failures might have occurred. Developing this\ncombination of analytic and creative ability requires mentoring and time, as well as\nsuitable training.\" These people might work in a technical role, or in a service\nmanagement role.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 18,
+                  "Name": "Known error is the status assigned to a problem after it has been analyzed",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 18,
+                  "Name": "A known error is the cause of one or more problems",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 18,
+                  "Name": "Known errors cause vulnerabilities, problems cause incidents",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 18,
+                  "Name": "Known errors are managed by technical staff, problems are managed by service management staff",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 19,
+          "Name": "What does the 'service request management' practice depend on for maximum efficiency?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Compliments and complaints are examples of service requests. The\nefficiency of the practice does not depend on them.&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. Many service requests are initiated and fulfilled using self-service tools,\nbut not all are appropriate for this approach.&nbsp;</div><div>C.  <b style=\"color:green;\">Correct</b>. \"Service request management is dependent upon well-designed\nprocesses and procedures, which are operationalized through tracking and\nautomation tools to maximize the efficiency of the practice.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"Service requests are a normal part of service delivery and are not a\nfailure or degradation of service, which are handled as incidents.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 19,
+                  "Name": "Compliments and complaints",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 19,
+                  "Name": "Self-service tools",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 19,
+                  "Name": "Processes and procedures",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 19,
+                  "Name": "Incident management",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 20,
+          "Name": "Which statement about the 'service desk' practice is <b>CORRECT</b>?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. This is a purpose of 'relationship management': \"to establish and\nnurture the links between the organization and its stakeholders at strategic and\ntactical levels.\"&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. \"Service desks provide a clear path for users to report issues, queries,\nand requests, and have them acknowledged, classified, owned, and actioned.\" This\ndoes not include the assessment and authorization of changes. This will be provided\nby the 'change enablement' practice.&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. Investigating the cause of incidents is a purpose of ‘problem\nmanagement’. “The purpose of the problem management practice is to reduce the\nlikelihood and impact of incidents by identifying actual and potential causes of\nincidents.”</div><div>D.  <b style=\"color:green;\">Correct</b>. \"Another key aspect of a good service desk is its practical understanding\nof the wider organization, the business processes, and the users.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 20,
+                  "Name": "It provides a link with stakeholders at strategic and tactical levels",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 20,
+                  "Name": "It carries out change assessment and authorization",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 20,
+                  "Name": "It investigates the cause of incidents",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 20,
+                  "Name": "It needs a practical understanding of the business processes",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 21,
+          "Name": "Which practice ensures that accurate and reliable information is available about configuration\nitems and the relationships between them?&nbsp;",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"The purpose of the service configuration management practice is to\nensure that accurate and reliable information about the configuration of services,\nand the CIs that support them, is available when and where it is needed. This\nincludes information on how CIs are configured and the relationships between\nthem\".&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the service desk practice is to capture demand for\nincident resolution and service requests\".&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the IT asset management practice is to plan and\nmanage the full lifecycle of all IT assets, to help the organization: maximize value,\ncontrol costs, manage risks, support decision-making about purchase, re-use, and\ndisposal of assets\".&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the monitoring and event management practice is to\nsystematically observe services and service components, and record and report\nselected changes of state identified as events\".&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 21,
+                  "Name": "Service configuration management",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 21,
+                  "Name": "Service desk",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 21,
+                  "Name": "IT asset management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 21,
+                  "Name": "Monitoring and event management",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 22,
+          "Name": "Which practice has a purpose that includes restoring normal service operation as quickly as\npossible?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the supplier management practice is to ensure that the\norganization’s suppliers and their performances are managed appropriately to\nsupport the seamless provision of quality products and services.\"&nbsp;<div>B. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the deployment management practice is to move new\nor changed hardware, software, documentation, processes, or any other component\nto live environments. It may also be involved in deploying components to other\nenvironments, for testing or staging.\"&nbsp;</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the problem management practice is to reduce the\nlikelihood and impact of incidents by identifying actual and potential causes of\nincidents, and managing workarounds and known errors.\"&nbsp;</div><div>D.  <b style=\"color:green;\">Correct</b>. \"The purpose of the incident management practice is to minimize the\nnegative impact of incidents by restoring normal service operation as quickly as\npossible.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 22,
+                  "Name": "Supplier management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 22,
+                  "Name": "Deployment management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 22,
+                  "Name": "Problem management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 22,
+                  "Name": "Incident management",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 23,
+          "Name": "Identify the missing word in the following sentence.&nbsp;<div><br></div><div>A customer is the role that defines the requirements for a service and takes responsibility for the\n[?] of service consumption.&nbsp;</div>",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"Customer: The role that defines the requirements for a service and\ntakes responsibility for the outcomes of service consumption.\"<div>B.  <b style=\"color:green;\">Correct</b>. \"Customer: The role that defines the requirements for a service and\ntakes responsibility for the outcomes of service consumption.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"Customer: The role that defines the requirements for a service and\ntakes responsibility for the outcomes of service consumption.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"Customer: The role that defines the requirements for a service and\ntakes responsibility for the outcomes of service consumption.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 23,
+                  "Name": "outputs",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 23,
+                  "Name": "outcomes",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 23,
+                  "Name": "costs",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 23,
+                  "Name": "risks",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 24,
+          "Name": "Which guiding principle describes the importance of doing something, instead of spending a long\ntime analyzing different options?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. 'Optimize and automate' says that you should understand and optimize\nsomething before you automate it. \"Attempting to automate something that is\ncomplex or suboptimal is unlikely to achieve the desired outcome.\"<div>B. <b style=\"color:red;\">Incorrect</b>. 'Start where you are' says that you should understand the current\nsituation before making changes. \"Services and methods already in place should be\nmeasured and/or observed directly to properly understand their current state and\nwhat can be re-used from them. Decisions on how to proceed should be based on\ninformation that is as accurate as possible.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. 'Focus on value' says that each improvement iteration should create\nvalue for stakeholders \"All activities conducted by the organization should link back,\ndirectly or indirectly, to value for itself, its customers, and other stakeholders.\"</div><div>D.  <b style=\"color:green;\">Correct</b>. ‘Progress iteratively with feedback’ recommends comprehending \"the\nwhole, but do something: Sometimes the greatest enemy to progressing iteratively\nis the desire to understand and account for everything. This can lead to what has\nsometimes been called ‘analysis paralysis’, in which so much time is spent\nanalyzing the situation that nothing ever gets done about it.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 24,
+                  "Name": "Optimize and automate",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 24,
+                  "Name": "Start where you are",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 24,
+                  "Name": "Focus on value",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 24,
+                  "Name": "Progress iteratively with feedback",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 25,
+          "Name": "What should be done for every problem?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"It is not essential to analyze every problem; it is more valuable to\nmake significant progress on the highest-priority problems than to investigate every\nminor problem that the organization is aware of.\"<div>B.  <b style=\"color:green;\">Correct</b>. \"Problems are prioritized for analysis based on the risk that they pose,\nand are managed as risks based on their potential impact and probability.\"<div>C. <b style=\"color:red;\">Incorrect</b>. \"Error control also includes identification of potential permanent\nsolutions which may result in a change request for implementation of a solution, but\nonly if this can be justified in terms of cost, risks, and benefits.\"<div>D. <b style=\"color:red;\">Incorrect</b>. \"When a problem cannot be resolved quickly, it is often useful to find\nand document a workaround for future incidents, based on an understanding of the\nproblem.\"</div></div></div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 25,
+                  "Name": "It should be diagnosed to identify possible solutions",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 25,
+                  "Name": "It should be prioritized based on its potential impact and probability",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 25,
+                  "Name": "It should be resolved so that it can be closed",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 25,
+                  "Name": "It should have a workaround to reduce the impact",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 26,
+          "Name": "How should an organization include third-party suppliers in the continual improvement of\nservices?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b> \"When contracting for a supplier’s service, the contract should include\ndetails of how they will measure, report on, and improve their services over the life\nof the contract.\"<div>B. <b style=\"color:red;\">Incorrect</b>. Agile methods do take an incremental approach, as they \"focus on\nmaking improvements incrementally at a cadence\"; however, this alone would not\nguarantee a supplier is committed to continual improvement.</div><div>C. <b style=\"color:red;\">Incorrect</b>. Many improvement initiatives use project management practices, but it\nmay not be practical to do so for some. \"Many improvement initiatives will use\nproject management practices to organize and manage their execution\", but not all\nimprovement initiatives.</div><div>D. <b style=\"color:red;\">Incorrect</b>. Many 'problem management' activities will result in improvements,\nhowever not all supplier problems will result in improvements, so this is not a\nsensible approach. \"It is not essential to analyze every problem; it is more valuable\nto make significant progress on the highest-priority problems than to investigate\nevery minor problem that the organization is aware of.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 26,
+                  "Name": "Ensure suppliers include details of their approach to service improvement in contracts",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 26,
+                  "Name": "Require evidence that the supplier uses agile development methods",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 26,
+                  "Name": "Require evidence that the supplier implements all improvements using project management practices",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 26,
+                  "Name": "Ensure that all supplier problem management activities result in improvements",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 27,
+          "Name": "What considerations influence the supplier strategy of an organization?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The partners and suppliers dimension encompasses an organization’s\nrelationships with other organizations that are involved in the design, development,\ndeployment, delivery, support and/or continual improvement of services. It also\nincorporates contracts and other agreements between the organization and its\npartners or suppliers.\" These considerations depend on the supplier strategy, rather\nthan influence it.<div>B. <b style=\"color:red;\">Incorrect</b>. The type of cooperation with suppliers depends on the supplier\nstrategy, rather than influence it. The forms of cooperation \"are not fixed but exist as\na spectrum. An organization acting as a service provider will have a position on this\nspectrum, which will vary depending on its strategy and objectives for customer\nrelationships.\"</div><div>C.  <b style=\"color:green;\">Correct</b>. \"Corporate culture: some organizations have a historical preference for\none approach over another. Long-standing cultural bias is difficult to change without\ncompelling reasons.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. The level of formality depends on the form of cooperation, which in turn\ndepends on the supplier strategy. The forms of cooperation \"are not fixed but exist\nas a spectrum. An organization acting as a service provider will have a position on\nthis spectrum, which will vary depending on its strategy and objectives for customer\nrelationships.\"&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 27,
+                  "Name": "Contracts and agreements",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 27,
+                  "Name": "Type of cooperation with suppliers",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 27,
+                  "Name": "Corporate culture of the organization",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 27,
+                  "Name": "Level of formality",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 28,
+          "Name": "What is a problem?&nbsp;",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Change is \"The addition, modification, or removal of anything that could\nhave a direct or indirect effect on services.\"<div>B. <b style=\"color:red;\">Incorrect</b>. An event is \"Any change of state that has significance for the\nmanagement of a service or other configuration item (CI). Events are typically\nrecognized through notifications created by an IT service, CI, or monitoring tool.\"</div><div>C.  <b style=\"color:green;\">Correct</b>. A problem is \"a cause, or potential cause, of one or more incidents.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. An incident is ”An unplanned interruption to a service or reduction in the\nquality of a service.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 28,
+                  "Name": "An addition or modification that could have an effect on services",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 28,
+                  "Name": "Any change of state that has significance for the management of a configuration item",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 28,
+                  "Name": "A cause or potential cause of one or more incidents",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 28,
+                  "Name": "An unplanned reduction in the quality of a service",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 29,
+          "Name": "What is the purpose of the 'relationship management' practice?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the continual improvement practice is to align the\norganization’s practices and services with changing business needs through the\nongoing improvement of products, services, and practices, or any element involved\nin the management of products and services.\"<div>B.  <b style=\"color:green;\">Correct</b>. \"The purpose of the relationship management practice is to establish\nand nurture the links between the organization and its stakeholders at strategic and\ntactical levels. It includes the identification, analysis, monitoring, and continual\nimprovement of relationships with and between stakeholders.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the problem management practice is to reduce the\nlikelihood and impact of incidents by identifying actual and potential causes of\nincidents, and managing workarounds and known errors.\"&nbsp;</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the incident management practice is to minimize the\nnegative impact of incidents by restoring normal service operation as quickly as\npossible.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 29,
+                  "Name": "To align the organization's practices and services with changing business needs",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 29,
+                  "Name": "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 29,
+                  "Name": "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 29,
+                  "Name": "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 30,
+          "Name": "Which is intended to help an organization adopt and adapt ITIL guidance?&nbsp;",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"To support a holistic approach to service management, ITIL defines\nfour dimensions that collectively are critical to the effective and efficient facilitation of\nvalue for customers and other stakeholders in the form of products and services.\"\nAdopting ITIL to address these four dimensions of ITSM helps to facilitate value but\ndoes not help the organization to adapt ITIL guidance to its organization.<div>B.  <b style=\"color:green;\">Correct</b>. The guiding principles can \"guide organizations in their work as they\nadopt a service management approach and adapt ITIL guidance to their own\nspecific needs and circumstances.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"Service value chain: A set of interconnected activities that an\norganization performs to deliver a valuable product or service to its consumers and\nto facilitate value realization.\" Adopting a service value chain helps to facilitate value\nbut does not help the organization to adapt ITIL guidance to its organization.</div><div>D. <b style=\"color:red;\">Incorrect</b>. Practices are sets of organizational resources designed for performing\nwork or accomplishing an objective. They do not help the organization to adapt ITIL\nguidance to its organization.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 30,
+                  "Name": "The four dimensions of service management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 30,
+                  "Name": "The guiding principles",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 30,
+                  "Name": "The service value chain",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 30,
+                  "Name": "Practices",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 31,
+          "Name": "What is an output?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. An event is: \"Any change of state that has significance for the\nmanagement of a service or other configuration item (CI). Events are typically\nrecognized through notifications created by an IT service, CI, or monitoring tool.\"<div>B. <b style=\"color:red;\">Incorrect</b>. Risk is \"A possible event that could cause harm or loss, or make it\nmore difficult to achieve objectives.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. An outcome is \"A result for a stakeholder enabled by one or more\noutputs.\"</div><div>D.  <b style=\"color:green;\">Correct</b>. An output is \"A tangible or intangible deliverable of an activity\".</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 31,
+                  "Name": "A change of state that has significance for the management of a configuration item",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 31,
+                  "Name": "A possible event that could cause harm or loss",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 31,
+                  "Name": "A result for a stakeholder",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 31,
+                  "Name": "Something created by carrying out an activity",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 32,
+          "Name": "What is the reason for using a balanced bundle of service metrics?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. There would not be fewer metrics gathered, although it would combine\nand aggregate them to provide clearer information. \"The practice requires pragmatic\nfocus on the whole service and not simply its constituent parts; for example, simple\nindividual metrics (such as percentage system availability) should not be taken to\nrepresent the whole service.\"<div>B. <b style=\"color:red;\">Incorrect</b>. The reason is to reduce reporting of the individual system-based\nmetrics which are not meaningful to the customer. \"They should relate to defined\noutcomes and not simply operational metrics. This can be achieved with balanced\nbundles of metrics.\"</div><div>C.  <b style=\"color:green;\">Correct</b>. \"They should relate to defined outcomes and not simply operational\nmetrics. This can be achieved with balanced bundles of metrics.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. This does not affect the mechanism for metric collection. \"The practice\nrequires pragmatic focus on the whole service and not simply its constituent parts;\nfor example, simple individual metrics (such as percentage system availability)\nshould not be taken to represent the whole service.\"&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 32,
+                  "Name": "It reduces the number of metrics that need to be collected",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 32,
+                  "Name": "It reports each service element separately",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 32,
+                  "Name": "It provides an outcome-based view of services",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 32,
+                  "Name": "It facilitates the automatic collection of metrics",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 33,
+          "Name": "Why should incidents be prioritized?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"Modern IT service management tools can provide automated matching\nof incidents to other incidents, problems or known errors,\" but this is not dependent\non the incident priority, which is used to ensure that incidents with the highest\nbusiness impact are resolved first.<div>B. <b style=\"color:red;\">Incorrect</b>. \"More complex incidents will usually be escalated to a support team for\nresolution. Typically, the routing is based on the incident category, which should\nhelp to identify the correct team.\"</div><div>C.  <b style=\"color:green;\">Correct</b>. \"Incidents are prioritized based on an agreed classification to ensure that\nincidents with the highest business impact are resolved first.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"Effective incident management often requires a high level of\ncollaboration within and between teams.\" However, this is not dependent on the\nincident priority, which is used to \"ensure that incidents with the highest business\nimpact are resolved first\".</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 33,
+                  "Name": "To help automated matching of incidents to problems or known errors",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 33,
+                  "Name": "To identify which support team the incident should be escalated to",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 33,
+                  "Name": "To ensure that incidents with the highest business impact are resolved first",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 33,
+                  "Name": "To encourage a high level of collaboration within and between teams",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 34,
+          "Name": "Which practice has a purpose that includes helping the organization to maximize value, control\ncosts and manage risks?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the relationship management practice is to establish\nand nurture the links between the organization and its stakeholders at strategic and\ntactical levels.\"<div>B.  <b style=\"color:green;\">Correct</b>. \"The purpose of the IT asset management practice is to plan and\nmanage the full lifecycle of all IT assets, to help the organization: maximize value,\ncontrol costs, manage risks.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the release management practice is to make new and\nchanged services and features available for use.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the service desk practice is to capture demand for\nincident resolution and service requests.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 34,
+                  "Name": "Relationship management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 34,
+                  "Name": "IT asset management",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 34,
+                  "Name": "Release management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 34,
+                  "Name": "Service desk",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 35,
+          "Name": "Why should service desk staff detect recurring issues?",
+          "explaination": "A.  <b style=\"color:green;\">Correct</b>. \"Problem identification activities identify and log problems. These\ninclude:... detection of duplicate and recurring issues by users, service desk, and\ntechnical support staff.\"<div>B. <b style=\"color:red;\">Incorrect</b>. Identifying the correct team for escalating an incident is based on\nincident category, not recurring incidents. \"More complex incidents will usually be\nescalated to a support team for resolution. Typically, the routing is based on the\nincident category, which should help to identify the correct team.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the service request management practice is to support\nthe agreed quality of a service by handling all pre-defined, user-initiated service\nrequests in an effective and user-friendly manner.\" Detection of recurring issues by\nthe service desk is not required to do this.</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"The person or group who authorizes a change is known as a change\nauthority. It is essential that the correct change authority is assigned to each type of\nchange to ensure that change enablement is both efficient and effective.\" This\nassignment is based on the type of change, and detection of recurring issues by the\nservice desk is not required to do this.</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 35,
+                  "Name": "To help identify problems",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 35,
+                  "Name": "To escalate incidents to the correct support team",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 35,
+                  "Name": "To ensure effective handling of service requests",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 35,
+                  "Name": "To engage the correct change authority",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 36,
+          "Name": "Which value chain activity communicates the current status of all four dimensions of service\nmanagement?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the improve value chain activity is to ensure continual\nimprovement of products, services, and practices across all value chain activities\nand the four dimensions of service management.\"<div>B. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the engage value chain activity is to provide a good\nunderstanding of stakeholder needs, transparency, and continual engagement and\ngood relationships with all stakeholders.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"The purpose of the obtain/build value chain activity is to ensure that\nservice components are available when and where they are needed, and meet\nagreed specifications.\"</div><div>D.  <b style=\"color:green;\">Correct</b>. \"The purpose of the plan value chain activity is to ensure a shared\nunderstanding of the vision, current status, and improvement direction for all four\ndimensions and all products and services across the organization.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 36,
+                  "Name": "Improve",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 36,
+                  "Name": "Engage",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 36,
+                  "Name": "Obtain/build",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 36,
+                  "Name": "Plan",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 37,
+          "Name": "Which guiding principle is <b>PRIMARILY</b> concerned with consumer's revenue and growth?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. The emphasis of this principle is on how to approach activities: \"Always\nuse the minimum number of steps to accomplish an objective. Outcome-based\nthinking should be used to produce practical solutions that deliver valuable\noutcomes.\"<div>B. <b style=\"color:red;\">Incorrect</b>. This principle is focused on increased effectiveness and efficiency.\n\"Organizations must maximize the value of the work carried out by their human and\ntechnical resources.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. This shows how to approach making changes. \"Resist the temptation\nto do everything at once. Even huge initiatives must be accomplished iteratively. By\norganizing work into smaller, manageable sections that can be executed and\ncompleted in a timely manner, the focus on each effort will be sharper and easier to\nmaintain.\"</div><div>D.  <b style=\"color:green;\">Correct</b>. \"This section is mostly focused on the creation of value for service\nconsumers... This value may come in various forms, such as revenue, customer\nloyalty, lower cost, or growth opportunities.\"&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 37,
+                  "Name": "Keep it simple and practical",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 37,
+                  "Name": "Optimize and automate",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 37,
+                  "Name": "Progress iteratively with feedback",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 37,
+                  "Name": "Focus on value",
+                  "IsAnswer": true
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 38,
+          "Name": "Which practice provides visibility of the organization's services by capturing and reporting on\nservice performance?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. \"Service desks provide a clear path for users to report issues, queries,\nand requests, and have them acknowledged, classified, owned, and actioned.\"<div>B.  <b style=\"color:green;\">Correct</b>. \"Service level management provides the end-to-end visibility of the\norganization’s services. To achieve this, service level management:... captures and\nreports on service issues, including performance against defined service levels.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. \"A request from a user or a user’s authorized representative that\ninitiates a service action which has been agreed as a normal part of service\ndelivery.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. \"Service configuration management collects and manages information\nabout a wide variety of CIs, typically including hardware, software, networks,\nbuildings, people, suppliers, and documentation.\"</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 38,
+                  "Name": "Service desk",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 38,
+                  "Name": "Service level management",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 38,
+                  "Name": "Service request management",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 38,
+                  "Name": "Service configuration management",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 39,
+          "Name": "Which is the <b>BEST</b> example of an emergency change?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. Emergency changes \"are changes that must be implemented as soon\nas possible; for example, to resolve an incident or implement a security patch.\" The\nimplementation of a planned new release of a software application does not fall into\nthis category and would be planned and implemented as a normal change.<div>B. <b style=\"color:red;\">Incorrect</b>. Emergency changes \"are changes that must be implemented as soon\nas possible; for example, to resolve an incident or implement a security patch.\" A\nlow-risk computer upgrade implemented as a service request does not fall into this\ncategory. Using a service request implies that this is a standard change, as\nstandard changes \"are often initiated as service requests.\"</div><div>C.  <b style=\"color:green;\">Correct</b>. Emergency changes are \"Changes that must be implemented as soon\nas possible; for example, to resolve an incident or implement a security patch.\"</div><div>D. <b style=\"color:red;\">Incorrect</b>. Emergency changes \"must be implemented as soon as possible; for\nexample, to resolve an incident or implement a security patch. Emergency changes\nare not typically included in a change schedule, and the process for assessment\nand authorization is expedited to ensure they can be implemented quickly.\" A\nscheduled major hardware and software implementation does not fall into this\ncategory and would be planned and implemented as a normal change.&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 39,
+                  "Name": "The implementation of a planned new release of a software application",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 39,
+                  "Name": "A low-risk computer upgrade implemented as a service request",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 39,
+                  "Name": "The implementation of a security patch to a critical software application",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 39,
+                  "Name": "A scheduled major hardware and software implementation",
+                  "IsAnswer": false
+              }
+          ]
+      },
+      {
+          "QuestionType": {
+              "Id": 1,
+              "Name": "Multiple Choice",
+              "IsActive": true
+          },
+          "QuestionTypeId": 1,
+          "Id": 40,
+          "Name": "Which guiding principle recommends assessing the current state and deciding what can be\nreused?",
+          "explaination": "A. <b style=\"color:red;\">Incorrect</b>. The guiding principle 'focus on value' advises \"All activities conducted\nby the organization should link back, directly or indirectly, to value for itself, its\ncustomers, and other stakeholders.\" This is not the main concern of the guiding\nprinciple 'start where you are'.<div>B.  <b style=\"color:green;\">Correct</b>. The guiding principle 'start where you are' advises \"Having a proper\nunderstanding of the current state of services and methods is important to selecting\nwhich elements to re-use, alter, or build upon.\"</div><div>C. <b style=\"color:red;\">Incorrect</b>. The focus of the guiding principle 'collaborate and promote visibility' is\non involving the right stakeholders and communicating with them. \"When initiatives\ninvolve the right people in the correct roles, efforts benefit from better buy-in, more\nrelevance (because better information is available for decision-making) and\nincreased likelihood of long-term success\". This is not the main concern of the\nguiding principle 'start where you are'.</div><div>D. <b style=\"color:red;\">Incorrect</b>. The main concern of the guiding principle 'progress iteratively with\nfeedback' is breaking initiatives into smaller parts. \"By organizing work into smaller,\nmanageable sections that can be executed and completed in a timely manner, the\nfocus on each effort will be sharper and easier to maintain.\" This is not the main\nconcern of the guiding principle 'start where you are'.&nbsp;</div>",
+          "Options": [
+              {
+                  "Id": 1,
+                  "QuestionId": 40,
+                  "Name": "Focus on value",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 2,
+                  "QuestionId": 40,
+                  "Name": "Start where you are",
+                  "IsAnswer": true
+              },
+              {
+                  "Id": 3,
+                  "QuestionId": 40,
+                  "Name": "Collaborate and promote visibility",
+                  "IsAnswer": false
+              },
+              {
+                  "Id": 4,
+                  "QuestionId": 40,
+                  "Name": "Progress iteratively with feedback",
                   "IsAnswer": false
               }
           ]
