@@ -231,7 +231,7 @@ function quizBuilderController($scope,$window) {
       newQue["Id"]=newQueID;
       newQue["Name"]=$scope.htmlcontent;
 
-      if($scope.htmlcontentexplainatio){
+      if($scope.htmlcontentexplaination){
         $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Correct</b>", "<b style=\"color:green;\">Correct</b>");
         $scope.htmlcontentexplaination = $scope.htmlcontentexplaination.replaceAll("<b>Incorrect</b>", "<b style=\"color:red;\">Incorrect</b>");
       }
