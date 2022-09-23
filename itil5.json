@@ -2,7 +2,7 @@
     "quiz": {
         "Id": 5,
         "name": "ITIL 4 Foundation",
-        "description": "Practice set 5"
+        "description": "Practice Set 5"
     },
     "questions": [
         {
@@ -13,7 +13,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 1,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which type of change is MOST LIKELY to be initiated as part of the 'service request management' practice?</span>",
+            "Name": "Which type of change is MOST LIKELY to be initiated as part of the 'service request management' practice?",
             "Options": [
                 {
                     "Id": 1,
@@ -49,7 +49,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 2,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which can act as an operating model for an organization?</span>",
+            "Name": "Which can act as an operating model for an organization?",
             "explaination": "",
             "Options": [
                 {
@@ -86,7 +86,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 3,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice recommends the use of event-based surveys to gather feedback from customers?</span>",
+            "Name": "Which practice recommends the use of event-based surveys to gather feedback from customers?",
             "explaination": "",
             "Options": [
                 {
@@ -123,7 +123,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 4,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Identify the missing word in the following sentence.&nbsp;</span><div><span style=\"color: rgb(33, 37, 41); font-size: 15px;\">A service is a means of enabling value co-creation by facilitating <b>?</b> that customers want to achieve, without the customer having to manage specific costs and risks.</span></div>",
+            "Name": "Identify the missing word in the following sentence.&nbsp;<div>A service is a means of enabling value co-creation by facilitating <b>?</b> that customers want to achieve, without the customer having to manage specific costs and risks.</div>",
             "explaination": "",
             "Options": [
                 {
@@ -160,7 +160,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 5,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice has a purpose that includes managing risks to confidentiality, integrity and availability?</span>",
+            "Name": "Which practice has a purpose that includes managing risks to confidentiality, integrity and availability?",
             "explaination": "",
             "Options": [
                 {
@@ -197,7 +197,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 6,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which will help solve incidents more quickly?</span>",
+            "Name": "Which will help solve incidents more quickly?",
             "explaination": "",
             "Options": [
                 {
@@ -234,7 +234,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 7,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What is the MAIN benefit of 'problem management'?</span>",
+            "Name": "What is the MAIN benefit of 'problem management'?",
             "explaination": "",
             "Options": [
                 {
@@ -271,7 +271,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 8,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is an activity of the 'problem management' practice?</span>",
+            "Name": "Which is an activity of the 'problem management' practice?",
             "explaination": "",
             "Options": [
                 {
@@ -308,7 +308,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 9,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What can be used to determine if a service is 'fit for purpose'?</span>",
+            "Name": "What can be used to determine if a service is 'fit for purpose'?",
             "explaination": "",
             "Options": [
                 {
@@ -345,7 +345,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 10,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">In service relationships, what is a benefit of identifying consumer roles?</span>",
+            "Name": "In service relationships, what is a benefit of identifying consumer roles?",
             "explaination": "",
             "Options": [
                 {
@@ -382,7 +382,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 11,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which statement about managing incidents is CORRECT?</span>",
+            "Name": "Which statement about managing incidents is CORRECT?",
             "explaination": "",
             "Options": [
                 {
@@ -419,7 +419,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 12,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which statement about the service value chain is CORRECT?</span>",
+            "Name": "Which statement about the service value chain is CORRECT?",
             "explaination": "",
             "Options": [
                 {
@@ -456,7 +456,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 13,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What term is used to describe whether a service will meet availability, capacity and security requirements?</span>",
+            "Name": "What term is used to describe whether a service will meet availability, capacity and security requirements?",
             "explaination": "",
             "Options": [
                 {
@@ -481,7 +481,7 @@
                     "Id": 4,
                     "QuestionId": 13,
                     "Name": "Warranty",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -493,7 +493,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 14,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice is MOST likely to benefit from the use of chatbots?</span>",
+            "Name": "Which practice is MOST likely to benefit from the use of chatbots?",
             "explaination": "",
             "Options": [
                 {
@@ -530,7 +530,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 15,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Where are the details of the required performance outcomes of a service defined?</span>",
+            "Name": "Where are the details of the required performance outcomes of a service defined?",
             "explaination": "",
             "Options": [
                 {
@@ -567,7 +567,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 16,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which value chain activity ensures a shared understanding of the current status and required direction for all products and services?</span>",
+            "Name": "Which value chain activity ensures a shared understanding of the current status and required direction for all products and services?",
             "explaination": "",
             "Options": [
                 {
@@ -604,7 +604,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 17,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice has the purpose of ensuring that the organization's suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services?</span>",
+            "Name": "Which practice has the purpose of ensuring that the organization's suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services?",
             "explaination": "",
             "Options": [
                 {
@@ -641,7 +641,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 18,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What describes how components and activities work together to facilitate value creation?</span>",
+            "Name": "What describes how components and activities work together to facilitate value creation?",
             "explaination": "",
             "Options": [
                 {
@@ -678,7 +678,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 19,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which two practices interact the MOST with the service desk practice?</span>",
+            "Name": "Which two practices interact the MOST with the service desk practice?",
             "explaination": "",
             "Options": [
                 {
@@ -715,7 +715,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 20,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What type of change is MOST likely to be managed as a service request?</span>",
+            "Name": "What type of change is MOST likely to be managed as a service request?",
             "explaination": "",
             "Options": [
                 {
@@ -752,7 +752,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 21,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is a recommendation of the guiding principle 'think and work holistically'?</span>",
+            "Name": "Which is a recommendation of the guiding principle 'think and work holistically'?",
             "explaination": "",
             "Options": [
                 {
@@ -789,7 +789,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 22,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is an activity of the 'incident management' practice?</span>",
+            "Name": "Which is an activity of the 'incident management' practice?",
             "explaination": "",
             "Options": [
                 {
@@ -826,7 +826,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 23,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What is the definition of a known error?</span>",
+            "Name": "What is the definition of a known error?",
             "explaination": "",
             "Options": [
                 {
@@ -863,7 +863,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 24,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What should be considered as part of the 'partners and suppliers' dimension?</span>",
+            "Name": "What should be considered as part of the 'partners and suppliers' dimension?",
             "explaination": "",
             "Options": [
                 {
@@ -900,7 +900,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 25,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which benefit is MOST aligned with the guiding principle 'progress iteratively with feedback'?</span>",
+            "Name": "Which benefit is MOST aligned with the guiding principle 'progress iteratively with feedback'?",
             "explaination": "",
             "Options": [
                 {
@@ -937,7 +937,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 26,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What aspect of 'service level management' asks service consumers what their work involves and how technology helps them?</span>",
+            "Name": "What aspect of 'service level management' asks service consumers what their work involves and how technology helps them?",
             "explaination": "",
             "Options": [
                 {
@@ -974,7 +974,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 27,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What are guiding principles?</span>",
+            "Name": "What are guiding principles?",
             "explaination": "",
             "Options": [
                 {
@@ -1011,7 +1011,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 28,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which principle concentrates on service consumers?</span>",
+            "Name": "Which principle concentrates on service consumers?",
             "explaination": "",
             "Options": [
                 {
@@ -1048,7 +1048,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 29,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is included in the purpose of the 'change enablement' practice?</span>",
+            "Name": "Which is included in the purpose of the 'change enablement' practice?",
             "explaination": "",
             "Options": [
                 {
@@ -1085,7 +1085,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 30,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which activity is part of the 'continual improvement' practice?</span>",
+            "Name": "Which activity is part of the 'continual improvement' practice?",
             "explaination": "",
             "Options": [
                 {
@@ -1122,7 +1122,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 31,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is a purpose of release management?</span>",
+            "Name": "Which is a purpose of release management?",
             "explaination": "",
             "Options": [
                 {
@@ -1159,7 +1159,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 32,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which guiding principle discourages 'silo activity'?</span>",
+            "Name": "Which guiding principle discourages 'silo activity'?",
             "explaination": "",
             "Options": [
                 {
@@ -1196,7 +1196,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 33,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which statement about the use of measurement in the 'start where you are' guiding principle is CORRECT?</span>",
+            "Name": "Which statement about the use of measurement in the 'start where you are' guiding principle is CORRECT?",
             "explaination": "",
             "Options": [
                 {
@@ -1233,7 +1233,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 34,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice ensures that any addition, modification, or removal of anything that could have an effect on services is assessed and authorized?</span>",
+            "Name": "Which practice ensures that any addition, modification, or removal of anything that could have an effect on services is assessed and authorized?",
             "explaination": "",
             "Options": [
                 {
@@ -1270,7 +1270,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 35,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">In which step of the 'continual improvement model' is an improvement plan implemented?</span>",
+            "Name": "In which step of the 'continual improvement model' is an improvement plan implemented?",
             "explaination": "",
             "Options": [
                 {
@@ -1307,7 +1307,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 36,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which is the BEST example of a standard change?</span>",
+            "Name": "Which is the BEST example of a standard change?",
             "explaination": "",
             "Options": [
                 {
@@ -1344,7 +1344,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 37,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What varies in size and complexity, and uses functions to achieve its objectives?</span>",
+            "Name": "What varies in size and complexity, and uses functions to achieve its objectives?",
             "explaination": "",
             "Options": [
                 {
@@ -1381,7 +1381,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 38,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Which practice involves the management of vulnerabilities that were not identified before the service went live?</span>",
+            "Name": "Which practice involves the management of vulnerabilities that were not identified before the service went live?",
             "explaination": "",
             "Options": [
                 {
@@ -1418,7 +1418,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 39,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">What is the purpose of the 'monitoring and event management' practice?</span>",
+            "Name": "What is the purpose of the 'monitoring and event management' practice?",
             "explaination": "",
             "Options": [
                 {
@@ -1455,7 +1455,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 40,
-            "Name": "<span style=\"color: rgb(33, 37, 41); font-size: 15px;\">Identify the missing word in the following sentence.&nbsp;</span><div><span style=\"color: rgb(33, 37, 41); font-size: 15px;\"><b>?</b> is the addition, modification, or removal of anything that could have a direct or indirect effect on services.</span></div>",
+            "Name": "Identify the missing word in the following sentence.&nbsp;<div><b>?</b> is the addition, modification, or removal of anything that could have a direct or indirect effect on services.</div>",
             "explaination": "",
             "Options": [
                 {

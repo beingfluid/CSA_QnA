@@ -25,7 +25,7 @@
                     "Id": 2,
                     "QuestionId": 1,
                     "Name": "Swarming",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -62,7 +62,7 @@
                     "Id": 2,
                     "QuestionId": 2,
                     "Name": "It is the role of senior management to authorize improvement initiatives",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -99,7 +99,7 @@
                     "Id": 2,
                     "QuestionId": 3,
                     "Name": "Organizational silos",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -136,7 +136,7 @@
                     "Id": 2,
                     "QuestionId": 4,
                     "Name": "The metrics in an SLA are focused on internal measures, so that reports show everything is good, while the customer is not satisfied",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -167,7 +167,7 @@
                     "Id": 1,
                     "QuestionId": 5,
                     "Name": "Service level management",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -197,7 +197,7 @@
             },
             "QuestionTypeId": 1,
             "Id": 6,
-            "Name": "<div>What is a service?</div><div><br></div><div><br></div><div><br></div><div><br></div>",
+            "Name": "What is a service?",
             "explaination": "",
             "Options": [
                 {
@@ -210,7 +210,7 @@
                     "Id": 2,
                     "QuestionId": 6,
                     "Name": "A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -259,7 +259,7 @@
                     "Id": 4,
                     "QuestionId": 7,
                     "Name": "1 and 4",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -290,7 +290,7 @@
                     "Id": 3,
                     "QuestionId": 8,
                     "Name": "Demonstration of emotional intelligence",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -308,31 +308,31 @@
             },
             "QuestionTypeId": 1,
             "Id": 9,
-            "Name": "What is required by all service desk staff?",
+            "Name": "Which action is performed by a service provider?",
             "explaination": "",
             "Options": [
                 {
                     "Id": 1,
                     "QuestionId": 9,
-                    "Name": "Excellent technical knowledge",
+                    "Name": "Requesting required service actions",
                     "IsAnswer": false
                 },
                 {
                     "Id": 2,
                     "QuestionId": 9,
-                    "Name": "Root cause analysis skills",
+                    "Name": "Authorizing budget for service consumption",
                     "IsAnswer": false
                 },
                 {
                     "Id": 3,
                     "QuestionId": 9,
-                    "Name": "Demonstration of emotional intelligence",
-                    "IsAnswer": false
+                    "Name": "Ensuring access to agreed resources",
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
                     "QuestionId": 9,
-                    "Name": "Knowledge of telephony technology",
+                    "Name": "Receiving of the agreed goods",
                     "IsAnswer": false
                 }
             ]
@@ -358,7 +358,7 @@
                     "Id": 2,
                     "QuestionId": 10,
                     "Name": "Warranty",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -407,7 +407,7 @@
                     "Id": 4,
                     "QuestionId": 11,
                     "Name": "Service desk",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -444,7 +444,7 @@
                     "Id": 4,
                     "QuestionId": 12,
                     "Name": "Continual improvement",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -469,7 +469,7 @@
                     "Id": 2,
                     "QuestionId": 13,
                     "Name": "Change enablement",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -518,7 +518,7 @@
                     "Id": 4,
                     "QuestionId": 14,
                     "Name": "Recommendations that help an organization when adopting a service management approach",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -555,7 +555,7 @@
                     "Id": 4,
                     "QuestionId": 15,
                     "Name": "Service desk",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -574,7 +574,7 @@
                     "Id": 1,
                     "QuestionId": 16,
                     "Name": "Understanding which service requests can be accomplished with limited approvals",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -617,7 +617,7 @@
                     "Id": 2,
                     "QuestionId": 17,
                     "Name": "They allow service consumers to achieve a desired result",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -648,7 +648,7 @@
                     "Id": 1,
                     "QuestionId": 18,
                     "Name": "Keep it simple and practical",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -697,7 +697,7 @@
                     "Id": 3,
                     "QuestionId": 19,
                     "Name": "managed",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -728,7 +728,7 @@
                     "Id": 2,
                     "QuestionId": 20,
                     "Name": "configuration of services",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -777,7 +777,7 @@
                     "Id": 4,
                     "QuestionId": 21,
                     "Name": "Working with an integrator to manage relationships",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -808,7 +808,7 @@
                     "Id": 3,
                     "QuestionId": 22,
                     "Name": "Service level management",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -845,7 +845,7 @@
                     "Id": 3,
                     "QuestionId": 23,
                     "Name": "When a problem cannot be resolved quickly",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -882,7 +882,7 @@
                     "Id": 3,
                     "QuestionId": 24,
                     "Name": "Any component that needs to be managed in order to deliver an IT service",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -907,7 +907,7 @@
                     "Id": 1,
                     "QuestionId": 25,
                     "Name": "existing information",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -944,7 +944,7 @@
                     "Id": 1,
                     "QuestionId": 26,
                     "Name": "Assigning resources to changes",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -999,7 +999,7 @@
                     "Id": 4,
                     "QuestionId": 27,
                     "Name": "Value streams and processes",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1036,7 +1036,7 @@
                     "Id": 4,
                     "QuestionId": 28,
                     "Name": "Optimize and automate",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1073,7 +1073,7 @@
                     "Id": 4,
                     "QuestionId": 29,
                     "Name": "It resolves the highest impact incidents first",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1104,7 +1104,7 @@
                     "Id": 3,
                     "QuestionId": 30,
                     "Name": "Use an agreed classification which is based on the business impact of the incident",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -1147,7 +1147,7 @@
                     "Id": 4,
                     "QuestionId": 31,
                     "Name": "To identify, analyse, monitor, and continually improve links with stakeholders",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1184,7 +1184,7 @@
                     "Id": 4,
                     "QuestionId": 32,
                     "Name": "Problem prioritization involves risk assessment",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1203,7 +1203,7 @@
                     "Id": 1,
                     "QuestionId": 33,
                     "Name": "Service provider ceasing to trade",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -1252,7 +1252,7 @@
                     "Id": 3,
                     "QuestionId": 34,
                     "Name": "Meeting stakeholder expectations",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 4,
@@ -1277,7 +1277,7 @@
                     "Id": 1,
                     "QuestionId": 35,
                     "Name": "The ability to discover and respond to failure earlier",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -1320,7 +1320,7 @@
                     "Id": 2,
                     "QuestionId": 36,
                     "Name": "Deployment management",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -1357,7 +1357,7 @@
                     "Id": 2,
                     "QuestionId": 37,
                     "Name": "A request to provide a laptop",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -1406,7 +1406,7 @@
                     "Id": 4,
                     "QuestionId": 38,
                     "Name": "Engaging every stakeholder group in the same way, with the same communication",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 }
             ]
         },
@@ -1431,7 +1431,7 @@
                     "Id": 2,
                     "QuestionId": 39,
                     "Name": "Service value chain",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 3,
@@ -1462,7 +1462,7 @@
                     "Id": 1,
                     "QuestionId": 40,
                     "Name": "An unplanned interruption to a service, or reduction in the quality of a service",
-                    "IsAnswer": false
+                    "IsAnswer": true
                 },
                 {
                     "Id": 2,
@@ -1480,43 +1480,6 @@
                     "Id": 4,
                     "QuestionId": 40,
                     "Name": "Any change of state that has significance for the management of a configuration item (CI)",
-                    "IsAnswer": false
-                }
-            ]
-        },
-        {
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
-            },
-            "QuestionTypeId": 1,
-            "Id": 41,
-            "Name": "Which action is performed by a service provider?",
-            "explaination": "",
-            "Options": [
-                {
-                    "Id": 1,
-                    "QuestionId": 41,
-                    "Name": "Requesting required service actions",
-                    "IsAnswer": false
-                },
-                {
-                    "Id": 2,
-                    "QuestionId": 41,
-                    "Name": "Authorizing budget for service consumption",
-                    "IsAnswer": false
-                },
-                {
-                    "Id": 3,
-                    "QuestionId": 41,
-                    "Name": "Ensuring access to agreed resources",
-                    "IsAnswer": false
-                },
-                {
-                    "Id": 4,
-                    "QuestionId": 41,
-                    "Name": "Receiving of the agreed goods",
                     "IsAnswer": false
                 }
             ]
