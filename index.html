@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link data-require="bootstrap-css@2.3.2" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
 <link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/3.0.0/toaster.min.css" rel="stylesheet" />
     <style>
       .ta-editor {
   min-height: 100px;
@@ -124,7 +125,8 @@
             <script src='https://cdnjs.cloudflare.com/ajax/libs/textAngular/1.1.2/textAngular.min.js'></script>
             <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/ngclipboard/2.0.0/ngclipboard.min.js" integrity="sha512-7fOkUplsLgVIEGH1a+XVqxbzpKSzscbjMLMMOLC4jJLVueemmpu+z+wKh5dHR3Nhna/KMBuHp2E4vzGQ9wqNnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+            <script src="https://code.angularjs.org/1.2.0/angular-animate.min.js" ></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/3.0.0/toaster.min.js"></script>
             <script>
               
               var app = angular.module( 'being-fluid', [
@@ -132,7 +134,8 @@
     "ngRoute",
     'ui.bootstrap',
     'textAngular',
-    'ngclipboard'
+    'ngclipboard',
+    'toaster'
 ] );
 
 app.config( RoutesConfig );
@@ -200,10 +203,19 @@ function TOCController() {
 
 
 app.controller( "quizBuilderController", quizBuilderController );
-quizBuilderController.$inject = ["$scope","$window"];
-function quizBuilderController($scope,$window) {
+quizBuilderController.$inject = ["$scope","$window","toaster"];
+function quizBuilderController($scope,$window,toaster) {
 
-		$scope.disabled = false;
+    $scope.pop = function(toasterType,toasterTitle,toasterText,toasterTime){
+	        toaster.pop({
+                type: toasterType,
+                title: toasterTitle,
+                body: toasterText,
+                timeout: toasterTime
+            });
+	};
+
+	$scope.disabled = false;
 
     $scope.quizTemplateArray=[];
     $scope.displayQueID=$scope.quizTemplateArray.length+1;
@@ -225,7 +237,8 @@ function quizBuilderController($scope,$window) {
 
     $scope.addToQuiz=function(){
         if(!$scope.htmlcontent || !$scope.singleSelect){
-            alert("Both Question and Answer are manadatory!");
+            $scope.pop("warning","Error:","Both Question and Answer are manadatory!",3000);
+            // alert("Both Question and Answer are manadatory!");
             return;
         }
         if(!$scope.htmlcontentexplaination){
@@ -321,7 +334,8 @@ function quizBuilderController($scope,$window) {
       $scope.singleSelect='';
 
       $window.scrollTo(0, 0);
-      $window.alert("Question has been added to Quiz!");
+      $scope.pop("info","Success:","Question has been added to Quiz!",3000);
+    //   $window.alert("Question has been added to Quiz!");
 
     }
 }
