@@ -1,0 +1,1489 @@
+{
+    "quiz": {
+        "Id": 6,
+        "name": "ITIL 4 Foundation",
+        "description": "Practice Set 6"
+    },
+    "questions": [
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 1,
+            "Name": "Staff in an IT organization are very busy, mostly carrying out tasks that add little or no value to the organization or its customers. Which guiding principle recommends that the unnecessary work should be eliminated?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Keep it simple and practical",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 1,
+                    "Name": "Keep it simple and practical",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 1,
+                    "Name": "Think and work holistically",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 1,
+                    "Name": "Start where you are",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 1,
+                    "Name": "Progress iteratively with feedback",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 2,
+            "Name": "Which practice has a purpose that includes the management of financially valuable components that can contribute to the delivery of an IT service?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>IT asset management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 2,
+                    "Name": "Deployment management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 2,
+                    "Name": "Service configuration management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 2,
+                    "Name": "Change enablement",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 2,
+                    "Name": "IT asset management",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 3,
+            "Name": "Which practice ensures that service actions, that are a normal part of service delivery, are effectively handled?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service request fulfilment",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 3,
+                    "Name": "Incident management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 3,
+                    "Name": "Service level management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 3,
+                    "Name": "Problem management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 3,
+                    "Name": "Service request fulfilment",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 4,
+            "Name": "A service will be unavailable for the next two hours for unplanned maintenance. Which practice is MOST LIKELY to be involved in managing this?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Incident management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 4,
+                    "Name": "Incident management",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 4,
+                    "Name": "Problem management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 4,
+                    "Name": "Change enablement",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 4,
+                    "Name": "Service request management",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 5,
+            "Name": "Which practice MOST requires staff who demonstrate skills such as empathy and emotional intelligence?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service desk",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 5,
+                    "Name": "Service desk",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 5,
+                    "Name": "Continual improvement",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 5,
+                    "Name": "Problem management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 5,
+                    "Name": "Service request management",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 6,
+            "Name": "What is the customer of a service responsible for?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Defining the requirements for the service",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 6,
+                    "Name": "Defining the requirements for the service",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 6,
+                    "Name": "Authorizing the budget for the service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 6,
+                    "Name": "Using the service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 6,
+                    "Name": "Provisioning the service",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 7,
+            "Name": "What ensures that a service provider and a service consumer continually co-create value?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service relationship management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 7,
+                    "Name": "Service consumption",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 7,
+                    "Name": "Service offerings",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 7,
+                    "Name": "Service level management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 7,
+                    "Name": "Service relationship management",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 8,
+            "Name": "What type of change is often used for resolving incidents or implementing security patches?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Emergency change",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 8,
+                    "Name": "Standard change",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 8,
+                    "Name": "Normal change",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 8,
+                    "Name": "Emergency change",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 8,
+                    "Name": "Change model",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 9,
+            "Name": "Which of the following includes configuring components and activities to facilitate outcomes for stakeholders?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>The service value system",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 9,
+                    "Name": "Service relationship management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 9,
+                    "Name": "Service consumption",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 9,
+                    "Name": "The service value system",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 9,
+                    "Name": "The 'release management' practice",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 10,
+            "Name": "Which statement about outcomes is CORRECT?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>An outcome depends on at least one output to deliver a result",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 10,
+                    "Name": "Outcomes enable products to be delivered to a stakeholder",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 10,
+                    "Name": "An outcome defines the amount of money spent on technology for a service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 10,
+                    "Name": "An outcome depends on at least one output to deliver a result",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 10,
+                    "Name": "Outcomes provide assurance to stakeholders on how a service performs",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 11,
+            "Name": "Which phase of problem management includes the regular re-assessment of the effectiveness of workarounds?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Error control",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 11,
+                    "Name": "Problem identification",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 11,
+                    "Name": "Problem control",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 11,
+                    "Name": "Error control",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 11,
+                    "Name": "Problem analysis",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 12,
+            "Name": "Which practice performs reviews to ensure that services continue to meet the needs of the customers?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service level management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 12,
+                    "Name": "Monitoring and event management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 12,
+                    "Name": "Service level management",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 12,
+                    "Name": "Change enablement",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 12,
+                    "Name": "Service desk",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 13,
+            "Name": "Which service value chain activity deals with the purchase of new products?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Obtain/build",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 13,
+                    "Name": "Engage",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 13,
+                    "Name": "Obtain/build",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 13,
+                    "Name": "Plan",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 13,
+                    "Name": "Improve",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 14,
+            "Name": "Identify the missing word in the following sentence.&nbsp;<div>The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of [?], and the CIs that support them, is available when and where it is needed</div>",
+            "explaination": "<b style=\"color:green;\">Correct: </b>services",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 14,
+                    "Name": "organizations",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 14,
+                    "Name": "outcomes",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 14,
+                    "Name": "IT assets",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 14,
+                    "Name": "services",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 15,
+            "Name": "Which is included in the purpose of the 'improve' value chain activity?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Ensuring the continual improvement of practices across all value chain activities",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 15,
+                    "Name": "Ensuring the continual improvement of practices across all value chain activities",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 15,
+                    "Name": "Ensuring that services continually meet expectations for quality, costs, and time to market",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 15,
+                    "Name": "Ensuring a shared understanding of the improvement direction for services across the organization",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 15,
+                    "Name": "Ensuring continual engagement and good relationships with all stakeholders",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 16,
+            "Name": "Which is the BEST type of resource for investigating complex incidents?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Knowledgeable support staff",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 16,
+                    "Name": "Self-help systems",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 16,
+                    "Name": "Knowledgeable support staff",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 16,
+                    "Name": "Detailed work instructions",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 16,
+                    "Name": "Disaster recovery plans",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 17,
+            "Name": "What is defined as \"any component that needs to be managed in order to deliver an IT service\"?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>A configuration item",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 17,
+                    "Name": "An event",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 17,
+                    "Name": "An event",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 17,
+                    "Name": "A configuration item",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 17,
+                    "Name": "A change",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 18,
+            "Name": "Which TWO of the following statements are MOST associated with the 'optimize and automate' guiding principle?&nbsp;<div><ol><li>It is important to assess which method of communication is appropriate for each type of stakeholder.&nbsp;</li><li>Complex systems should be designed with an understanding of how the components' parts are related.&nbsp;</li><li>Organizations should consider whether technology could improve the efficiency of manual processes.&nbsp;</li><li>It is important to understand the organization's objectives when assessing the impact of potential improvements</li></ol></div>",
+            "explaination": "<b style=\"color:green;\">Correct: </b>3 and 4",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 18,
+                    "Name": "1 and 2",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 18,
+                    "Name": "2 and 3",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 18,
+                    "Name": "3 and 4",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 18,
+                    "Name": "1 and 4",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 19,
+            "Name": "Which statement about emergency changes is CORRECT?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Emergency changes are not usually recorded in the change schedule",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 19,
+                    "Name": "Emergency changes are low risk and well understood",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 19,
+                    "Name": "Authorization of emergency changes may be deferred until after implementation",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 19,
+                    "Name": "It is necessary to complete all documentation before an emergency change is implemented",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 19,
+                    "Name": "Emergency changes are not usually recorded in the change schedule",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 20,
+            "Name": "Which is the definition of an IT asset?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Any financially valuable component that contributes to a service",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 20,
+                    "Name": "Any financially valuable component that contributes to a service",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 20,
+                    "Name": "Any request from a user that is a normal part of service delivery",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 20,
+                    "Name": "Any component that needs to be managed to deliver a service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 20,
+                    "Name": "Any change of state that has significance for the management of a service",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 21,
+            "Name": "Which dimension of service management includes consideration of the type of relationship required with other organizations involved in the design and delivery of services?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Partners and suppliers",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 21,
+                    "Name": "Organizations and people",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 21,
+                    "Name": "Information and technology",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 21,
+                    "Name": "Partners and suppliers",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 21,
+                    "Name": "Value streams and processes",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 22,
+            "Name": "What is defined as \"the role that uses services\"?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>User",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 22,
+                    "Name": "Service consumer",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 22,
+                    "Name": "Customer",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 22,
+                    "Name": "User",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 22,
+                    "Name": "Sponsor",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 23,
+            "Name": "Which is an activity in the 'problem control' phase of problem management?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Documenting the steps in a workaround",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 23,
+                    "Name": "Reviewing incident records to identify trends",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 23,
+                    "Name": "Implementing a technical fix to resolve an issue",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 23,
+                    "Name": "Re-assessing a known error to manage the ongoing impact",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 23,
+                    "Name": "Documenting the steps in a workaround",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 24,
+            "Name": "What should remain constant within an organization, even when the organization's objectives change?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Guiding principles",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 24,
+                    "Name": "Outputs",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 24,
+                    "Name": "Guiding principles",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 24,
+                    "Name": "Service offerings",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 24,
+                    "Name": "Outcomes",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 25,
+            "Name": "Which is a key element of the 'think and work holistically' guiding principle?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Understanding the methods applicable to complex systems",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 25,
+                    "Name": "Assessing which procedures can be re-used when improving a service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 25,
+                    "Name": "Understanding the methods applicable to complex systems",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 25,
+                    "Name": "Eliminating metrics which do not contribute to achieving an objective",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 25,
+                    "Name": "Using technology for standard tasks to give people time for complex activities",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 26,
+            "Name": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Information security management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 26,
+                    "Name": "Information security management",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 26,
+                    "Name": "Change enablement",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 26,
+                    "Name": "Service configuration management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 26,
+                    "Name": "IT asset management",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 27,
+            "Name": "Which of the following is the MOST important for effective incident management?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Collaboration tools and techniques",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 27,
+                    "Name": "Collaboration tools and techniques",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 27,
+                    "Name": "Balanced scorecard review",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 27,
+                    "Name": "Automated pipelines",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 27,
+                    "Name": "A variety of access channels",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 28,
+            "Name": "Which practice handles all pre-defined user-initiated service actions?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service request management",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 28,
+                    "Name": "Deployment management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 28,
+                    "Name": "Incident management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 28,
+                    "Name": "Service level management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 28,
+                    "Name": "Service request management",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 29,
+            "Name": "Which is the MOST important stakeholder group that a service provider needs to collaborate with?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Customers",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 29,
+                    "Name": "Suppliers",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 29,
+                    "Name": "Customers",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 29,
+                    "Name": "Relationship managers",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 29,
+                    "Name": "Developers",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 30,
+            "Name": "Which activity is NOT recommended by the 'start where you are' guiding principle?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Discarding existing processes before assessing their usefulness",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 30,
+                    "Name": "Involving people who are not familiar with a service when observing and assessing its activities",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 30,
+                    "Name": "Applying risk management when considering to introduce new processes",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 30,
+                    "Name": "Using source data to avoid any unintentional data distortion found in reports",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 30,
+                    "Name": "Discarding existing processes before assessing their usefulness",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 31,
+            "Name": "For which purpose would the continual improvement practice use a SWOT analysis?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Understanding the current state",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 31,
+                    "Name": "Understanding the current state",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 31,
+                    "Name": "Defining the future desired state",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 31,
+                    "Name": "Tracking and managing ideas",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 31,
+                    "Name": "Ensuring everyone actively participates",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 32,
+            "Name": "Which TWO types of competence are MOST important for service desk staff?<div><ol><li>Knowledge of business processes</li><li>Collaboration skills</li><li>Advanced technical knowledge</li><li>Workflow design skills</li></ol></div>",
+            "explaination": "<b style=\"color:green;\">Correct: </b>1 and 2",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 32,
+                    "Name": "1 and 2",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 32,
+                    "Name": "2 and 3",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 32,
+                    "Name": "3 and 4",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 32,
+                    "Name": "1 and 4",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 33,
+            "Name": "Which is CORRECT about change authorization?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Assignment of the change authority is based on the change type and model",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 33,
+                    "Name": "A change authority is assigned each time a standard change is requested",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 33,
+                    "Name": "Emergency changes are authorized by the technician making the change",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 33,
+                    "Name": "Assignment of the change authority is based on the change type and model",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 33,
+                    "Name": "The change authority will ensure changes are authorized after they are deployed",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 34,
+            "Name": "What term is used to describe the functionality of a service?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Utility",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 34,
+                    "Name": "Output",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 34,
+                    "Name": "Outcome",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 34,
+                    "Name": "Utility",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 34,
+                    "Name": "Warranty",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 35,
+            "Name": "Which practice ensures that a variety of access channels are available for users to report issues?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Service desk",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 35,
+                    "Name": "Service desk",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 35,
+                    "Name": "Service level management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 35,
+                    "Name": "Incident management",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 35,
+                    "Name": "Incident management",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 36,
+            "Name": "Identify the missing word(s) in the following sentence.&nbsp;<div>The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and [?].</div>",
+            "explaination": "<b style=\"color:green;\">Correct: </b>known errors",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 36,
+                    "Name": "events",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 36,
+                    "Name": "changes",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 36,
+                    "Name": "configuration items",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 36,
+                    "Name": "known errors",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 37,
+            "Name": "Which is a key requirement for successful service level agreements (SLAs)?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>They should be written using language and terms which all parties will understand",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 37,
+                    "Name": "They should be written using language and terms which all parties will understand",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 37,
+                    "Name": "They should be based on system-based metrics which are useful to the service provider",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 37,
+                    "Name": "They should be carried forward, unchanged, from one year to the next to enable consistent service",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 37,
+                    "Name": "They should avoid ambiguous targets such as those relating to user experience",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 38,
+            "Name": "Which is an example of a service request?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>A request for access to a file",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 38,
+                    "Name": "A request for normal operation to be restored",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 38,
+                    "Name": "A request to implement a security patch",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 38,
+                    "Name": "A request for access to a file",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 38,
+                    "Name": "A request to investigate the cause of an incident",
+                    "IsAnswer": false
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 39,
+            "Name": "Which of the four dimensions focuses on managing data in compliance with industry regulations?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Information and technology",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 39,
+                    "Name": "Partners and suppliers",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 39,
+                    "Name": "Organizations and people",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 39,
+                    "Name": "Value streams and processes",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 39,
+                    "Name": "Information and technology",
+                    "IsAnswer": true
+                }
+            ]
+        },
+        {
+            "QuestionType": {
+                "Id": 1,
+                "Name": "Multiple Choice",
+                "IsActive": true
+            },
+            "QuestionTypeId": 1,
+            "Id": 40,
+            "Name": "When using the 'continual improvement model', which information should be produced by an organization to understand where the organization is now?",
+            "explaination": "<b style=\"color:green;\">Correct: </b>Assessment results",
+            "Options": [
+                {
+                    "Id": 1,
+                    "QuestionId": 40,
+                    "Name": "Business objectives",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 2,
+                    "QuestionId": 40,
+                    "Name": "Improvement plans",
+                    "IsAnswer": false
+                },
+                {
+                    "Id": 3,
+                    "QuestionId": 40,
+                    "Name": "Assessment results",
+                    "IsAnswer": true
+                },
+                {
+                    "Id": 4,
+                    "QuestionId": 40,
+                    "Name": "Measurable targets",
+                    "IsAnswer": false
+                }
+            ]
+        }
+    ]
+}
