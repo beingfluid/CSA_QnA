@@ -160,6 +160,15 @@ function RoutesConfig ( $routeProvider ) {
     } ).when( '/itilnew1', {
         templateUrl: 'itilnew1.html',
         controller: 'ITILNewQuizController'
+    } ).when( '/itil4', {
+        templateUrl: 'itilnew1.html',
+        controller: 'ITIL4QuizController'
+    } ).when( '/itil5', {
+        templateUrl: 'itilnew1.html',
+        controller: 'ITIL5QuizController'
+    } ).when( '/itil6/:testId', {
+        templateUrl: 'itilnew1.html',
+        controller: 'ITIL6QuizController'
     } ).when( '/quizBuilder', {
         templateUrl: 'quizBuilder.html',
         controller: 'quizBuilderController'
